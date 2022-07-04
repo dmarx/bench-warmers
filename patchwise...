@@ -1,0 +1,8 @@
+# patchwise...
+
+2022-05-04
+
+image to patches
+per-patch fully connected layer (mlp mixer)
+convolution over patches
+patch-patch self attention
