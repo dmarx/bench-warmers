@@ -10,7 +10,7 @@ I'm ADHD and have more ideas than I know what to do with. Most of them are proba
 
 Everyone brainstorms ML projects when they're high, right? No? That's just me? Hmm...
 
-## I'm in the market for an ML side-project and I read something here that sounds like it'd be fun to work on. Do you mind if I steal your idea?
+## I'm in the market for an ML project: do you mind if I steal ___ idea?
 
 Knock yourself out! Not stealing, I'm here giving them away.
 
