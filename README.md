@@ -8,3 +8,5 @@ Very half baked idea here, obviously, but you get the idea. maybe the retrieval 
 Here's a thought. If we have a codebook of size 8192 and a VQGAN latent of 16x16, that's only 2,097,152 possible configurations. What if we just precomputed all of them? Oh duh, it's 8192 ** (16*16). 
 
 I should just come back to this later.
+
+Maybe the "tokenizer" could be just passing an image patch through a linear projection? I should check how ViT does it.
