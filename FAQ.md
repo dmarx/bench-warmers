@@ -16,3 +16,7 @@ Knock yourself out! Not stealing, I'm here giving them away.
 ### Wait really? I can just *have* your idea?
 
 All I ask is that if you publish, kindly recognize me (and my bench) in the acknowledgements or a footnote.
+
+### Would you maybe be interested in collaborating on ___ idea?
+
+Probably! Hit me up and let's talk! https://twitter.com/DigThatData
