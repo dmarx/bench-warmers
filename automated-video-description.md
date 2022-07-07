@@ -48,6 +48,7 @@ that it would be offensive of them not to
 * https://paperswithcode.com/task/video-description/latest
 * https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020
 * https://arxiv.org/pdf/1802.10250.pdf
+* https://netflixproject.wordpress.com/audio-description-on-demand/
 
 ## Subject Matter Experts
 
@@ -70,6 +71,8 @@ that it would be offensive of them not to
   - [ ] relevant published datasets
   - [ ] relevant potential datasets
 - [x] Identify candidate partners in the accessibility community
+  - [ ] Explore relevant non-english presence in this space
+        - Maybe a separate project could be automated translation of described videos?
 - [ ] rough model blue print
   - [ ] draft target function (problem specification)
   - [ ] draft architecture + optimization scheme
