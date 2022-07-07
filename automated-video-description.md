@@ -35,7 +35,7 @@ that it would be offensive of them not to
 * dig up the name of that non-profit that's all about described video publication
 * involve the non-profit (same one?) that certifies people to write/perform video descriptions
   
-## Relevant research/code
+## Relevant models/research
 
 * https://github.com/happyharrycn/actionformer_release
 * https://github.com/mttr2021/MTTR
@@ -49,11 +49,15 @@ that it would be offensive of them not to
 * https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020
 * https://arxiv.org/pdf/1802.10250.pdf
 
+## Subject Matter Experts
+
+* https://describedvideocanada.com/
+ 
 ## TO DO:
 
 - [ ] Research existing/relevant datasets
 - [ ] Lit review
-  - [ ] relevant models
+  - [x] relevant models
   - [ ] relevant published datasets
   - [ ] relevant potential datasets
 - [ ] rough model blue print
