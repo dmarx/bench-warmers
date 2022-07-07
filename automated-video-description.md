@@ -35,6 +35,15 @@ that it would be offensive of them not to
 * dig up the name of that non-profit that's all about described video publication
 * involve the non-profit (same one?) that certifies people to write/perform video descriptions
   
+## Relevant research/code
+
+* https://github.com/happyharrycn/actionformer_release
+* https://github.com/mttr2021/MTTR
+* https://github.com/google-research/scenic
+* https://roeiherz.github.io/ORViT/
+* https://github.com/JerryX1110/awesome-rvos
+* https://github.com/microsoft/swinbert
+ 
 ## TO DO:
 
 - [ ] Research existing/relevant datasets
