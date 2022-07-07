@@ -52,14 +52,24 @@ that it would be offensive of them not to
 ## Subject Matter Experts
 
 * https://describedvideocanada.com/
- 
+* https://www.3playmedia.com/
+* https://www.ami.ca/sites/default/files/2019-06/Integrated-Described-Video-Best-Practices.pdf
+* https://www.ami.ca/
+* https://www.fcc.gov/audio-description
+* https://fcc.gov/file/19830/download
+* https://adp.acb.org/
+* https://dcmp.org/
+* http://moviesfortheblind.com/
+* http://narrativetv.com/programming.html
+* https://adp.acb.org/articles/TheVisualMadeVerbal.html
+
 ## TO DO:
 
-- [ ] Research existing/relevant datasets
 - [ ] Lit review
   - [x] relevant models
   - [ ] relevant published datasets
   - [ ] relevant potential datasets
+- [x] Identify candidate partners in the accessibility community
 - [ ] rough model blue print
   - [ ] draft target function (problem specification)
   - [ ] draft architecture + optimization scheme
