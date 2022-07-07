@@ -44,6 +44,7 @@ that it would be offensive of them not to
 * https://github.com/JerryX1110/awesome-rvos
 * https://github.com/microsoft/swinbert
 * https://github.com/alibaba-mmai-research/TAdaConv
+* https://github.com/MIT-HAN-LAB/temporal-shift-module
  
 ## TO DO:
 
