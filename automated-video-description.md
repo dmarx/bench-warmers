@@ -45,7 +45,9 @@ that it would be offensive of them not to
 * https://github.com/microsoft/swinbert
 * https://github.com/alibaba-mmai-research/TAdaConv
 * https://github.com/MIT-HAN-LAB/temporal-shift-module
- 
+* https://paperswithcode.com/task/video-description/latest
+* https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020
+
 ## TO DO:
 
 - [ ] Research existing/relevant datasets
