@@ -72,7 +72,7 @@ that it would be offensive of them not to
   - [ ] relevant potential datasets
 - [x] Identify candidate partners in the accessibility community
   - [ ] Explore relevant non-english presence in this space
-        - Maybe a separate project could be automated translation of described videos?
+        - Maybe a separate project could be automated translation of described videos? - https://adp.acb.org/international.html
 - [ ] rough model blue print
   - [ ] draft target function (problem specification)
   - [ ] draft architecture + optimization scheme
