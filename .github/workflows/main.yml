@@ -25,7 +25,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name "dmarx"
-          git add README.test
+          git add README.md
           git commit -m "Updated TOC"
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
