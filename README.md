@@ -13,6 +13,7 @@ Come one! Come all! We've got something for everyone!
 |2022-07-09|[Automated Video Description for Vision Impaired](automated-video-description.md)|
 |2022-07-09|[implicit CNN filters](implicit-cnn-filters.md)|
 |2022-07-09|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|
+|2022-07-09|[Denser CLIP representations](denser-CLIP.md)|
 |2022-07-09|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|
 |2022-07-09|[Relevance map](Relevance_map.md)|
 |2022-07-09|[INR CNN Filter Learning](INR_CNN_filter_learning.md)|
