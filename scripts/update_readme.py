@@ -12,6 +12,8 @@ def get_last_modified_date(fpath, verbose=False):
 md_files = Path('.').glob('*.md')
 TOC = []
 for fpath in list(md_files):
+    if fpath.name == 'README.md':
+        continue
     with open(fpath) as f: 
         header = f.readline()
         if header.startswith('# '):
