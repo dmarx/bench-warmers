@@ -1,4 +1,4 @@
-# train a SinNeRF on a pytti animation
+# Train a SinNeRF on an AI-generated animation (e.g. PyTTI)
 
 2022-06-14
 
