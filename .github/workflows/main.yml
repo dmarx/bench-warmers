@@ -22,3 +22,13 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: python scripts/update_readme.py
+      - name: Commit files
+        run: |
+          git config --local user.name "dmarx"
+          git add README.test
+          git commit -m "Updated TOC"
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
