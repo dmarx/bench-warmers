@@ -19,4 +19,5 @@ Come one! Come all! We've got something for everyone!
 |2022-07-09|[RETRO-ViT](RETRO-ViT.md)|
 |2022-07-09|[Pre-train and Release ViT-VQGAN and RQ-VAE checkpoints](pretrained_vit-vqgan_checkpoints.md)|
 |2022-07-09|[train a SinNeRF on a pytti animation](train_a_SinNeRF_on_a_pytti_animation.md)|
+|2022-07-09|[CLIP with RWKV replacing QKV](RWKV-CLIP.md)|
 |2022-07-09|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|
