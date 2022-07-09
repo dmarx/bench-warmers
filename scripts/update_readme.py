@@ -22,7 +22,7 @@ for fpath in list(md_files):
 
 TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 
-url_root = "https://github.com/dmarx/bench-warmers/blob/main/"
+url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
 
 header= "|last_modified|title|\n|:---|:---|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|" for d in TOC]
