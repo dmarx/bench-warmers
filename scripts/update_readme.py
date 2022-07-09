@@ -31,5 +31,5 @@ toc_str= header + '\n'.join(recs)
 readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
 readme = readme_stub.replace('{TOC}',toc_str)
 
-with open('README.test','wb') as f:
+with open('README.test','w') as f:
     f.write(readme)
