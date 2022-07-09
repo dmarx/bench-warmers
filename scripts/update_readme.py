@@ -28,7 +28,9 @@ header= "|last_modified|title|\n|:---|:---|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
-readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
+#readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
+with open('README.stub') as f:
+    readme_stub = f.read()
 readme = readme_stub.replace('{TOC}',toc_str)
 
 with open('README.test','w') as f:
