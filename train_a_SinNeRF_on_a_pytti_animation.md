@@ -1,6 +1,9 @@
 # Train a SinNeRF on an AI-generated animation (e.g. PyTTI)
 
-2022-06-14
+```meta
+updated: 2022-07-09
+created: 2022-06-14
+```
 
 https://discord.com/channels/729741769192767510/730095596861521970/986486400885088278
 
