@@ -9,7 +9,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[FOSS Touch Designer](FOSS_touch_designer.md)|
 |2022-07-08|[finetune a segmentation model on a medical classification task](finetune_a_segmentation_model_on_a_medical_classification_task.md)|
 |2022-07-08|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|
-|2022-07-08|[learning image colorization from a segmentation task](learning_image_colorization_from_a_segmentation_task.md)|
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|
 |2022-07-08|[DigThatData's Bench Projects!](README.md)|
 |2022-07-08|[Automated Video Description for Vision Impaired](automated-video-description.md)|
@@ -20,3 +19,4 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[INR CNN Filter Learning](INR_CNN_filter_learning.md)|
 |2022-07-08|[RETRO-ViT](RETRO-ViT.md)|
 |2022-07-08|[train a SinNeRF on a pytti animation](train_a_SinNeRF_on_a_pytti_animation.md)|
+|2022-07-08|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|
