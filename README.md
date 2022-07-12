@@ -6,7 +6,6 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|
 |:---|:---|
-|2022-07-11|[test](test.md)|
 |2022-07-11|[Fingertrip tracking for hardware-free gloving practice](fingertrip_tracking_for_hardware_free_gloveing_practice.md)|
 |2022-07-09|[Denser CLIP representations](denser-CLIP.md)|
 |2022-07-09|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|
