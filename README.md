@@ -10,6 +10,7 @@ Come one! Come all! We've got something for everyone!
 |2022-07-11|[finetune a segmentation model on a medical classification task](finetune_a_segmentation_model_on_a_medical_classification_task.md)|
 |2022-07-11|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|
 |2022-07-11|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|
+|2022-07-11|[test](test.md)|
 |2022-07-11|[Fingertrip tracking for hardware-free gloving practice](fingertrip_tracking_for_hardware_free_gloveing_practice.md)|
 |2022-07-11|[Automated Video Description for Vision Impaired](automated-video-description.md)|
 |2022-07-11|[implicit CNN filters](implicit-cnn-filters.md)|
