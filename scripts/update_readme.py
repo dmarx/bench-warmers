@@ -2,7 +2,7 @@ from pathlib import Path
 import subprocess
 
 def get_last_modified_date(fpath, verbose=True):
-    cmd = "git log -n 1 --pretty=format:%as --".split( )
+    cmd = "git log -n 1 --pretty=format:%cs --".split( )
     cmd += [str(fpath)]
     if verbose:
         print(cmd)
