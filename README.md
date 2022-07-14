@@ -7,6 +7,7 @@ Come one! Come all! We've got something for everyone!
 |last_modified|title|
 |:---|:---|
 |2022-07-13|[FlowFrames linux port](flowframes-linux-port.md)|
+|2022-07-13|[Fast Fourier Convolution FlexConv](FFC-Flexconv.md)|
 |2022-07-13|[conlang generator](conlang_lm.md)|
 |2022-07-11|[Fingertrip tracking for hardware-free gloving practice](fingertrip_tracking_for_hardware_free_gloveing_practice.md)|
 |2022-07-09|[Pre-train and Release ViT-VQGAN and RQ-VAE checkpoints](pretrained_vit-vqgan_checkpoints.md)|
