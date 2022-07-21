@@ -7,6 +7,7 @@ Come one! Come all! We've got something for everyone!
 |last_modified|title|
 |:---|:---|
 |2022-07-21|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|
+|2022-07-21|[LAION++ Enriched Dataset](laion-plus-plus.md)|
 |2022-07-18|[flow field compositor](flow-field-compositor.md)|
 |2022-07-18|[comment zapper.md](comment-zapper.md)|
 |2022-07-14|[Layer-wise Super Resolution](layerwise-and-objectwise-inpainting-and-super-resolution.md)|
