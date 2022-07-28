@@ -6,6 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|
 |:---|:---|
+|2022-07-28|[Grimoire: Prompting Toolbox](grimoire.md)|
 |2022-07-26|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|
 |2022-07-25|[Design and train a model whose underlying representation was engineered specifically for text guided animation](image-model-designed-for-clip-guided-animation.md)|
 |2022-07-21|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|
