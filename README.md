@@ -6,6 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|
 |:---|:---|
+|2022-07-31|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|
 |2022-07-28|[Grimoire: Prompting Toolbox](grimoire.md)|
 |2022-07-26|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|
