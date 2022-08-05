@@ -6,6 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|
 |:---|:---|
+|2022-08-05|[GAUDI-XL](gaudi-xl.md)|
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|
 |2022-07-31|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|
