@@ -46,3 +46,5 @@ specifically for ai art and animation
 * https://en.wikipedia.org/wiki/WebM
 * https://en.wikipedia.org/wiki/Container_format
 * https://en.wikipedia.org/wiki/Matroska
+* https://docs.blender.org/manual/en/latest/files/media/video_formats.html#ffmpeg-containers
+* https://en.wikipedia.org/wiki/Ogg
