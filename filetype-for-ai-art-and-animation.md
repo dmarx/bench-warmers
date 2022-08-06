@@ -42,3 +42,4 @@ specifically for ai art and animation
   * tEXt
   * zTXt
 * https://en.wikipedia.org/wiki/APNG
+* https://en.wikipedia.org/wiki/WebM
