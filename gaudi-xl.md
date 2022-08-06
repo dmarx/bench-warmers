@@ -11,9 +11,10 @@ https://github.com/apple/ml-gaudi
 
 throw some of these in the pot too, baby we got a stew goin!
 
-* Fast rendering
+* Fast rendering/training
   * https://github.com/NVlabs/instant-ngp
   * https://nv-tlabs.github.io/nglod/
+  * https://arxiv.org/pdf/2107.02791.pdf
 * few-input learning
   * https://github.com/hbb1/PREF
   * https://github.com/cwchenwang/NeRF-SR
