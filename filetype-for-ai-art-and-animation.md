@@ -37,3 +37,7 @@ specifically for ai art and animation
 
 * https://en.wikipedia.org/wiki/Metadata_Working_Group
 * https://en.wikipedia.org/wiki/Extensible_Metadata_Platform
+* https://en.wikipedia.org/wiki/Portable_Network_Graphics#Ancillary_chunks
+  * iTXt
+  * tEXt
+  * zTXt
