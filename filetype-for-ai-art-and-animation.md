@@ -12,6 +12,7 @@ specifically for ai art and animation
 
 ## Some requirements
 
+* lossless
 * fast read
 * artist-friendly
   * unobstrusive - use of this doesn't create any kind of 'lock-in' and images can still be read without special tooling that knows this format
@@ -43,4 +44,4 @@ specifically for ai art and animation
   * zTXt
 * https://en.wikipedia.org/wiki/APNG
 * https://en.wikipedia.org/wiki/WebM
-* https://en.wikipedia.org/wiki/WebP
+
