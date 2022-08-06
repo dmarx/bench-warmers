@@ -41,3 +41,4 @@ specifically for ai art and animation
   * iTXt
   * tEXt
   * zTXt
+* https://en.wikipedia.org/wiki/APNG
