@@ -48,3 +48,8 @@ specifically for ai art and animation
 * https://en.wikipedia.org/wiki/Matroska
 * https://docs.blender.org/manual/en/latest/files/media/video_formats.html#ffmpeg-containers
 * https://en.wikipedia.org/wiki/Ogg
+
+looks like can just use PIL.save to write metadata
+
+* https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html#png
+* https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.save
