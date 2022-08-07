@@ -61,3 +61,5 @@ jesus, what a fucking rabbit hole...
 usage example: https://stackoverflow.com/a/58399815/819544
 
 looks like we can attach and read arbitrary text this way, but unfortunately these keys/values don't want to appear in the windows details pane
+
+might have more luck if I use these reserved EXIF keywords? https://www.w3.org/TR/PNG/#11textinfo
