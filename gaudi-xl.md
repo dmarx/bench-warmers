@@ -21,3 +21,6 @@ throw some of these in the pot too, baby we got a stew goin!
   * https://github.com/cwchenwang/NeRF-SR
 * efficient nerf
   * https://nvlabs.github.io/eg3d/
+
+from the citations
+* https://apple.github.io/ml-gsn/
