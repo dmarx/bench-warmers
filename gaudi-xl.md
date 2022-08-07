@@ -23,4 +23,4 @@ throw some of these in the pot too, baby we got a stew goin!
   * https://nvlabs.github.io/eg3d/
 
 from the citations
-* https://apple.github.io/ml-gsn/
+* https://github.com/apple/ml-gsn
