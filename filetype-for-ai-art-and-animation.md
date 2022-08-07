@@ -57,3 +57,7 @@ looks like can just use PIL.save to write metadata
 jesus, what a fucking rabbit hole...
 
 * https://pillow.readthedocs.io/en/stable/PIL.html#PIL.PngImagePlugin.PngInfo
+
+usage example: https://stackoverflow.com/a/58399815/819544
+
+looks like we can attach and read arbitrary text this way, but unfortunately these keys/values don't want to appear in the windows details pane
