@@ -7,6 +7,7 @@ Come one! Come all! We've got something for everyone!
 |last_modified|title|
 |:---|:---|
 |2022-08-06|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|
+|2022-08-06|[declarative infill](declarative-infill.md)|
 |2022-08-06|[GAUDI-XL](gaudi-xl.md)|
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|
 |2022-07-31|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|
