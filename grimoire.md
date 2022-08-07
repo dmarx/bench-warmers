@@ -12,6 +12,7 @@ Set of tools to facilitate prompt design for AI art
 * database of useful prompt chunks (e.g. artist names, materials, templates, vitamins for inducing realism or styles, etc.)
 * EDA visualizations for examining embedding space topology, clustering, and distributional features of prompts (inliers, outliers, aethetic scores, etc)
   * https://clip-as-service.jina.ai/playground/embedding/
+  * https://rom1504.github.io/clip-retrieval/
 
 ## UX Brainstorming
 
