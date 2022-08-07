@@ -23,5 +23,8 @@ throw some of these in the pot too, baby we got a stew goin!
   * https://nvlabs.github.io/eg3d/
   * https://github.com/nv-tlabs/vqad
 
+* fancy nerf
+  * https://hypernerf.github.io/
+
 from the citations
 * https://github.com/apple/ml-gsn
