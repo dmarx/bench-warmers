@@ -53,3 +53,7 @@ looks like can just use PIL.save to write metadata
 
 * https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html#png
 * https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.save
+
+jesus, what a fucking rabbit hole...
+
+* https://pillow.readthedocs.io/en/stable/PIL.html#PIL.PngImagePlugin.PngInfo
