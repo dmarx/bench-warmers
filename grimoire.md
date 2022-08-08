@@ -19,3 +19,5 @@ Set of tools to facilitate prompt design for AI art
 * Anticipate that primary users will be non-coder artists and colab users
 * Will need to ship with some sort of simple front-end (i.e. a notebook)
 * Design for use with notebooks, perhaps include a notebook of pre-designed colab forms or compatible widgets
+
+Some tinkering with the simulacrabot dataset: https://colab.research.google.com/drive/1DDGxDIEuxFCJskP2Mo1DN0wNHqS-QCD7#scrollTo=gOO8cXtr47MY
