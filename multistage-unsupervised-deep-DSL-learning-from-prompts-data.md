@@ -1,5 +1,37 @@
 # use tricky multi-step deep learning to unsupervisedly learn a 'deep' DSL and a model that can sample from it, to facilitate prompt construction
 
+**architecture**
+
+* VQ-VAE
+* two component latent
+  1. tokens2codebook
+    - encodes pattern template
+    - includes mask token for unknown fill type 
+    - codebook functionally forms a structural DSL over specialized "parts-of-speech" for building prompts
+  2. noise vector
+    - captures content representation
+    - single feature vector? feature vector paired with each structural token?
+
+**training**
+
+1. Use a pretrained frozen LM as an input encoder
+2. Pre-compute corpus encoding
+3. seed codebook with medoid vectors from corpus
+4. learn/tune codebook using reconstruction loss, + contrastive loss over the feature vector
+  - might need to add a mapping network to transform input gaussian to feature space 
+6. learn a mask token using reconstruction loss and masked prediction objection
+7. learn a prior over templates for unconditional sampling
+
+**use**
+
+1. User authors a prompt
+2. encodes prompt to DSL template (codebook)
+3. sample new prompts by conditioning on the template vector and modulating noise vector
+4. generate prompt variations by additionally conditioning on a semantic proximity to the input prompt
+5. generate diversity by replacing template tokens with the mask token
+
+--------------
+
 let's assume that commas and pipes are the only separators we need to worry about rn.
 
 1. Apply NER to separately classify:
