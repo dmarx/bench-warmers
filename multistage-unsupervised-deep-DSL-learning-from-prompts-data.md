@@ -1,3 +1,5 @@
+# use tricky multi-step deep learning to unsupervisedly learn a 'deep' DSL and a model that can sample from it, to facilitate prompt construction
+
 let's assume that commas and pipes are the only separators we need to worry about rn.
 
 1. Apply NER to separately classify:
