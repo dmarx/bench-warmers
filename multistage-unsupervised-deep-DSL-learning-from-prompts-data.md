@@ -1,6 +1,6 @@
 # use tricky multi-step deep learning to unsupervisedly learn a 'deep' DSL and a model that can sample from it, to facilitate prompt construction
 
-**architecture**
+## architecture
 
 * VQ-VAE
 * two component latent
@@ -11,8 +11,8 @@
   2. noise vector
     - captures content representation
     - single feature vector? feature vector paired with each structural token?
-
-**training**
+    
+## Training
 
 1. Use a pretrained frozen LM as an input encoder
 2. Pre-compute corpus encoding
@@ -22,7 +22,7 @@
 6. learn a mask token using reconstruction loss and masked prediction objection
 7. learn a prior over templates for unconditional sampling
 
-**use**
+## Use
 
 1. User authors a prompt
 2. encodes prompt to DSL template (codebook)
@@ -30,7 +30,13 @@
 4. generate prompt variations by additionally conditioning on a semantic proximity to the input prompt
 5. generate diversity by replacing template tokens with the mask token
 
---------------
+## Related research
+
+* https://github.com/NVlabs/PALAVRA
+
+
+
+# old stuff
 
 let's assume that commas and pipes are the only separators we need to worry about rn.
 
