@@ -24,6 +24,9 @@ def badges2kv(text):
 def make_badge(label, prefix='tag', color='lightgrey'):
     return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
 
+def make_badges(unq_tags):
+    return '\n'.join([make_badge(tag) for tag in unq_tags])
+
 md_files = Path('.').glob('*.md')
 TOC = []
 unq_tags = set()
@@ -50,14 +53,14 @@ TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
 
 header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
-recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{', '.join(d['tags'])}|" for d in TOC]
+recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{make_badges(unq_tags)}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
 #readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
 with open('README.stub') as f:
     readme_stub = f.read()
 readme = readme_stub.replace('{TOC}', toc_str)
-readme = readme.replace('{tags}', '\n'.join([make_badge(tag) for tag in unq_tags]))
+readme = readme.replace('{tags}', make_badges(unq_tags))
 
 with open('README.md','w') as f:
     f.write(readme)
