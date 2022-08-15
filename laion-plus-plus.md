@@ -1,5 +1,7 @@
 # LAION++ Enriched Dataset
 
+![](https://img.shields.io/badge/tag-dataset-lightgrey)
+
 use pre-trained models to automate adding a ton of additional labels to laion aesthetic and/or 400m
 - semantic segmentation
 - instance segmentation and classification
