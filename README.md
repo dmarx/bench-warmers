@@ -16,6 +16,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
 |2022-08-14|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|1001|experimental|
 |2022-08-14|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|216|experimental|
+|2022-08-14|[LAION++ Enriched Dataset](laion-plus-plus.md)|936|dataset|
 |2022-08-14|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|314|animation, nerf|
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|accessibility, dataset, foundation, publicgood|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1175|animation, experimental, foundation|
@@ -29,7 +30,6 @@ Come one! Come all! We've got something for everyone!
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
 |2022-07-21|[code2commit learning](code2commit-learning.md)|292||
-|2022-07-21|[LAION++ Enriched Dataset](laion-plus-plus.md)|879||
 |2022-07-18|[comment zapper.md](comment-zapper.md)|333||
 |2022-07-14|[registered datasets for stability compute](registered-datasets-for-sstability-compute.md)|225||
 |2022-07-14|[conversational agent to assist with narrative world building](world-building-agent.md)|104||
