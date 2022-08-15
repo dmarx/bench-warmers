@@ -13,6 +13,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|402|foundation|
 |2022-08-14|[Layer-wise Super Resolution](layerwise-and-objectwise-inpainting-and-super-resolution.md)|2118|experimental|
 |2022-08-14|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|556|animation|
+|2022-08-14|[registered datasets for stability compute](registered-datasets-for-sstability-compute.md)|284|stability|
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
 |2022-08-14|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|1001|experimental|
 |2022-08-14|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|216|experimental|
@@ -31,7 +32,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
 |2022-07-21|[code2commit learning](code2commit-learning.md)|292||
 |2022-07-18|[comment zapper.md](comment-zapper.md)|333||
-|2022-07-14|[registered datasets for stability compute](registered-datasets-for-sstability-compute.md)|225||
 |2022-07-14|[conversational agent to assist with narrative world building](world-building-agent.md)|104||
 |2022-07-13|[conlang generator](conlang_lm.md)|96||
 |2022-07-13|[FlowFrames linux port](flowframes-linux-port.md)|230||
