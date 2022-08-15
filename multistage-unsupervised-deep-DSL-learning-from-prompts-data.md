@@ -1,5 +1,9 @@
 # Deep DSL
 
+![](https://img.shields.io/badge/tag-prompting-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 ongoing work: https://colab.research.google.com/drive/1DDGxDIEuxFCJskP2Mo1DN0wNHqS-QCD7#scrollTo=0sXZ2lFI9En5  
 ...that could be an open in colab button, that'd be a really easy way to tag 'metadata'. fucking badges! yes! and clicking a badge would take to you to a
 pre-generated "category" page
