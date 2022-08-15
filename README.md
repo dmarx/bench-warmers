@@ -6,12 +6,12 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation,tooling|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|3914||
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|401||
-|2022-08-07|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3715||
 |2022-08-07|[GAUDI-XL](gaudi-xl.md)|996||
 |2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
