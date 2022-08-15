@@ -17,7 +17,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|216|experimental|
 |2022-08-14|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|314|animation, nerf|
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|accessibility, dataset, foundation, publicgood|
-|2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation, experimental|
+|2022-08-14|[GAUDI-XL](gaudi-xl.md)|1175|animation, experimental, foundation|
 |2022-08-14|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|776|animation, experimental|
 |2022-08-14|[flow field compositor](flow-field-compositor.md)|557|tooling|
 |2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|colab, tooling|
