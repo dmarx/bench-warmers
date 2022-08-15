@@ -1,5 +1,7 @@
 # Layer-wise Super Resolution
 
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 **Insight**: When human artists paint, they build up their work in layers
 
 **Idea**: decompose a generated image into layers, infill those layers, apply super resolution to layers, reconstruct image additively
