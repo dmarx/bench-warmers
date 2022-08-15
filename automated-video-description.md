@@ -1,5 +1,10 @@
 # Automated Video Description for Vision Impaired
 
+![](https://img.shields.io/badge/tag-publicgood-lightgrey)
+![](https://img.shields.io/badge/tag-dataset-lightgrey)
+![](https://img.shields.io/badge/tag-foundation-lightgrey)
+![](https://img.shields.io/badge/tag-accessibility-lightgrey)
+
 ## Goals
 
 * assembling the dataset is by itself an opportunity to improve access to existing content
