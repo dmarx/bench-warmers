@@ -7,6 +7,7 @@ Come one! Come all! We've got something for everyone!
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
 |2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation, tooling|
+|2022-08-14|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|123|experimental|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|experimental, prompting, tooling|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
@@ -38,7 +39,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-13|[FlowFrames linux port](flowframes-linux-port.md)|230||
 |2022-07-13|[Fast Fourier Convolution FlexConv](FFC-Flexconv.md)|117||
 |2022-07-11|[Fingertrip tracking for hardware-free gloving practice](fingertrip_tracking_for_hardware_free_gloveing_practice.md)|39||
-|2022-07-09|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|61||
 |2022-07-09|[CLIP with RWKV replacing QKV](RWKV-CLIP.md)|38||
 |2022-07-09|[Pre-train and Release ViT-VQGAN and RQ-VAE checkpoints](pretrained_vit-vqgan_checkpoints.md)|339||
 |2022-07-09|[Denser CLIP representations](denser-CLIP.md)|385||
