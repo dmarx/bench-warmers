@@ -9,6 +9,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation, tooling|
 |2022-08-14|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|123|experimental|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
+|2022-08-14|[declarative infill](declarative-infill.md)|610|experimental|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|experimental, prompting, tooling|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
 |2022-08-14|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|402|foundation|
@@ -31,7 +32,6 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](train_a_SinNeRF_on_a_pytti_animation.md)|647|animation, nerf|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental, tooling|
 |2022-08-14|[comment zapper.md](comment-zapper.md)|390|tooling|
-|2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
 |2022-07-14|[conversational agent to assist with narrative world building](world-building-agent.md)|104||
