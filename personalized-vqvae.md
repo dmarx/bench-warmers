@@ -1,5 +1,8 @@
 # personalized VQVAE
 
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 1. dump all your pictures from google photos or instagram or whatever
 2. crop to size if needed
 3. Train an NWT VQVAE for the codebook
