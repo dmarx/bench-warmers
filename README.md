@@ -10,6 +10,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|prompting,tooling,experimental|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
+|2022-08-14|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|556|animation|
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
@@ -41,7 +42,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-09|[Denser CLIP representations](denser-CLIP.md)|385||
 |2022-07-08|[INR CNN Filter Learning](INR_CNN_filter_learning.md)|225||
 |2022-07-08|[Relevance map](Relevance_map.md)|225||
-|2022-07-08|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|497||
 |2022-07-08|[finetune a segmentation model on a medical classification task](finetune_a_segmentation_model_on_a_medical_classification_task.md)|216||
 |2022-07-08|[FOSS Touch Designer](FOSS_touch_designer.md)|271||
 |2022-07-08|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|939||
