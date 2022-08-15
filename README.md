@@ -6,7 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-08-15|[animation thing with shadow and 2scoops](shadow-and2scoops-animation-thing.md)|117|animation|
+|2022-08-15|[animation thing with shadow and 2scoops](shadow-and2scoops-animation-thing.md)|118|animation|
 |2022-08-15|[Automated Video Description for Vision Impaired](automated-video-description.md)|4391|accessibility, dataset, foundation, publicgood|
 |2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation, tooling|
 |2022-08-14|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|123|experimental|
@@ -50,9 +50,4 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|202||
 |2022-07-05|[implicit CNN filters](implicit-cnn-filters.md)|213||
 
-{tags}
-
-
-## Unique Tags
-
-{tags_stub}
+{'animation', 'colab', 'meta', 'stability', 'carp', 'foundation', 'prompting', 'tooling', 'experimental', 'wip', 'publicgood', 'accessibility', 'nerf', 'dataset'}
