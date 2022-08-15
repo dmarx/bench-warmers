@@ -13,7 +13,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
-|2022-08-14|[personalized VQVAE](personalized-vqvae.md)|401||
+|2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental,tooling|
 |2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-31|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|202||
