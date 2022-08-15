@@ -37,6 +37,7 @@ for fpath in list(md_files):
             d_['last_modified'] = get_last_modified_date(fpath)
             d_['n_char'] = len(text)
             d_['tags'] = [v for k,v in badge_meta if k =='tag']
+            d_['tags'].sort()
             TOC.append(d_)
 
 TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
@@ -44,7 +45,7 @@ TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
 
 header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
-recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{','.join(d['tags'])}|" for d in TOC]
+recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{', '.join(d['tags'])}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
 #readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
