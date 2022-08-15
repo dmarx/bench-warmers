@@ -34,6 +34,16 @@ that it would be offensive of them not to
   * ? would a new description starting at t time collide with an ongoing descritption in progress
   * might need to fit this iteratively, gnash equilibrium between description content density and length
   
+## Misc thoughts
+ 
+the reason I think this is probably different from normal image captioning is:
+ 
+* there are moments that probably don't need to be described. the audio is self-explanatory
+* there will be other moments that will need to be described
+* there will probably be a tradeoff between a decision to provide a description at a particular moment vs. not wanting to override the audio of the scene. this tradeoff probably also impacts the pace and length of the description
+* so in addition to image captioning (really, "scene understanding," but same basic idea), there needs to be some sort of classifier to flag regions of content that merit description, and some sort of budget assignment constraining how long those descriptions can be
+ 
+
 ## Immediate Action Items
 
 * check email or other NTS boards for related ideas
