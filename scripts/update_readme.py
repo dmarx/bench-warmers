@@ -55,7 +55,7 @@ toc_str= header + '\n'.join(recs)
 with open('README.stub') as f:
     readme_stub = f.read()
 readme = readme_stub.replace('{TOC}', toc_str)
-readme = readme.replace('{tags}', unq_tags)
+readme = readme.replace('{tags}', str(unq_tags))
 
 with open('README.md','w') as f:
     f.write(readme)
