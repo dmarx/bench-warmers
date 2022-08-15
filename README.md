@@ -13,6 +13,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
 |2022-08-14|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|776|animation,experimental|
+|2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|colab,tooling|
 |2022-08-14|[Design and train a model whose underlying representation was engineered specifically for text guided animation](image-model-designed-for-clip-guided-animation.md)|404|animation|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental,tooling|
@@ -27,7 +28,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-18|[comment zapper.md](comment-zapper.md)|333||
 |2022-07-14|[Layer-wise Super Resolution](layerwise-and-objectwise-inpainting-and-super-resolution.md)|2056||
 |2022-07-14|[registered datasets for stability compute](registered-datasets-for-sstability-compute.md)|225||
-|2022-07-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|303||
 |2022-07-14|[conversational agent to assist with narrative world building](world-building-agent.md)|104||
 |2022-07-13|[conlang generator](conlang_lm.md)|96||
 |2022-07-13|[FlowFrames linux port](flowframes-linux-port.md)|230||
