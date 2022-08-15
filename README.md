@@ -16,6 +16,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
 |2022-08-14|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|776|animation,experimental|
+|2022-08-14|[flow field compositor](flow-field-compositor.md)|557|tooling|
 |2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|colab,tooling|
 |2022-08-14|[Design and train a model whose underlying representation was engineered specifically for text guided animation](image-model-designed-for-clip-guided-animation.md)|404|animation|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
@@ -26,7 +27,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-21|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|342||
 |2022-07-21|[code2commit learning](code2commit-learning.md)|292||
 |2022-07-21|[LAION++ Enriched Dataset](laion-plus-plus.md)|879||
-|2022-07-18|[flow field compositor](flow-field-compositor.md)|500||
 |2022-07-18|[comment zapper.md](comment-zapper.md)|333||
 |2022-07-14|[Layer-wise Super Resolution](layerwise-and-objectwise-inpainting-and-super-resolution.md)|2056||
 |2022-07-14|[registered datasets for stability compute](registered-datasets-for-sstability-compute.md)|225||
