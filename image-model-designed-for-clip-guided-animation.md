@@ -1,5 +1,7 @@
 # Design and train a model whose underlying representation was engineered specifically for text guided animation
 
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+
 | User Story | Strategy | Tactic |
 |:-- |:-- |:--|
 | Artists want to generate high resolution images | Support Arbitrary resolution generation | * implicit representation <br> * positional embedding (canvs) |
