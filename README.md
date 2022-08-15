@@ -6,7 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|est. idea maturity
 |:---|:---|---:|
-|2022-08-14|[turn this into a template](benchwarmers-template.md)|24|
+|2022-08-14|[turn this into a template](benchwarmers-template.md)|78|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|3914|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|401|
 |2022-08-07|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3715|
