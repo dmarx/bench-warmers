@@ -12,6 +12,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
 |2022-08-14|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|556|animation|
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
+|2022-08-14|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|216|experimental|
 |2022-08-14|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|314|animation,nerf|
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
@@ -45,6 +46,5 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[finetune a segmentation model on a medical classification task](finetune_a_segmentation_model_on_a_medical_classification_task.md)|216||
 |2022-07-08|[FOSS Touch Designer](FOSS_touch_designer.md)|271||
 |2022-07-08|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|939||
-|2022-07-08|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|154||
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|202||
 |2022-07-05|[implicit CNN filters](implicit-cnn-filters.md)|213||
