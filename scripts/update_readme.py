@@ -20,7 +20,9 @@ def badges2kv(text):
     badges = re.findall(testpat, text)
     #return {b.split('-')[0]:b.split('-')[1] for b in badges}
     return [(b.split('-')[0], b.split('-')[1]) for b in badges]
-    
+
+def make_badge(label, prefix='tag', color='lightgrey'):
+    return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
 
 md_files = Path('.').glob('*.md')
 TOC = []
@@ -55,7 +57,7 @@ toc_str= header + '\n'.join(recs)
 with open('README.stub') as f:
     readme_stub = f.read()
 readme = readme_stub.replace('{TOC}', toc_str)
-readme = readme.replace('{tags}', str(unq_tags))
+readme = readme.replace('{tags}', '\n'.join([make_badge(tag) for tag in unq_tags]))
 
 with open('README.md','w') as f:
     f.write(readme)
