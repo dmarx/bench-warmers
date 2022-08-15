@@ -31,7 +31,7 @@ Hell no, I'm way too lazy for that. That's auto-generated via a build script tri
 
 ### What is "est. idea maturity"?
 
-That's a rough metric I use to visually give me a quick estimate of how much I've "matured" a particular idea. At present, this is just calculated as the number of characters in the document, the motivation here being more "mature" ideas are the ones I've written more about. I might add some other metrics like how many times I've returned to the file or the average size of a commit or.. I dunno, who am I kdding, this probably isn't going to get more involved than it already is.
+That's a rough metric I use to visually give me a quick estimate of how much I've developed any particular idea. Currently, this is just calculated as the number of characters in the document.
 
 ### This system is sort of interesting, are you planning on adding more features?
 
