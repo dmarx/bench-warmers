@@ -8,7 +8,7 @@ Come one! Come all! We've got something for everyone!
 |:---|:---|---:|:---|
 |2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation, tooling|
 |2022-08-14|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|123|experimental|
-|2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
+|2022-08-14|[turn this into a template](benchwarmers-template.md)|186|meta, tooling, wip|
 |2022-08-14|[declarative infill](declarative-infill.md)|610|experimental|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|experimental, prompting, tooling|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
