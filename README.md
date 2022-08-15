@@ -8,7 +8,7 @@ Come one! Come all! We've got something for everyone!
 |:---|:---|---:|:---|
 |2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation,tooling|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
-|2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|3914||
+|2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|prompting,tooling,experimental|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
