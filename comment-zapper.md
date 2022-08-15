@@ -1,5 +1,7 @@
 # comment zapper.md
 
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 code cleanup tool that:
 
 1. looks for comments (AST parser?)
