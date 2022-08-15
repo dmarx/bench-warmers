@@ -8,6 +8,7 @@ Come one! Come all! We've got something for everyone!
 |:---|:---|---:|:---|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|3914||
+|2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|401||
 |2022-08-07|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3715||
@@ -37,7 +38,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-09|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](train_a_SinNeRF_on_a_pytti_animation.md)|535||
 |2022-07-09|[Denser CLIP representations](denser-CLIP.md)|385||
 |2022-07-08|[INR CNN Filter Learning](INR_CNN_filter_learning.md)|225||
-|2022-07-08|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|126||
 |2022-07-08|[Relevance map](Relevance_map.md)|225||
 |2022-07-08|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|497||
 |2022-07-08|[finetune a segmentation model on a medical classification task](finetune_a_segmentation_model_on_a_medical_classification_task.md)|216||
