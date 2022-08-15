@@ -42,8 +42,7 @@ for fpath in list(md_files):
             unq_tags.update(d_['tags'])
             TOC.append(d_)
 
-tags_stub = str(unq_tags)
-            
+           
 TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
