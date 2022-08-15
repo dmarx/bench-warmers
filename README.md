@@ -4,8 +4,8 @@ Come one! Come all! We've got something for everyone!
 
 ### [FAQ](https://github.com/dmarx/bench-warmers/blob/main/FAQ.md)
 
-|last_modified|title|
-|:---|:---|
+|last_modified|title|est. idea maturity
+|:---|:---|---:|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|24|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|3914|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|401|
