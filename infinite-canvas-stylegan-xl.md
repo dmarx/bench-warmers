@@ -1,5 +1,8 @@
 # infinite canvas stylegan-xl
 
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 the translation invariance property of the stylegan3/xl latent makes it so you can explore "out of bounds", 
 but there's still clearly a "central region" that the model prefers to operate within. This seems to manifest
 as frame/border artifacts. I suspect the positional component of the latent could be reparameterized similar to 
