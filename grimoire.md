@@ -1,5 +1,8 @@
 # Grimoire: Prompting Toolbox
 
+![](https://img.shields.io/badge/tag-prompting-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 Set of tools to facilitate prompt design for AI art
 
 ## Feature brainstorming
