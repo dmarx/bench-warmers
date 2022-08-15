@@ -1,7 +1,8 @@
 # Deep DSL
 
 ongoing work: https://colab.research.google.com/drive/1DDGxDIEuxFCJskP2Mo1DN0wNHqS-QCD7#scrollTo=0sXZ2lFI9En5  
-...that could be an open in colab button, that'd be a really easy way to tag 'metadata'. fucking badges! yes!
+...that could be an open in colab button, that'd be a really easy way to tag 'metadata'. fucking badges! yes! and clicking a badge would take to you to a
+pre-generated "category" page
 
 
 use tricky multi-step deep learning to unsupervisedly learn a 'deep' DSL and a model that can sample from it, to facilitate prompt construction
