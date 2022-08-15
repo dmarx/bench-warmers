@@ -1,4 +1,8 @@
 # RETRO-ViT
+
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-3hi5this-darkgreen)
+
 [WIP] Hey why not? It worked for text. Let's make retrieval for auto-regressive image generation a thing.
 
 for the database, let's use CLIP embeddings for the image keys, and VQGAN tokens for the values. So for a given input text, we e.g. query laion for a handful of images with nearby CLIP embeddings, encode them into the VQGAN latent, and ... that's a lot of data... something something profit. 
