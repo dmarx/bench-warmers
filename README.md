@@ -49,3 +49,7 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[FOSS Touch Designer](FOSS_touch_designer.md)|271||
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|202||
 |2022-07-05|[implicit CNN filters](implicit-cnn-filters.md)|213||
+
+## Unique Tags
+
+{tags_stub}
