@@ -1,5 +1,7 @@
 # declarative infill
 
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 motivating idea: https://www.youtube.com/watch?v=GAPwMrDGAfE
 
 given the video input, how could we prompt that effect? "animate a blood splatter effect whenever a combatant delivers a successful sword strike" -> `WHEN <condition> ATTEND TO <subject> TRANSFORM TO <prompt>`
