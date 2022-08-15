@@ -10,6 +10,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|experimental, prompting, tooling|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
+|2022-08-14|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|402|foundation|
 |2022-08-14|[Layer-wise Super Resolution](layerwise-and-objectwise-inpainting-and-super-resolution.md)|2118|experimental|
 |2022-08-14|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|556|animation|
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
@@ -27,7 +28,6 @@ Come one! Come all! We've got something for everyone!
 |2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
-|2022-07-21|[multimodal model trained on comicbooks](multimodal-model-trained-on-comicbooks.md)|342||
 |2022-07-21|[code2commit learning](code2commit-learning.md)|292||
 |2022-07-21|[LAION++ Enriched Dataset](laion-plus-plus.md)|879||
 |2022-07-18|[comment zapper.md](comment-zapper.md)|333||
