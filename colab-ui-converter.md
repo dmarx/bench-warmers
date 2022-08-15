@@ -1,5 +1,8 @@
 # Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework
 
+![](https://img.shields.io/badge/tag-colab-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 E.g. gradio, panel, dash, streamlit, voila etc.
 
 ## Motivating Use Cases
