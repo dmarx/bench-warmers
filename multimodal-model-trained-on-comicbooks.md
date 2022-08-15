@@ -1,5 +1,7 @@
 # multimodal model trained on comicbooks
 
+![](https://img.shields.io/badge/tag-foundation-lightgrey)
+
 https://twitter.com/DigThatData/status/1550184909817274371
 
 use "by artist name" to construct additional training prompts
