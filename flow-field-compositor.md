@@ -1,5 +1,7 @@
 # flow field compositor
 
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 1. supply a list of video paths and weights (can be a function of 't') -- prompt for instance segmentation? Mask?
 2. load each video and compute its flow field
 3. pool over all videos fields
