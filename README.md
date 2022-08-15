@@ -26,6 +26,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|colab, tooling|
 |2022-08-14|[Design and train a model whose underlying representation was engineered specifically for text guided animation](image-model-designed-for-clip-guided-animation.md)|404|animation|
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting, tooling|
+|2022-08-14|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](train_a_SinNeRF_on_a_pytti_animation.md)|647|animation, nerf|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental, tooling|
 |2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
@@ -40,7 +41,6 @@ Come one! Come all! We've got something for everyone!
 |2022-07-09|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|61||
 |2022-07-09|[CLIP with RWKV replacing QKV](RWKV-CLIP.md)|38||
 |2022-07-09|[Pre-train and Release ViT-VQGAN and RQ-VAE checkpoints](pretrained_vit-vqgan_checkpoints.md)|339||
-|2022-07-09|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](train_a_SinNeRF_on_a_pytti_animation.md)|535||
 |2022-07-09|[Denser CLIP representations](denser-CLIP.md)|385||
 |2022-07-08|[INR CNN Filter Learning](INR_CNN_filter_learning.md)|225||
 |2022-07-08|[Relevance map](Relevance_map.md)|225||
