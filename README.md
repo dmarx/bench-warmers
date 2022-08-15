@@ -6,6 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|
 |:---|:---|
+|2022-08-14|[personalized VQVAE](personalized-vqvae.md)|
 |2022-08-12|[use tricky multi-step deep learning to unsupervisedly learn a 'deep' DSL and a model that can sample from it, to facilitate prompt construction](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|
 |2022-08-07|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|
 |2022-08-07|[GAUDI-XL](gaudi-xl.md)|
