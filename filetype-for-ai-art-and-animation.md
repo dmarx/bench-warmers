@@ -1,4 +1,8 @@
 # design a 'file type' (or related spec/standard)
+
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 specifically for ai art and animation
 
 ## Issues this would address:
