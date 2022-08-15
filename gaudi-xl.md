@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/tag-animation-lightgrey)
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-foundation-lightgrey)
 
 i've been thinking about decoupling pose and scene for a while, this is basically a demonstration of that idea. 
 
