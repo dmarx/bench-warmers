@@ -6,24 +6,24 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation,tooling|
+|2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation, tooling|
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
-|2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|prompting,tooling,experimental|
+|2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|experimental, prompting, tooling|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
 |2022-08-14|[Layer-wise Super Resolution](layerwise-and-objectwise-inpainting-and-super-resolution.md)|2118|experimental|
 |2022-08-14|[single video sparse quantized auto-encoder](single_video_sparse_quantized_auto-encoder.md)|556|animation|
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
 |2022-08-14|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|1001|experimental|
 |2022-08-14|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|216|experimental|
-|2022-08-14|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|314|animation,nerf|
-|2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
-|2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
-|2022-08-14|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|776|animation,experimental|
+|2022-08-14|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|314|animation, nerf|
+|2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|accessibility, dataset, foundation, publicgood|
+|2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation, experimental|
+|2022-08-14|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|776|animation, experimental|
 |2022-08-14|[flow field compositor](flow-field-compositor.md)|557|tooling|
-|2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|colab,tooling|
+|2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|colab, tooling|
 |2022-08-14|[Design and train a model whose underlying representation was engineered specifically for text guided animation](image-model-designed-for-clip-guided-animation.md)|404|animation|
-|2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting,tooling|
-|2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental,tooling|
+|2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting, tooling|
+|2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental, tooling|
 |2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
