@@ -55,8 +55,8 @@ toc_str= header + '\n'.join(recs)
 #readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
 with open('README.stub') as f:
     readme_stub = f.read()
-readme = readme_stub.replace('{TOC}',toc_str)
-readme += "\n\n## Unique Tags\n\n{tags_stub}"
+readme = readme_stub.replace('{TOC}', toc_str)
+readme = readme.replace('{tags}', unq_tags)
 
 with open('README.md','w') as f:
     f.write(readme)
