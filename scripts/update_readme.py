@@ -30,7 +30,7 @@ TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
 
-header= "|last_modified|title|\n|:---|:---|\n"
+header= "|last_modified|title|est. idea maturity\n|:---|:---|---:|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
