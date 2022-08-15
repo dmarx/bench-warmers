@@ -28,11 +28,11 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[Grimoire: Prompting Toolbox](grimoire.md)|1371|prompting, tooling|
 |2022-08-14|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](train_a_SinNeRF_on_a_pytti_animation.md)|647|animation, nerf|
 |2022-08-14|[personalized VQVAE](personalized-vqvae.md)|519|experimental, tooling|
+|2022-08-14|[comment zapper.md](comment-zapper.md)|390|tooling|
 |2022-08-06|[declarative infill](declarative-infill.md)|548||
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
 |2022-07-21|[code2commit learning](code2commit-learning.md)|292||
-|2022-07-18|[comment zapper.md](comment-zapper.md)|333||
 |2022-07-14|[conversational agent to assist with narrative world building](world-building-agent.md)|104||
 |2022-07-13|[conlang generator](conlang_lm.md)|96||
 |2022-07-13|[FlowFrames linux port](flowframes-linux-port.md)|230||
