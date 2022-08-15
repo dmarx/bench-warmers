@@ -1,5 +1,8 @@
 # GAUDI-XL
 
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 i've been thinking about decoupling pose and scene for a while, this is basically a demonstration of that idea. 
 
 fit a separate model as a prior over the (scene) latent. maybe an adaptor layer/module/network over a frozen TTI mode like stable diffusion 
