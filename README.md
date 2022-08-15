@@ -10,6 +10,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[turn this into a template](benchwarmers-template.md)|78|meta|
 |2022-08-14|[Deep DSL](multistage-unsupervised-deep-DSL-learning-from-prompts-data.md)|4090|prompting,tooling,experimental|
 |2022-08-14|[narrative coherence via 'video understanding' prior](narrative_coherence_via_video_understanding_prior.md)|185|animation|
+|2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
 |2022-08-14|[Automated Video Description for Vision Impaired](automated-video-description.md)|3638|publicgood,dataset,foundation,accessibility|
 |2022-08-14|[GAUDI-XL](gaudi-xl.md)|1116|animation,experimental|
 |2022-08-14|[infinite canvas stylegan-xl](infinite-canvas-stylegan-xl.md)|776|animation,experimental|
@@ -47,4 +48,3 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|154||
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|202||
 |2022-07-05|[implicit CNN filters](implicit-cnn-filters.md)|213||
-|2022-07-03|[RETRO-ViT](RETRO-ViT.md)|1452||
