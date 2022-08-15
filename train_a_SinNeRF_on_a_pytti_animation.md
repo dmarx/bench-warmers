@@ -1,5 +1,8 @@
 # Train a SinNeRF on an AI-generated animation (e.g. PyTTI)
 
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+![](https://img.shields.io/badge/tag-nerf-lightgrey)
+
 ```meta
 updated: 2022-07-09
 created: 2022-06-14
