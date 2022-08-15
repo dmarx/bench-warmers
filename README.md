@@ -50,6 +50,9 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|202||
 |2022-07-05|[implicit CNN filters](implicit-cnn-filters.md)|213||
 
+{tags}
+
+
 ## Unique Tags
 
 {tags_stub}
