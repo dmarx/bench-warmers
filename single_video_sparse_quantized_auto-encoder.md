@@ -1,5 +1,7 @@
 # single video sparse quantized auto-encoder
 
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+
 `2022-06-29`
 
 inspired by: https://www.cs.cmu.edu/~aayushb/Video-ViSA/
