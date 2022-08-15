@@ -50,4 +50,17 @@ Come one! Come all! We've got something for everyone!
 |2022-07-08|[Scale-Agnostic VQGAN](scale-agnostic_VQGAN.md)|202||
 |2022-07-05|[implicit CNN filters](implicit-cnn-filters.md)|213||
 
-{'animation', 'colab', 'meta', 'stability', 'carp', 'foundation', 'prompting', 'tooling', 'experimental', 'wip', 'publicgood', 'accessibility', 'nerf', 'dataset'}
+![](https://img.shields.io/badge/tag-colab-lightgrey)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-prompting-lightgrey)
+![](https://img.shields.io/badge/tag-dataset-lightgrey)
+![](https://img.shields.io/badge/tag-accessibility-lightgrey)
+![](https://img.shields.io/badge/tag-publicgood-lightgrey)
+![](https://img.shields.io/badge/tag-nerf-lightgrey)
+![](https://img.shields.io/badge/tag-wip-lightgrey)
+![](https://img.shields.io/badge/tag-meta-lightgrey)
+![](https://img.shields.io/badge/tag-carp-lightgrey)
+![](https://img.shields.io/badge/tag-stability-lightgrey)
+![](https://img.shields.io/badge/tag-foundation-lightgrey)
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
