@@ -19,6 +19,7 @@ Come one! Come all! We've got something for everyone!
 |2022-08-14|[registered datasets for stability compute](registered-datasets-for-sstability-compute.md)|284|stability|
 |2022-08-14|[RETRO-ViT](RETRO-ViT.md)|1572|experimental|
 |2022-08-14|[Inverse Heat Dissipation Model with FlexConvs](IHDM_with_FlexConvs.md)|1001|experimental|
+|2022-08-14|[conlang generator](conlang_lm.md)|267|carp, dataset, experimental|
 |2022-08-14|[learning image segmentation from a colorization task](learning_image_segmentation_from_a_colorization_task.md)|216|experimental|
 |2022-08-14|[LAION++ Enriched Dataset](laion-plus-plus.md)|936|dataset|
 |2022-08-14|[NeRF-GAN / VQ-NeRF for procedural generation](nerf-gan.md)|314|animation, nerf|
@@ -35,7 +36,6 @@ Come one! Come all! We've got something for everyone!
 |2022-08-04|[xpost reddit comments to twitter threads](reddit2twitter.md)|155||
 |2022-07-29|[TTI cpu inference stack](TTI-cpu-inference-stack.md)|88||
 |2022-07-14|[conversational agent to assist with narrative world building](world-building-agent.md)|104||
-|2022-07-13|[conlang generator](conlang_lm.md)|96||
 |2022-07-13|[FlowFrames linux port](flowframes-linux-port.md)|230||
 |2022-07-13|[Fast Fourier Convolution FlexConv](FFC-Flexconv.md)|117||
 |2022-07-11|[Fingertrip tracking for hardware-free gloving practice](fingertrip_tracking_for_hardware_free_gloveing_practice.md)|39||
