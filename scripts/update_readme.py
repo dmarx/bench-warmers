@@ -1,5 +1,6 @@
 from pathlib import Path
 import subprocess
+import re
 
 def get_last_modified_date(fpath, verbose=True):
     cmd = "git log -n 1 --pretty=format:%as --".split( )
@@ -12,6 +13,15 @@ def get_last_modified_date(fpath, verbose=True):
         print(outv)
     return outv
 
+
+def badges2kv(text):
+    testpat = r'\/([a-zA-Z]+-[a-zA-Z]+-[a-zA-Z]+)'
+
+    badges = re.findall(testpat, text)
+    #return {b.split('-')[0]:b.split('-')[1] for b in badges}
+    return [(b.split('-')[0], b.split('-')[1]) for b in badges]
+    
+
 md_files = Path('.').glob('*.md')
 TOC = []
 for fpath in list(md_files):
@@ -20,18 +30,21 @@ for fpath in list(md_files):
     with open(fpath) as f: 
         header = f.readline()
         if header.startswith('# '):
+            text = f.read()
+            badge_meta = badges2kv(text)
             d_ = {'fpath':fpath}
             d_['title'] = header[2:].strip()
             d_['last_modified'] = get_last_modified_date(fpath)
-            d_['n_char'] = len(f.read())
+            d_['n_char'] = len(text)
+            d_['tags'] = [v for k,v in badge_meta if k =='tag']
             TOC.append(d_)
 
 TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
 
-header= "|last_modified|title|est. idea maturity\n|:---|:---|---:|\n"
-recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|" for d in TOC]
+header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
+recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{d['tags']}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
 #readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
