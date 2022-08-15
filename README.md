@@ -6,6 +6,7 @@ Come one! Come all! We've got something for everyone!
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2022-08-15|[animation thing with shadow and 2scoops](shadow-and2scoops-animation-thing.md)|117|animation|
 |2022-08-15|[Automated Video Description for Vision Impaired](automated-video-description.md)|4391|accessibility, dataset, foundation, publicgood|
 |2022-08-14|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|3831|animation, tooling|
 |2022-08-14|[Deep Image Prior with a UNet whose conv kernels are FlexConvs](FlexConv_DIP.md)|123|experimental|
