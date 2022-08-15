@@ -24,6 +24,7 @@ def badges2kv(text):
 
 md_files = Path('.').glob('*.md')
 TOC = []
+unq_tags = set()
 for fpath in list(md_files):
     if fpath.name == 'README.md':
         continue
@@ -38,8 +39,11 @@ for fpath in list(md_files):
             d_['n_char'] = len(text)
             d_['tags'] = [v for k,v in badge_meta if k =='tag']
             d_['tags'].sort()
+            unq_tags.update(d_['tags'])
             TOC.append(d_)
 
+tags_stub = str(unq_tags)
+            
 TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
@@ -52,6 +56,7 @@ toc_str= header + '\n'.join(recs)
 with open('README.stub') as f:
     readme_stub = f.read()
 readme = readme_stub.replace('{TOC}',toc_str)
+readme += "\n\n## Unique Tags\n\n{tags_stub}"
 
 with open('README.md','w') as f:
     f.write(readme)
