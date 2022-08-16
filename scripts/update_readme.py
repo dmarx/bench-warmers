@@ -24,7 +24,7 @@ def badges2kv(text):
 def make_badge(label, prefix='tag', color='lightgrey'):
     return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
 
-def make_badges(unq_tags, sep=''):
+def make_badges(unq_tags, sep=' '):
     return sep.join([make_badge(tag) for tag in unq_tags])
 
 md_files = Path('.').glob('*.md')
