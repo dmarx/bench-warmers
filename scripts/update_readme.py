@@ -38,7 +38,7 @@ def random_hex_color():
     # https://stackoverflow.com/questions/13998901/generating-a-random-hex-color-in-python
     # https://stackoverflow.com/questions/52843385/python-using-format-f-string-to-output-hex-with-0-padding-and-center
     r = lambda: random.randint(0,255)
-    return  f"#{r():x}{r():x}{r():x}"
+    return  f"{r():x}{r():x}{r():x}"
 
 md_files = Path('.').glob('*.md')
 TOC = []
