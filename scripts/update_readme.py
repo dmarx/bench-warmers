@@ -1,6 +1,9 @@
 from pathlib import Path
-import subprocess
+import random
 import re
+import subprocess
+
+random.seed(0)
 
 def get_last_modified_date(fpath, verbose=True):
     cmd = "git log -n 1 --pretty=format:%as --".split( )
@@ -21,11 +24,21 @@ def badges2kv(text):
     #return {b.split('-')[0]:b.split('-')[1] for b in badges}
     return [(b.split('-')[0], b.split('-')[1]) for b in badges]
 
+
 def make_badge(label, prefix='tag', color='lightgrey'):
     return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
 
-def make_badges(unq_tags, sep=' '):
-    return sep.join([make_badge(tag) for tag in unq_tags])
+
+#def make_badges(unq_tags, sep=' '):
+#    return sep.join([make_badge(tag) for tag in unq_tags])
+
+
+def random_hex_color():
+    """generates a string for a random hex color"""
+    # https://stackoverflow.com/questions/13998901/generating-a-random-hex-color-in-python
+    # https://stackoverflow.com/questions/52843385/python-using-format-f-string-to-output-hex-with-0-padding-and-center
+    r = lambda: random.randint(0,255)
+    return  f"#{r():x}{r():x}{r():x}"
 
 md_files = Path('.').glob('*.md')
 TOC = []
@@ -47,7 +60,12 @@ for fpath in list(md_files):
             unq_tags.update(d_['tags'])
             TOC.append(d_)
 
-           
+tag_badges_map = {tag_name:make_badge(label=tag_name, color = random_hex_color()) for tag_name in unq_tags}
+
+def make_badges(unq_tags, sep=' '):
+    return sep.join([tag_badges_map[tag] for tag in unq_tags])
+    
+    
 TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
 
 url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
