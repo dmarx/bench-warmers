@@ -1,5 +1,7 @@
 # differentiable control flow parameterizations
 
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 control flow structures that are *tunable* via gradient descent. not just that we can backprop through them, but we can *fit* them.
 
 ## loop
