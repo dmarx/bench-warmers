@@ -3,6 +3,7 @@
 
 ![](https://img.shields.io/badge/tag-publicgood-lightgrey)
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
+![https://github.com/dmarx/not-an-nft](https://img.shields.io/badge/tag-wip-lightblue)
 
 this idea evolved out of thinking of how to use git as an image hosting site for my art.
 
