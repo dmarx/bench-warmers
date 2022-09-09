@@ -1,4 +1,4 @@
-# free-to-mint-nfts_git_plus_pgp.md
+# Free to mint nfts with Github + PGP
 
 this idea evolved out of thinking of how to use git as an image hosting site for my art.
 
