@@ -1,5 +1,9 @@
 # Free to mint nfts with Github + PGP
 
+
+![](https://img.shields.io/badge/tag-publicgood-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 this idea evolved out of thinking of how to use git as an image hosting site for my art.
 
 if I add each art piece in a separate commit, I'm essentially putting them on a blockchain.
