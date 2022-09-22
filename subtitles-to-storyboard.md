@@ -1,5 +1,12 @@
 # subtitles to storyboard
 
+![](https://img.shields.io/badge/tag-tooling-84f8cf)
+![](https://img.shields.io/badge/tag-wip-84f8cf)
+![](https://img.shields.io/badge/tag-opensource-84f8cf)
+![](https://img.shields.io/badge/tag-prompting-84f8cf)
+![](https://img.shields.io/badge/tag-accessibility-84f8cf)
+![](https://img.shields.io/badge/tag-animation-84f8cf)
+
 wrap an srt parser in a simple utility that tries to estimate good 'scene' transitions for image generation.
 
 part of this parameterization is providing 
