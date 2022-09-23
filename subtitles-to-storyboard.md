@@ -7,6 +7,12 @@
 ![](https://img.shields.io/badge/tag-accessibility-84f8cf)
 ![](https://img.shields.io/badge/tag-animation-84f8cf)
 
+POC! 
+https://colab.research.google.com/drive/1maXdiY1CIijYgRjMda_6vEL7keP8wr-l#scrollTo=IwLoLLXpbzD2
+
+
+---
+
 wrap an srt parser in a simple utility that tries to estimate good 'scene' transitions for image generation.
 
 part of this parameterization is providing 
