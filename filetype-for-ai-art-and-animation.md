@@ -5,6 +5,12 @@
 
 specifically for ai art and animation
 
+---
+
+I think I've discussed this elsewhere, but an implementation idea I had for this was to use a datatype built around git to track the tree of animation forks.
+
+wanted to note to myself that this looks like a good path forward in golang: https://git-scm.com/book/en/v2/Appendix-B%3A-Embedding-Git-in-your-Applications-go-git
+
 ## Issues this would address:
 
 * facilitate 'resume' functionality when a generation procedure encounters an error
