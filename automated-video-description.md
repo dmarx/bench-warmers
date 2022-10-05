@@ -52,6 +52,7 @@ the reason I think this is probably different from normal image captioning is:
   
 ## Relevant models/research
 
+* https://github.com/YoadTew/zero-shot-video-to-text
 * https://github.com/happyharrycn/actionformer_release
 * https://github.com/mttr2021/MTTR
 * https://github.com/google-research/scenic
