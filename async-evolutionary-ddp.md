@@ -4,6 +4,19 @@
 ![](https://img.shields.io/badge/tag-foundation-lightgrey)
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
+
+Finding all sorts of interesting stuff in this rabbit hole: https://github.com/soravux/scoop
+
+-----
+
+uh.. is this just not a thing people are doing anymore? I feel like deepspeed and ES should be a match made in heaven?
+
+Not updated since 2017: https://github.com/ShangtongZhang/DistributedES
+
+Thing below: only dependency is numpy, i.e. it's not a torch repo...
+
+-----
+
 Oh baby: 
 
 * https://deap.readthedocs.io/en/master/examples/cmaes.html
