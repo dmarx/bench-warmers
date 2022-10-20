@@ -30,3 +30,7 @@ modifications:
   * certain sets of weights might be more suited to merging than others. 
   * should result in an early segmentation of the solution space, slowly converging over time.
   * this feels like a job for agglomerative HClust.
+* For computing checkpoint-checkpoint similarity, I could probably construct some sort of random projection matrix for dimensionality reduction
+  * build it once, don't even train it
+  * it will have an impact on the training process, so the models will implicitly be forced to adapt to its presence since it will impact weight updates (merges)
+
