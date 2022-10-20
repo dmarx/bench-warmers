@@ -4,6 +4,12 @@
 ![](https://img.shields.io/badge/tag-foundation-lightgrey)
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
+Oh baby: 
+
+* https://deap.readthedocs.io/en/master/examples/cmaes.html
+* https://github.com/deap/deap
+
+---
 
 chunk up a dataset so each GPU only sees its own chunk. draw a poisson sample at each GPU. call this K. 
 Let K denote the number of epochs to run on this GPU before performing a "merge" procedure with a neighboring training process.
