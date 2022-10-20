@@ -33,4 +33,5 @@ modifications:
 * For computing checkpoint-checkpoint similarity, I could probably construct some sort of random projection matrix for dimensionality reduction
   * build it once, don't even train it
   * it will have an impact on the training process, so the models will implicitly be forced to adapt to its presence since it will impact weight updates (merges)
-
+* maybe we could turn this into more of a "game" process
+  * the models track their ongoing performance on the local dataset vs. global performance. we'll need to learn some sort of local adjustment or bayesian average procedure, but either way: we scale the performances appropriately and score the models relative to their performance. the better performing model "wins" and impacts the weaker model more than it is impacted by the weaker model (if at all? maybe sample a uniform number and assign mixing weights from either side of the unit interval? i.e. random LERP)
