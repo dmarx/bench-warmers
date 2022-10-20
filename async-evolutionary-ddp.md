@@ -1,5 +1,10 @@
 # random batch + random average for massive asynchronous data-parallel training
 
+![](https://img.shields.io/badge/tag-experimental-84f8cf)
+![](https://img.shields.io/badge/tag-foundation-84f8cf)
+![](https://img.shields.io/badge/tag-tooling-84f8cf)
+
+
 chunk up a dataset so each GPU only sees its own chunk. draw a poisson sample at each GPU. call this K. 
 Let K denote the number of epochs to run on this GPU before performing a "merge" procedure with a neighboring training process.
 After K epochs, training process W1 will draw a sample neighboring process W2 to merge with. 
