@@ -1,8 +1,8 @@
 # random batch + random average for massive asynchronous data-parallel training
 
-![](https://img.shields.io/badge/tag-experimental-84f8cf)
-![](https://img.shields.io/badge/tag-foundation-84f8cf)
-![](https://img.shields.io/badge/tag-tooling-84f8cf)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-foundation-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
 
 chunk up a dataset so each GPU only sees its own chunk. draw a poisson sample at each GPU. call this K. 
