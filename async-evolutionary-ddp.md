@@ -4,6 +4,9 @@
 ![](https://img.shields.io/badge/tag-foundation-lightgrey)
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
+https://github.com/optuna/optuna
+
+---
 
 Finding all sorts of interesting stuff in this rabbit hole: https://github.com/soravux/scoop
 
