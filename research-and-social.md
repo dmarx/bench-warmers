@@ -12,7 +12,10 @@ creating a document to centralize thoughts in response to Elon Musk razing twitt
 
 ## goals/reuquirements
 
-crystalize the best parts of arxiv + github + twitter
+crystalize the best parts of arxiv + github + twitter + paperswithcode + stackoverflow + openreview
+
+NB: this doesn't have to be (and probably shouldn't be) a single monolothic platform, but rather a way to 
+facilitate integrating and interoperating with multiple related tools, platforms, and communities.
 
 * search
 * discoverability
@@ -30,3 +33,7 @@ crystalize the best parts of arxiv + github + twitter
 * discussion
 * reproducibility and furthering of research
   * git forking
+
+## relevant platforms
+
+* https://joinmastodon.org/
