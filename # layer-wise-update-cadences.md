@@ -1,4 +1,4 @@
-# # layer-wise update cadences
+# layer-wise update cadences
 
 use gradient accumulation where each layer has its own respective accumulation cadence
 
