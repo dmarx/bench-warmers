@@ -1,0 +1,9 @@
+# Context bootstrapping with fg/bg independent diffusion cadences
+
+Infer foreground/background using salient object detection (e.g. U2-net), then set diffusion cadence out of sync, so the foreground and background 
+alternate taking turns informing how to infill each other. 
+
+Conversely, could potentially be some interesting effects setting diffusion cadences independently, 
+so e.g. the foreground objects change more dynamically whereas the background would be forced to be more stable, or vice versa
+
+https://github.com/xuebinqin/U-2-Net
