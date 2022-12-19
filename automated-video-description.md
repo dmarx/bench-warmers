@@ -82,8 +82,9 @@ the reason I think this is probably different from normal image captioning is:
 
 ## Readily available data
 
-* http://audiovault.net/
- 
+* http://audiovault.net/ - audio for described videos (audio only)
+* https://eval.ai/web/challenges/challenge-page/1626/overview - EGo4D - Video action classification dataset
+* https://kgavrilyuk.github.io/publication/actor_action/ - Actor and action video segmentation from a sentence 
  
 ## TO DO:
 
