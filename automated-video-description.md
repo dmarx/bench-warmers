@@ -65,7 +65,8 @@ the reason I think this is probably different from normal image captioning is:
 * https://github.com/L-YeZhu/Video-Description-via-Dialog-Agents-ECCV2020
 * https://arxiv.org/pdf/1802.10250.pdf
 * https://netflixproject.wordpress.com/audio-description-on-demand/
-
+* https://github.com/facebookresearch/lavila
+ 
 ## Subject Matter Experts
 
 * https://describedvideocanada.com/
