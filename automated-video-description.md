@@ -80,6 +80,11 @@ the reason I think this is probably different from normal image captioning is:
 * http://narrativetv.com/programming.html
 * https://adp.acb.org/articles/TheVisualMadeVerbal.html
 
+## Readily available data
+
+* http://audiovault.net/
+ 
+ 
 ## TO DO:
 
 - [ ] Lit review
