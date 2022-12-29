@@ -39,3 +39,6 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 * iterative systems, chaos, attractors, cycles
 * learning dynamics
 * double descent
+* network capacity / VC dimension
+* receptive field of a neuron
+* hyperbolic spaces and hierarchical representations
