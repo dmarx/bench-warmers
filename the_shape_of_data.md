@@ -12,6 +12,7 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
   * bag of words
   * tf-idf
   * word2vec
+  * manhattan distance vs. euclidean distance vs. cosine sim
 * data as manifold
 * model as manifold
 * embeddings and "features"
