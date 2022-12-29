@@ -27,6 +27,8 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
   * spherical traversals
   * sphere packing paradox
   * L1 vs L2 regularization
+* loss landscapes
+* regularization and data augmentation
 * GAN spaces
 * CLIP space
 * denoising and diffusion
