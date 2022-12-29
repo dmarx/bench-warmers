@@ -9,6 +9,9 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 ## Misc topic ideas
 
 * distances and similarity
+  * bag of words
+  * tf-idf
+  * word2vec
 * data as manifold
 * model as manifold
 * embeddings and "features"
