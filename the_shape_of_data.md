@@ -18,8 +18,12 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 * sparsity, bottlenecks, and decompositions
 * latent space
 * autoencoders and denoisers
-* gaussian annulus, expectations, zero-point energy, and the optimal fighter jet seat configuration
-* spherical traversals
+* weirdness of high dimensions
+  * vector components -> rank -> dimensions -> span
+  * gaussian annulus, expectations, zero-point energy, and the optimal fighter jet seat configuration
+  * spherical traversals
+  * sphere packing paradox
+  * L1 vs L2 regularization
 * GAN spaces
 * CLIP space
 * denoising and diffusion
