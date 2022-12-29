@@ -17,6 +17,8 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 * model as manifold
 * embeddings and "features"
 * sparsity, bottlenecks, and decompositions
+  * PCA
+  * fourier
 * latent space
 * autoencoders and denoisers
 * weirdness of high dimensions
