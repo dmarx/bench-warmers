@@ -24,6 +24,7 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 * weirdness of high dimensions
   * vector components -> rank -> dimensions -> span
   * gaussian annulus, expectations, zero-point energy, and the optimal fighter jet seat configuration
+    * https://www.thestar.com/news/insight/2016/01/16/when-us-air-force-discovered-the-flaw-of-averages.html
   * spherical traversals
   * sphere packing paradox
   * L1 vs L2 regularization
