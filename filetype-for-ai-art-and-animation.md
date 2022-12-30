@@ -3,6 +3,10 @@
 ![](https://img.shields.io/badge/tag-animation-lightgrey)
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
+For the animation tree stuff, would probably be sufficient to assign each image a UUID, and then store that UUID and the UUID of the immediate parent image in the metadata
+
+---
+
 specifically for ai art and animation
 
 ---
