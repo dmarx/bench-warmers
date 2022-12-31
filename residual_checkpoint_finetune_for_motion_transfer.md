@@ -1,5 +1,8 @@
 # camera motion diffusion: few-shot finetuning using semantic checkpoint merging
 
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
 use semantic algebra (king - man + woman = queen) to learn a camera-motion diffusion model via the following procedure:
 
 1. fine tune a "Sintel Diffusion" model to capture the look of the film
