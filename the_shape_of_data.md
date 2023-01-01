@@ -19,6 +19,8 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 * sparsity, bottlenecks, and decompositions
   * PCA
   * fourier
+  * taylor series
+  * big O and little o notation
 * latent space
 * autoencoders and denoisers
 * weirdness of high dimensions
