@@ -74,10 +74,10 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
     * https://www.thestar.com/news/insight/2016/01/16/when-us-air-force-discovered-the-flaw-of-averages.html
   * spherical traversals
   * sphere packing paradox
-  * L1 vs L2 regularization
 * loss landscapes
   * logistic regression - https://stats.stackexchange.com/questions/66850/prediction-of-a-binary-variable/66854#66854
   * MCMC burn-in https://stats.stackexchange.com/questions/88421/metropolis-algorithm/88422#88422
+  * L1 vs L2 regularization https://stats.stackexchange.com/questions/66566/statistically-evaluating-performance-of-algorithms/66577#66577
 * regularization and data augmentation
   * https://stats.stackexchange.com/questions/68431/interpretting-lasso-variable-trace-plots/68435#68435
 * GAN spaces
