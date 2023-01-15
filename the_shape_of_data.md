@@ -37,6 +37,7 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
   * L1 vs L2 regularization
 * loss landscapes
 * regularization and data augmentation
+  * https://stats.stackexchange.com/questions/68431/interpretting-lasso-variable-trace-plots/68435#68435
 * GAN spaces
 * CLIP space
 * denoising and diffusion
