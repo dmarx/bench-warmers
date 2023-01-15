@@ -16,6 +16,7 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
 * data as manifold
 * model as manifold
 * embeddings and "features"
+  * dense vectors = continuous latent manifolds - https://www.reddit.com/r/aiwars/comments/10cq8wr/on_the_nature_of_sampling_proai_conceptual_art_to/j4hrhtg/?context=3
 * sparsity, bottlenecks, and decompositions
   * PCA
   * fourier
