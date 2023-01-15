@@ -42,6 +42,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * credible interval vs confidence interval
   * "uninformative" prior - what does "informative" even mean?
   * distributions over solutions = distributions over models - https://stats.stackexchange.com/questions/66500/constructing-confidence-intervals-for-predictive-model/66503#66503
+  * ensembles, boosting, bagging - https://stats.stackexchange.com/questions/77018/is-random-forest-a-boosting-algorithm/77145#77145
   * conditional probability - https://stats.stackexchange.com/questions/76191/why-do-we-use-conditional-expectation-vs-regular-expectation-in-regression/76193#76193
   * overfitting and degrees of freedom - https://stats.stackexchange.com/questions/78475/does-more-variables-mean-tighter-confidence-intervals/78477#78477
   * double descent
