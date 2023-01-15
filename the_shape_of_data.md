@@ -28,6 +28,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * manhattan distance vs. euclidean distance vs. cosine sim
   * trees and "trees" - https://stats.stackexchange.com/questions/94511/difference-between-bayes-network-neural-network-decision-tree-and-petri-nets/94518#94518
   * curse of dimensionality - https://stats.stackexchange.com/questions/61390/is-there-unsupervised-regression/65426#65426
+  * clustering
+  * kmeans is spherical, GMM is elipsoid - https://stats.stackexchange.com/questions/80601/why-only-the-mean-value-is-used-in-k-means-clustering-method/80603#80603
 * data as manifold
   * separation planes: logistic regression vs SVM - https://stats.stackexchange.com/questions/95340/comparing-svm-and-logistic-regression/95348#95348 
   * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
