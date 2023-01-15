@@ -53,6 +53,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * graph structures, robustness, communication
 * iterative systems, chaos, attractors, cycles
 * learning dynamics
+  * metropolis hastings - https://stats.stackexchange.com/questions/64293/understanding-metropolis-hastings-with-asymmetric-proposal-distribution/64402#64402
 * double descent
 * network capacity / VC dimension
 * receptive field of a neuron
