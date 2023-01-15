@@ -35,6 +35,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * hierarchical manifolds - https://stats.stackexchange.com/questions/63621/what-is-the-difference-between-a-hierarchical-linear-regression-and-an-ordinary/66788#66788
   * class imbalance - https://stats.stackexchange.com/questions/63635/named-entity-recognition-and-class-imbalance/64471#64471
   * anomalies
+  * conjugacy - https://stats.stackexchange.com/questions/80085/conditional-distribution-of-a-discrete-random-variable-given-a-continuous-one/80088#80088
 * model as manifold, + misc bayesian
   * distributions over distributions - https://stats.stackexchange.com/questions/73268/can-the-t-distribution-be-defined-as-the-distribution-on-the-true-mean-of-a-samp/73273#73273
   * change of variables
