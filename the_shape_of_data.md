@@ -84,6 +84,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * dense vectors = continuous latent manifolds - https://www.reddit.com/r/aiwars/comments/10cq8wr/on_the_nature_of_sampling_proai_conceptual_art_to/j4hrhtg/?context=3
 * sparsity, bottlenecks, and decompositions
   * PCA - https://stats.stackexchange.com/questions/76906/how-can-i-interpret-what-i-get-out-of-pca/76911#76911
+    * https://datascience.stackexchange.com/questions/26714/is-pca-considered-a-machine-learning-algorithm/26731#26731
     * orthogonality - https://stats.stackexchange.com/questions/77087/symmetry-of-linear-regression/77111#77111 
     * as a rotation - https://stats.stackexchange.com/questions/66518/interpreting-plot-of-pca-results-from-3-to-2-dimensions/66525#66525
     * variable significance - https://stats.stackexchange.com/questions/65709/negative-binomial-glm-the-most-complex-model-always-has-lowest-aic-all-interac/65717#65717
