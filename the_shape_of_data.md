@@ -88,6 +88,9 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * connectedness of solutions
 * power laws and 1-9-90 phenomena
 * graph structures, robustness, communication
+  * cycles - https://stackoverflow.com/questions/17554805/cycles-in-an-undirected-graph-in-r#63798
+  * cliques
+  * small world vs power law
 * iterative systems, chaos, attractors, cycles
 * learning dynamics
   * metropolis hastings - https://stats.stackexchange.com/questions/64293/understanding-metropolis-hastings-with-asymmetric-proposal-distribution/64402#64402
