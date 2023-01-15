@@ -21,6 +21,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * data as manifold
   * separation planes: logistic regression vs SVM - https://stats.stackexchange.com/questions/95340/comparing-svm-and-logistic-regression/95348#95348 
   * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
+  * spread - https://stats.stackexchange.com/questions/88348/is-variation-the-same-as-variance/88351#88351
+  * sparsity
 * model as manifold
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
 * embeddings and "features"
