@@ -28,6 +28,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * manhattan distance vs. euclidean distance vs. cosine sim
   * trees and "trees" - https://stats.stackexchange.com/questions/94511/difference-between-bayes-network-neural-network-decision-tree-and-petri-nets/94518#94518
   * curse of dimensionality - https://stats.stackexchange.com/questions/61390/is-there-unsupervised-regression/65426#65426
+  * numerical stability, matrix conditioning and inversion - https://stats.stackexchange.com/questions/88228/how-do-you-calculate-the-ordinary-least-squares-estimated-coefficients-in-a-mult/88229#88229
   * clustering
   * kmeans is spherical, GMM is elipsoid - https://stats.stackexchange.com/questions/80601/why-only-the-mean-value-is-used-in-k-means-clustering-method/80603#80603
 * data as manifold 
