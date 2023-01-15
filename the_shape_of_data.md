@@ -56,6 +56,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * "uninformative" prior - what does "informative" even mean?
   * distributions over solutions = distributions over models - https://stats.stackexchange.com/questions/66500/constructing-confidence-intervals-for-predictive-model/66503#66503
   * bootstrapped CIs - https://stats.stackexchange.com/questions/319030/derivation-of-confidence-and-prediction-intervals-of-predictions-for-probit-and/328777#328777
+    * https://stats.stackexchange.com/questions/79937/confidence-limits-for-a-nonlinear-regression/113770#113770 
   * cross validation = validating your procedure - https://stats.stackexchange.com/questions/328717/nested-cross-validation-in-r/328779#328779
   * ensembles, boosting, bagging - https://stats.stackexchange.com/questions/77018/is-random-forest-a-boosting-algorithm/77145#77145
   * conditional probability - https://stats.stackexchange.com/questions/76191/why-do-we-use-conditional-expectation-vs-regular-expectation-in-regression/76193#76193
