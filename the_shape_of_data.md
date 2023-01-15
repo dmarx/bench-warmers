@@ -100,9 +100,13 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * cycles - https://stackoverflow.com/questions/17554805/cycles-in-an-undirected-graph-in-r#63798
   * cliques
   * small world vs power law
+  * force directed layouts
+  * pagerank, centrality, random walks, stable distributions, eigendecomposition
 * iterative systems, chaos, attractors, cycles
 * learning dynamics
   * metropolis hastings - https://stats.stackexchange.com/questions/64293/understanding-metropolis-hastings-with-asymmetric-proposal-distribution/64402#64402
+  * learning rate magnitude - https://stats.stackexchange.com/questions/87188/optimization-of-the-regularized-least-squares-with-gradient-descent/87196#87196
+  * convexity
 * double descent
 * network capacity / VC dimension
 * receptive field of a neuron
