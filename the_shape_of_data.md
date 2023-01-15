@@ -51,6 +51,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * statistical bias - https://stats.stackexchange.com/questions/353190/is-it-bad-to-add-bias-to-features/353198#353198
   * bias in RFs - https://stats.stackexchange.com/questions/63776/calibrating-random-forest-regression/63783#63783
   * anomalies
+  * nearest neighbor graphs, neighborhood density - https://datascience.stackexchange.com/questions/26781/detect-constant-zero-slope-sections-in-a-noisy-step-function/26804#26804
   * outliers and leverage - https://stats.stackexchange.com/questions/78063/replacing-outliers-with-mean/78064#78064
   * conjugacy - https://stats.stackexchange.com/questions/80085/conditional-distribution-of-a-discrete-random-variable-given-a-continuous-one/80088#80088
   * brownian motion, and the shape of noise - https://stats.stackexchange.com/questions/76263/is-it-possible-that-grid-search-would-fail-in-two-dimensional-feature-space/76264#76264
