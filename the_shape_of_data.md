@@ -139,6 +139,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * network capacity / VC dimension
 * receptive field of a neuron
 * hyperbolic spaces and hierarchical representations
+* equivariance
+* convolutions and weight sharing - https://datascience.stackexchange.com/questions/26755/cnn-how-does-backpropagation-with-weight-sharing-work-exactly/26761#26761
 
 ---
 
