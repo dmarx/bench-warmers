@@ -33,6 +33,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * numerical stability, matrix conditioning and inversion - https://stats.stackexchange.com/questions/88228/how-do-you-calculate-the-ordinary-least-squares-estimated-coefficients-in-a-mult/88229#88229
   * clustering
   * kmeans is spherical, GMM is elipsoid - https://stats.stackexchange.com/questions/80601/why-only-the-mean-value-is-used-in-k-means-clustering-method/80603#80603
+  * ranking - https://stats.stackexchange.com/questions/62526/how-to-interpret-the-capped-binomial-deviance-as-rating-model-fit-in-two-player/76878#76878
 * data as manifold 
   * separation planes: logistic regression vs SVM - https://stats.stackexchange.com/questions/95340/comparing-svm-and-logistic-regression/95348#95348 
   * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
