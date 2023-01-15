@@ -47,6 +47,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * sphere packing paradox
   * L1 vs L2 regularization
 * loss landscapes
+  * logistic regression - https://stats.stackexchange.com/questions/66850/prediction-of-a-binary-variable/66854#66854
 * regularization and data augmentation
   * https://stats.stackexchange.com/questions/68431/interpretting-lasso-variable-trace-plots/68435#68435
 * GAN spaces
