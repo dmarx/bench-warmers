@@ -40,7 +40,9 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * conjugacy - https://stats.stackexchange.com/questions/80085/conditional-distribution-of-a-discrete-random-variable-given-a-continuous-one/80088#80088
 * model as manifold, + misc bayesian
   * distributions over distributions - https://stats.stackexchange.com/questions/73268/can-the-t-distribution-be-defined-as-the-distribution-on-the-true-mean-of-a-samp/73273#73273
-  * frequentist CIs are confusing - https://stats.stackexchange.com/questions/78795/interpreting-a-confidence-interval/78796#78796
+  * frequentist CIs are confusing
+    *  https://stats.stackexchange.com/questions/78795/interpreting-a-confidence-interval/78796#78796
+    *  https://stats.stackexchange.com/questions/67782/how-to-compare-two-groups-when-one-only-has-one-data-point/67798#67798
   * change of variables
   * prior beliefs - https://stats.stackexchange.com/questions/77112/how-do-i-correctly-produce-a-prior-posterior-plot-from-mcmc-chains-in-bayesian-h/77122#77122
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
