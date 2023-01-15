@@ -24,6 +24,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * philosophy of hypothesis testing - https://stats.stackexchange.com/questions/125841/is-h-0-being-a-closed-set-a-convention-in-hypothesis-testing/125881#125881
   * statistical significance - https://stats.stackexchange.com/questions/86162/what-does-it-mean-for-a-variable-to-be-statistically-significant/86167#86167
   * memorylessness - https://stats.stackexchange.com/questions/320854/example-of-memorylessness-of-a-poisson-process/320859#320859
+  * holdout reuse - https://datascience.stackexchange.com/questions/26894/to-be-useful-doesnt-a-test-set-often-become-a-second-dev-set/26897#26897
 * distances and similarity
   * bag of words
   * tf-idf
