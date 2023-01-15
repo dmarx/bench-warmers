@@ -26,6 +26,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * spread - https://stats.stackexchange.com/questions/88348/is-variation-the-same-as-variance/88351#88351
   * sparsity
   * hierarchical manifolds - https://stats.stackexchange.com/questions/63621/what-is-the-difference-between-a-hierarchical-linear-regression-and-an-ordinary/66788#66788
+  * class imbalance - https://stats.stackexchange.com/questions/63635/named-entity-recognition-and-class-imbalance/64471#64471
+  * anomalies
 * model as manifold, + misc bayesian
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
   * the shape of belief/surprise/confidence - https://stats.stackexchange.com/questions/64852/how-do-i-choose-parameters-for-my-beta-prior/64860#64860
