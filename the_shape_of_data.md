@@ -6,6 +6,10 @@
 
 Popular science book describing for normal people geometric stuff in ML (e.g. embeddings, gaussian annulus, cosine similarity, manifold hypothesis)
 
+yo let's just make this a "dave's greatest hits" and aggregate, organize, and expand on stuff i've already ranted about online? e.g. reddit comments, CrossValidated, twitter, etc. hell, i can just grow keep growing this whenever I make a high effort comment somewhere.
+
+maybe "greatest hits" should even be its own repo with its own specialized CI thing?
+
 ## Misc topic ideas
 
 * distances and similarity
