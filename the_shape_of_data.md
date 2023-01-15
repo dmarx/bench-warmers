@@ -40,6 +40,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * anomalies
   * conjugacy - https://stats.stackexchange.com/questions/80085/conditional-distribution-of-a-discrete-random-variable-given-a-continuous-one/80088#80088
   * brownian motion, and the shape of noise - https://stats.stackexchange.com/questions/76263/is-it-possible-that-grid-search-would-fail-in-two-dimensional-feature-space/76264#76264
+  * proportions and simplices - https://pages.stat.wisc.edu/~st571-1/04-proportions-4.pdf
 * model as manifold, + misc bayesian
   * distributions over distributions - https://stats.stackexchange.com/questions/73268/can-the-t-distribution-be-defined-as-the-distribution-on-the-true-mean-of-a-samp/73273#73273
   * frequentist CIs are confusing
