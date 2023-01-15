@@ -30,7 +30,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * embeddings and "features"
   * dense vectors = continuous latent manifolds - https://www.reddit.com/r/aiwars/comments/10cq8wr/on_the_nature_of_sampling_proai_conceptual_art_to/j4hrhtg/?context=3
 * sparsity, bottlenecks, and decompositions
-  * PCA
+  * PCA - https://stats.stackexchange.com/questions/76906/how-can-i-interpret-what-i-get-out-of-pca/76911#76911
   * fourier
   * taylor series
   * big O and little o notation
