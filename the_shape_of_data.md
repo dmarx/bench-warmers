@@ -122,6 +122,9 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * MCMC and unnormalized distributions - https://stats.stackexchange.com/questions/86909/how-to-generate-random-variables-from-a-defined-density-via-r/86913#86913
   * learning rate magnitude - https://stats.stackexchange.com/questions/87188/optimization-of-the-regularized-least-squares-with-gradient-descent/87196#87196
   * convexity
+  * iterated algorithms
+  * fixed point solutions
+  * training convergence - https://stats.stackexchange.com/questions/66876/how-can-i-assign-a-quality-to-a-regression-based-on-the-number-of-data-points/66881#66881
 * double descent
 * network capacity / VC dimension
 * receptive field of a neuron
