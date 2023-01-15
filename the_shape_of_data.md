@@ -67,6 +67,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * credible interval vs confidence interval
   * reddit ranking - https://stats.stackexchange.com/questions/320858/ranking-k-coins/320860#320860
   * "uninformative" prior - what does "informative" even mean?
+    * https://stats.stackexchange.com/questions/73490/what-exactly-is-weakly-informative-prior/73495#73495
   * distributions over solutions = distributions over models - https://stats.stackexchange.com/questions/66500/constructing-confidence-intervals-for-predictive-model/66503#66503
   * bootstrapped CIs - https://stats.stackexchange.com/questions/319030/derivation-of-confidence-and-prediction-intervals-of-predictions-for-probit-and/328777#328777
     * https://stats.stackexchange.com/questions/79937/confidence-limits-for-a-nonlinear-regression/113770#113770 
