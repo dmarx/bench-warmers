@@ -36,6 +36,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * hierarchical manifolds - https://stats.stackexchange.com/questions/63621/what-is-the-difference-between-a-hierarchical-linear-regression-and-an-ordinary/66788#66788
   * class imbalance - https://stats.stackexchange.com/questions/63635/named-entity-recognition-and-class-imbalance/64471#64471
   * statistical bias - https://stats.stackexchange.com/questions/353190/is-it-bad-to-add-bias-to-features/353198#353198
+  * bias in RFs - https://stats.stackexchange.com/questions/63776/calibrating-random-forest-regression/63783#63783
   * anomalies
   * conjugacy - https://stats.stackexchange.com/questions/80085/conditional-distribution-of-a-discrete-random-variable-given-a-continuous-one/80088#80088
 * model as manifold, + misc bayesian
