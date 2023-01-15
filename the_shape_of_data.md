@@ -121,6 +121,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * small world vs power law
   * force directed layouts
   * pagerank, centrality, random walks, stable distributions, eigendecomposition
+    * https://stats.stackexchange.com/questions/88429/markov-chains-2/88754#88754
 * iterative systems, chaos, attractors, cycles
 * learning dynamics
   * metropolis hastings - https://stats.stackexchange.com/questions/64293/understanding-metropolis-hastings-with-asymmetric-proposal-distribution/64402#64402
