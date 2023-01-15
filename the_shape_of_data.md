@@ -39,6 +39,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * bias in RFs - https://stats.stackexchange.com/questions/63776/calibrating-random-forest-regression/63783#63783
   * anomalies
   * conjugacy - https://stats.stackexchange.com/questions/80085/conditional-distribution-of-a-discrete-random-variable-given-a-continuous-one/80088#80088
+  * brownian motion, and the shape of noise - https://stats.stackexchange.com/questions/76263/is-it-possible-that-grid-search-would-fail-in-two-dimensional-feature-space/76264#76264
 * model as manifold, + misc bayesian
   * distributions over distributions - https://stats.stackexchange.com/questions/73268/can-the-t-distribution-be-defined-as-the-distribution-on-the-true-mean-of-a-samp/73273#73273
   * frequentist CIs are confusing
