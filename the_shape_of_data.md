@@ -18,6 +18,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
     *  "You will rarely be criticized for being too explicit, but it's easy to criticize for being too ambiguous. As a rule of thumb, make as few assumptions about your readers as possible."
   * sourcing myself
     * https://stats.stackexchange.com/users/8451/david-marx?tab=answers&sort=votes  
+  * external
+    * whuber - pdfs - https://stats.stackexchange.com/questions/4220/can-a-probability-distribution-value-exceeding-1-be-ok/4223#4223 
 * distances and similarity
   * bag of words
   * tf-idf
@@ -36,6 +38,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * model as manifold, + misc bayesian
   * distributions over distributions - https://stats.stackexchange.com/questions/73268/can-the-t-distribution-be-defined-as-the-distribution-on-the-true-mean-of-a-samp/73273#73273
   * change of variables
+  * prior beliefs - https://stats.stackexchange.com/questions/77112/how-do-i-correctly-produce-a-prior-posterior-plot-from-mcmc-chains-in-bayesian-h/77122#77122
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
   * the shape of belief/surprise/confidence - https://stats.stackexchange.com/questions/64852/how-do-i-choose-parameters-for-my-beta-prior/64860#64860
   * prediction interval vs confidence interval - https://stats.stackexchange.com/questions/75022/why-do-we-estimate-the-mean-response-in-confidence-interval-but-predict-individu/76085#76085
