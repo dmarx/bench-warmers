@@ -70,6 +70,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * bootstrapped CIs - https://stats.stackexchange.com/questions/319030/derivation-of-confidence-and-prediction-intervals-of-predictions-for-probit-and/328777#328777
     * https://stats.stackexchange.com/questions/79937/confidence-limits-for-a-nonlinear-regression/113770#113770 
   * cross validation = validating your procedure - https://stats.stackexchange.com/questions/328717/nested-cross-validation-in-r/328779#328779
+  * cross validation and data shape - https://stats.stackexchange.com/questions/320828/svm-cross-validation-parameter-search-returns-constant-accuracies/320850#320850
   * ensembles, boosting, bagging - https://stats.stackexchange.com/questions/77018/is-random-forest-a-boosting-algorithm/77145#77145
   * fitting residuals - https://stats.stackexchange.com/questions/77557/how-are-partial-regression-slopes-calculated-in-multiple-regression/77578#77578
   * conditional probability - https://stats.stackexchange.com/questions/76191/why-do-we-use-conditional-expectation-vs-regular-expectation-in-regression/76193#76193
