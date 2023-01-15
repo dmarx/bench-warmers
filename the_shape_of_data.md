@@ -15,6 +15,7 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
   * manhattan distance vs. euclidean distance vs. cosine sim
 * data as manifold
   * separation planes: logistic regression vs SVM - https://stats.stackexchange.com/questions/95340/comparing-svm-and-logistic-regression/95348#95348 
+  * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
 * model as manifold
 * embeddings and "features"
   * dense vectors = continuous latent manifolds - https://www.reddit.com/r/aiwars/comments/10cq8wr/on_the_nature_of_sampling_proai_conceptual_art_to/j4hrhtg/?context=3
