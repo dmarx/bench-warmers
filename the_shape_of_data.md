@@ -60,6 +60,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * change of variables
   * prior beliefs - https://stats.stackexchange.com/questions/77112/how-do-i-correctly-produce-a-prior-posterior-plot-from-mcmc-chains-in-bayesian-h/77122#77122
   * posterior and conditional probability - https://stats.stackexchange.com/questions/76950/posterior-distribution-as-a-distribution-for-a-new-random-variable/76951#76951
+  * prior belief as an "anchor" - https://datascience.stackexchange.com/questions/26016/find-optimal-pxy-given-i-have-a-model-that-has-good-performance-when-trained/26136#26136
   * regret minimization - https://stats.stackexchange.com/questions/76401/obtaining-single-connected-component-through-uniform-sampling-in-a-circle/76402#76402
   * secretary problem
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
