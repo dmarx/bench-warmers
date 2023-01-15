@@ -74,6 +74,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * conditional probability - https://stats.stackexchange.com/questions/76191/why-do-we-use-conditional-expectation-vs-regular-expectation-in-regression/76193#76193
   * overfitting and degrees of freedom - https://stats.stackexchange.com/questions/78475/does-more-variables-mean-tighter-confidence-intervals/78477#78477
   * double descent
+  * model averaging - https://stats.stackexchange.com/questions/65424/how-can-i-validate-a-logistic-regression-model-using-averaged-parameter-estimate/65435#65435
+  * model merging a la SD
 * embeddings and "features"
   * dense vectors = continuous latent manifolds - https://www.reddit.com/r/aiwars/comments/10cq8wr/on_the_nature_of_sampling_proai_conceptual_art_to/j4hrhtg/?context=3
 * sparsity, bottlenecks, and decompositions
