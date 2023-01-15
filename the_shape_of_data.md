@@ -27,7 +27,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * distances and similarity
   * bag of words
   * tf-idf
-  * word2vec
+  * word2vec - https://datascience.stackexchange.com/questions/26683/does-it-make-sense-to-combine-pca-with-an-artificial-neural-network/26685#26685
   * manhattan distance vs. euclidean distance vs. cosine sim
   * trees and "trees" - https://stats.stackexchange.com/questions/94511/difference-between-bayes-network-neural-network-decision-tree-and-petri-nets/94518#94518
   * growing trees - https://datascience.stackexchange.com/questions/26699/decision-trees-leaf-wise-best-first-and-level-wise-tree-traverse/26950#26950
