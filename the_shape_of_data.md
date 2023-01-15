@@ -22,6 +22,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
     * whuber - pdfs - https://stats.stackexchange.com/questions/4220/can-a-probability-distribution-value-exceeding-1-be-ok/4223#4223 
   * area and integrals - https://stats.stackexchange.com/questions/73972/what-situations-models-require-calculating-the-area-under-a-curve/73973#73973  
   * philosophy of hypothesis testing - https://stats.stackexchange.com/questions/125841/is-h-0-being-a-closed-set-a-convention-in-hypothesis-testing/125881#125881
+  * statistical significance - https://stats.stackexchange.com/questions/86162/what-does-it-mean-for-a-variable-to-be-statistically-significant/86167#86167
   * memorylessness - https://stats.stackexchange.com/questions/320854/example-of-memorylessness-of-a-poisson-process/320859#320859
 * distances and similarity
   * bag of words
