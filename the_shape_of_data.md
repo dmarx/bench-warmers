@@ -78,6 +78,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
     * orthogonality - https://stats.stackexchange.com/questions/77087/symmetry-of-linear-regression/77111#77111 
     * as a rotation - https://stats.stackexchange.com/questions/66518/interpreting-plot-of-pca-results-from-3-to-2-dimensions/66525#66525
     * variable significance - https://stats.stackexchange.com/questions/65709/negative-binomial-glm-the-most-complex-model-always-has-lowest-aic-all-interac/65717#65717
+    * https://stats.stackexchange.com/questions/76483/regression-through-pca/76489#76489
   * fourier
   * taylor series
   * big O and little o notation
