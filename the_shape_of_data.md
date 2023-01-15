@@ -36,6 +36,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * change of variables
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
   * the shape of belief/surprise/confidence - https://stats.stackexchange.com/questions/64852/how-do-i-choose-parameters-for-my-beta-prior/64860#64860
+  * prediction interval vs confidence interval - https://stats.stackexchange.com/questions/75022/why-do-we-estimate-the-mean-response-in-confidence-interval-but-predict-individu/76085#76085
+  * credible interval vs confidence interval
   * "uninformative" prior - what does "informative" even mean?
   * distributions over solutions = distributions over models - https://stats.stackexchange.com/questions/66500/constructing-confidence-intervals-for-predictive-model/66503#66503
   * conditional probability - https://stats.stackexchange.com/questions/76191/why-do-we-use-conditional-expectation-vs-regular-expectation-in-regression/76193#76193
