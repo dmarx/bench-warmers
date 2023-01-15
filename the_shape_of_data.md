@@ -31,6 +31,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * the shape of belief/surprise/confidence - https://stats.stackexchange.com/questions/64852/how-do-i-choose-parameters-for-my-beta-prior/64860#64860
   * "uninformative" prior - what does "informative" even mean?
   * distributions over solutions = distributions over models - https://stats.stackexchange.com/questions/66500/constructing-confidence-intervals-for-predictive-model/66503#66503
+  * overfitting and degrees of freedom - https://stats.stackexchange.com/questions/78475/does-more-variables-mean-tighter-confidence-intervals/78477#78477
+  * double descent
 * embeddings and "features"
   * dense vectors = continuous latent manifolds - https://www.reddit.com/r/aiwars/comments/10cq8wr/on_the_nature_of_sampling_proai_conceptual_art_to/j4hrhtg/?context=3
 * sparsity, bottlenecks, and decompositions
