@@ -56,6 +56,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * change of variables
   * prior beliefs - https://stats.stackexchange.com/questions/77112/how-do-i-correctly-produce-a-prior-posterior-plot-from-mcmc-chains-in-bayesian-h/77122#77122
   * posterior and conditional probability - https://stats.stackexchange.com/questions/76950/posterior-distribution-as-a-distribution-for-a-new-random-variable/76951#76951
+  * regret minimization - https://stats.stackexchange.com/questions/76401/obtaining-single-connected-component-through-uniform-sampling-in-a-circle/76402#76402
+  * secretary problem
   * bayesian probability, probability and continuity - https://stats.stackexchange.com/questions/66315/gentler-approach-to-bayesian-statistics/66377#66377
   * the shape of belief/surprise/confidence - https://stats.stackexchange.com/questions/64852/how-do-i-choose-parameters-for-my-beta-prior/64860#64860
   * prediction interval vs confidence interval - https://stats.stackexchange.com/questions/75022/why-do-we-estimate-the-mean-response-in-confidence-interval-but-predict-individu/76085#76085
@@ -108,6 +110,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * cycles - https://stackoverflow.com/questions/17554805/cycles-in-an-undirected-graph-in-r#63798
   * cliques
   * distributions over graphs - https://stats.stackexchange.com/questions/76401/obtaining-single-connected-component-through-uniform-sampling-in-a-circle/76402#76402
+    * 100 prisoners
+    * birthday problem
   * small world vs power law
   * force directed layouts
   * pagerank, centrality, random walks, stable distributions, eigendecomposition
