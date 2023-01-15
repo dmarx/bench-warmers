@@ -14,6 +14,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 
 * intro
   * stats is not maths - https://stats.stackexchange.com/questions/78579/stats-is-not-maths/78732#78732
+  *  https://stats.stackexchange.com/questions/76406/explaining-a-boxplot-and-providing-a-reference-in-a-technical-paper/76407#76407
+    *  "You will rarely be criticized for being too explicit, but it's easy to criticize for being too ambiguous. As a rule of thumb, make as few assumptions about your readers as possible."
 * distances and similarity
   * bag of words
   * tf-idf
