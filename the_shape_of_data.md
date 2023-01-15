@@ -13,6 +13,7 @@ Popular science book describing for normal people geometric stuff in ML (e.g. em
   * tf-idf
   * word2vec
   * manhattan distance vs. euclidean distance vs. cosine sim
+  * trees and "trees" - https://stats.stackexchange.com/questions/94511/difference-between-bayes-network-neural-network-decision-tree-and-petri-nets/94518#94518
 * data as manifold
   * separation planes: logistic regression vs SVM - https://stats.stackexchange.com/questions/95340/comparing-svm-and-logistic-regression/95348#95348 
   * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
