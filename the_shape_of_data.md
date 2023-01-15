@@ -107,6 +107,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 * graph structures, robustness, communication
   * cycles - https://stackoverflow.com/questions/17554805/cycles-in-an-undirected-graph-in-r#63798
   * cliques
+  * distributions over graphs - https://stats.stackexchange.com/questions/76401/obtaining-single-connected-component-through-uniform-sampling-in-a-circle/76402#76402
   * small world vs power law
   * force directed layouts
   * pagerank, centrality, random walks, stable distributions, eigendecomposition
