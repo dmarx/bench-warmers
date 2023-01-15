@@ -12,6 +12,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 
 ## Misc topic ideas
 
+* intro
+  * stats is not maths - https://stats.stackexchange.com/questions/78579/stats-is-not-maths/78732#78732
 * distances and similarity
   * bag of words
   * tf-idf
