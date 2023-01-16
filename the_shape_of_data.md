@@ -63,6 +63,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * augmentations, masking, corruption - https://datascience.stackexchange.com/questions/97310/what-is-the-difference-between-bert-and-roberta/97321#97321
 * model as manifold, + misc bayesian
   * distributions over distributions - https://stats.stackexchange.com/questions/73268/can-the-t-distribution-be-defined-as-the-distribution-on-the-true-mean-of-a-samp/73273#73273
+  * hyperparameter fitting, metaleraning - https://datascience.stackexchange.com/questions/28733/are-there-any-algorithms-that-learn-to-learn-a-function-mapping/28753#28753
   * frequentist CIs are confusing
     *  https://stats.stackexchange.com/questions/78795/interpreting-a-confidence-interval/78796#78796
     *  https://stats.stackexchange.com/questions/67782/how-to-compare-two-groups-when-one-only-has-one-data-point/67798#67798
