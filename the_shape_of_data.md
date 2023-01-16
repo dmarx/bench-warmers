@@ -145,6 +145,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * adapatabilty
   * iterated algorithms
   * fixed point solutions
+  * "temperature" and annealing - https://datascience.stackexchange.com/questions/28805/learning-rate-based-on-error-of-the-network/28824#28824
   * training convergence - https://stats.stackexchange.com/questions/66876/how-can-i-assign-a-quality-to-a-regression-based-on-the-number-of-data-points/66881#66881
 * double descent
 * network capacity / VC dimension
