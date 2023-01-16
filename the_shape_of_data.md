@@ -43,6 +43,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
   * basis functions - https://datascience.stackexchange.com/questions/26899/are-linear-regression-models-with-non-linear-basis-functions-used-in-practice/26901#26901
   * splines
+  * autoencoders - https://datascience.stackexchange.com/questions/27645/under-what-conditions-should-an-autoencoder-be-chosen-over-kernel-pca/27646#27646
   * spread - https://stats.stackexchange.com/questions/88348/is-variation-the-same-as-variance/88351#88351
   * sparsity
   * hierarchical manifolds - https://stats.stackexchange.com/questions/63621/what-is-the-difference-between-a-hierarchical-linear-regression-and-an-ordinary/66788#66788
