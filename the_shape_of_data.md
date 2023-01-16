@@ -25,6 +25,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * statistical significance - https://stats.stackexchange.com/questions/86162/what-does-it-mean-for-a-variable-to-be-statistically-significant/86167#86167
   * memorylessness - https://stats.stackexchange.com/questions/320854/example-of-memorylessness-of-a-poisson-process/320859#320859
   * holdout reuse - https://datascience.stackexchange.com/questions/26894/to-be-useful-doesnt-a-test-set-often-become-a-second-dev-set/26897#26897
+  * looking yourself in the mirror as a statistician - https://datascience.stackexchange.com/questions/29140/what-makes-you-confident-in-your-results-at-what-point-do-you-think-you-can-pre/29147#29147
 * distances and similarity
   * bag of words
   * tf-idf
