@@ -40,6 +40,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * ranking - https://stats.stackexchange.com/questions/62526/how-to-interpret-the-capped-binomial-deviance-as-rating-model-fit-in-two-player/76878#76878
   * matrices as input-output operators - https://datascience.stackexchange.com/questions/27945/what-is-the-use-of-additional-column-of-1s-in-normal-equation/27946#27946
 * data as manifold 
+  * distributional multi-modality - https://datascience.stackexchange.com/questions/28737/multimodal-distribution-and-gans/28752#28752
+  * CLIP space and separations of modalities in multi modal spaces
   * separation planes: logistic regression vs SVM - https://stats.stackexchange.com/questions/95340/comparing-svm-and-logistic-regression/95348#95348 
   * consequences of linearity, span - https://stats.stackexchange.com/questions/76488/error-system-is-computationally-singular-when-running-a-glm/76494#76494
   * basis functions - https://datascience.stackexchange.com/questions/26899/are-linear-regression-models-with-non-linear-basis-functions-used-in-practice/26901#26901
