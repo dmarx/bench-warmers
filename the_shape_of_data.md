@@ -34,7 +34,7 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
   * growing trees - https://datascience.stackexchange.com/questions/26699/decision-trees-leaf-wise-best-first-and-level-wise-tree-traverse/26950#26950
   * curse of dimensionality - https://stats.stackexchange.com/questions/61390/is-there-unsupervised-regression/65426#65426
   * numerical stability, matrix conditioning and inversion - https://stats.stackexchange.com/questions/88228/how-do-you-calculate-the-ordinary-least-squares-estimated-coefficients-in-a-mult/88229#88229
-  * clustering
+  * clustering - https://datascience.stackexchange.com/questions/28337/does-k-means-objective-function-imply-distance-metric-is-euclidean/28341#28341
   * kmeans is spherical, GMM is elipsoid - https://stats.stackexchange.com/questions/80601/why-only-the-mean-value-is-used-in-k-means-clustering-method/80603#80603
   * ranking - https://stats.stackexchange.com/questions/62526/how-to-interpret-the-capped-binomial-deviance-as-rating-model-fit-in-two-player/76878#76878
   * matrices as input-output operators - https://datascience.stackexchange.com/questions/27945/what-is-the-use-of-additional-column-of-1s-in-normal-equation/27946#27946
