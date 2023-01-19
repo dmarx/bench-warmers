@@ -8,3 +8,5 @@ layout my eleuther rant here, maybe invite Dean Pleban from dagshub to coauthor,
 * 2022-06-30 - https://discord.com/channels/729741769192767510/730095596861521970/992307615176601670 - still bitter about global warming
 * 2022-06-22 - https://discord.com/channels/729741769192767510/730095596861521970/989261044084011079 - lol
 * 2022-06-10 - https://discord.com/channels/729741769192767510/730095596861521970/985027049481699369 - BMK doesn't want to litigate the term, but clearly is fixated on a definition already
+* 2022-05-20 - https://discord.com/channels/729741769192767510/730095596861521970/977254997614006333 - shorttermism doesn't mean we can't address multiples issues at once
+* 2022-05-07 - https://discord.com/channels/729741769192767510/730095596861521970/972678812930285698 - "alignment" vs "solving politics/economics and ethics"
