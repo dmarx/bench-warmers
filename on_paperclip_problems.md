@@ -2,6 +2,8 @@
 
 layout my eleuther rant here, maybe invite Dean Pleban from dagshub to coauthor, follow up from our conversation
 
+- boat turning evil before steering into rocks vs. already on the rocks and not bailing it out
+
 * 2022-12-14 - https://discord.com/channels/729741769192767510/730095596861521970/1052599419536670760
 * 2022-11-22 - https://discord.com/channels/729741769192767510/730095596861521970/1044698916668592229
 * 2022-07-05 - https://discord.com/channels/729741769192767510/730095596861521970/994086971410481253 - global warming is a paperclip knock on effect
