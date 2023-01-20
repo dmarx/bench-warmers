@@ -57,7 +57,7 @@ insofar as my cognition could be characterized as an emergent property of a syst
 
 > This looks more like a governance/policy problem than the problem of aligning a superintelligence.
 
-are you familiar with conway's game of life? would you consider the arrangement of cellular automata a "policy problem"? the automata are analogous to interacting algorithms with their own independent rulesets.
+are you familiar with conway's game of life? would you consider the arrangement of cellular automata a "policy problem"? the automata are analogous to interacting algorithms with their own independent ruhttps://web.archive.org/web/20220610131709/https://www.economist.com/by-invitation/2022/06/09/artificial-neural-networks-today-are-not-conscious-according-to-douglas-hofstadterlesets.
 
 > https://www.lesswrong.com/tag/coherent-extrapolated-volition - "we should find a way to program it in a way that it would act in our best interests – what we want it to do and not what we tell it to."
 
@@ -199,5 +199,93 @@ I think people taking direction from dumb LLMs will paperclip us before AGI will
 ---
 
 * 2022-06-10 - https://discord.com/channels/729741769192767510/730095596861521970/985027049481699369 - BMK doesn't want to litigate the term, but clearly is fixated on a definition already
+
+https://web.archive.org/web/20220610131709/https://www.economist.com/by-invitation/2022/06/09/artificial-neural-networks-today-are-not-conscious-according-to-douglas-hofstadter
+
+> Hofstaedter: "I would call gpt-3’s answers not just clueless but cluelessly clueless, meaning that gpt-3 has no idea that it has no idea about what it is saying."
+ 
+mmm..... yes.... teach the people about intentionality
+
+> bmk: to which I say "nooooo that's not really conscious because it has no idea that it has no idea about what it's saying" I insist as AI slowly shrink and transform into a paperclip
+
+honestly though, this is exactly why I'm generally sort of annoyed that I never hear alignment researchers talking about more current problematic phenomena and always discussing hazards as if they're things that haven't arrived yet. it doesn't matter if a system isn't formally "AGI". concretely: whenever I've mentioned the divisiveness that was and conitinues to be promoted by social media engagement metrics, alignment researchers always say that sort of thing is "out of scope" of their interests
+
+> I feel like you're equivocating between two subtly different points
+
+exactly. thank you for making my point for me.
+
+> I think you're conflating the following axes:
+> 1. there is/isn't a sharp divide between AGI and non-AGI
+> 2. fixing current problems is/isn't helpful with superintelligence problems
+> I argue that these are actually different things. I simultaneously think there is no sharp divide, and also that fixing current problems doesn't help much with superintelligent problems
+
+you're just passing the buck back on to point (1) but using the word "super-intelligent" instead of AGI
+
+> ok lemme be even more precise: 2. fixing problems with LMs saying bad things doesn't really help us not die.
+> you can disagree with this claim but this is a different claim from claim 1
+
+> sure, there is no hard threshold beyond which it suddenly starts counting as AGI or superintelligence. but simultaneously you can also argue that any work on a particular level of AI is not very useful for higher levels of AI
+
+explain to me how unexpected, exponentially accelerating, negative consequences arizing from learning objectives like "minimize customer churn" or "maximize engagement" aren't paperclip problems
+
+> you're not engaging with my point
+
+you're not engaging with mine. tell me why the ethical consequences of social media are out of scope for alignment researchers
+this is a fairly concrete question and I've asked it before and been brushed off before.
+
+> so I don't know about other people but the thing I ultimately care about is how to not die from AI killing everyone. I don't care what you call this thing. I call it alignment but you can disagree and call something else alignment, I'm not interested in litigating definitions. and of course there is some overlap between the problems I need to solve to make the world not be destroyed and the problems that need to be solved to stop Facebook creating conspiracy theories by optimizing engagement or whatever. the thing is that usually the "not destroying the world" problems are like evolved harder versions of the Facebook problems, and sometimes there are just all new problems. this means that usually solving the hard problems sometimes also implies a solution to the easier problems, but not vice versa, solving one of the easier problems sometimes helps the harder problem and sometimes not really. the reason I don't consider the Facebook problems in scope usually is because they are easier versions of problem I care about and they aren't enough to fix the problem I really care about, and sometimes they aren't even applicable at all. in particular, I expect not destroying the world to be extremely hard in ways that the Facebook problem isn't, and I spend the majority of my time trying to figure out the hard bits. of course, I won't say that progress on those things is bad, and they may even be helpful, but I leave that to someone else who cares a lot about Facebook to fix
+
+so essentially you're saying it isn't out of scope, the entire community is just uninterested because they don't foresee "world ending" consequences in what I'm pointing to.
+
+> I think this entire discussion has the vibe of you reading way too much into the definitions of things and I don't like definitional debates
+
+except I'm pretty sure you're drawing a definitional line here. forget "agi" entirely. > ""to which I say "nooooo that's not really conscious because it has no idea that it has no idea about what it's saying" I insist as AI slowly shrink and transform into a paperclip""
+
+> I meant like with respect to "out of scope". sure fine it's not "out if scope" it's "uninteresting". what I'm saying is that arguments about what counts as "really conscious"are dumb
+
+the reason I'm so fixated on this is because here's what I see: > > ""to which I say "nooooo that's not really conscious because it has no idea that it has no idea about what it's saying" I insist as AI slowly ~~shrink and transform into a paperclip~~ *destabilize society and induce civil wars and block us from addressing world ending problems like climate change*""
+
+it's a paperclip problem. calling it "small" is pure speculation. complacency, even. and yes, solutions to "small problems" don't necessarily solve big ones. but if the "small problem" is in the same family, then necessarily a solution to the big one should at least partially address the small one. so even if you don't foresee world ending consequences, it should at minimum be a reasonable testbed for solutions to those problems.
+
+I just keep asking why this specific thing isn't a paperclip problem. the only equivocation I'm making is between a specific hazard scenario you invoked and hazard scenario I see happening around us. I'm absolutely equivocating there
+
+> rom: I think it's just a timeline problem. Bmk (and other people) believe AGI will end the world in 10 years. Some other people believe there is no chance of that happening in less than 50 years. That changes priorities a lot. I'm in the "AGI won't end the world in less than 50 years but humans might" camp
+
+same
+
+> rom: i understand @DigThatData argument to be about "small alignment is more important than big alignement" and the discussion seems to be revolving around that 
+
+> @DigThatData ok I'm going to make one more attempt at understanding your point: would you say that the key crux is you want to understand why I'm worried about AGI x-risks of the paperclip variety but not risks from current AI or other non AI things
+
+try to restate that without invoking "AI". you said it yoruself, you don't want to litigate that term
+
+> then I don't really know what you're getting at. can you state your crux in a single paragraph. not in a way that's kinda like a rhetorical question that's supposed to serve a point or whatever, just like write out exactly the thing you want to disagree on
+
+me: > ""you say that the key crux is you want to understand why I'm worried about ~~AGI~~ x-risks of the paperclip variety *that arise out of interactions with emergent properties of complex decision systems driven by ML algorithms*""
+
+remove any notion of "AI" worth litigating and isolate the scenario
+
+> you're asking me why I'm worried about x-risks from monolithic dangerous planning systems rather than emergent interactions of ML decision systems with the world? 
+
+I guess maybe I don't understand why alignment limits itself to "planning systems". ... you said you didn't want to litigate what "AI" meant, but you were presuming a pretty rigid definition here
+
+
+> I don't mean AI = planning system
+
+you mean "of concern to alignment researchers"
+
+> the two statements are different; I made the second statement after trying to guess at what you mean
+
+> it feels like the are two separate problems: how do we get Facebook to make their system optimize for happiness to the best of their ability, and how do we make an AGI optimize for happiness (or anything else at all for that matter). and like the former is a "what makes Facebook money" problem and the latter is a really hard technical problem that we need to solve to not die
+
+> rom: I think you underestimate the potential of the first problem. It's hard from a technical and incentive point of view and it can bring large amount of value of society, not only in amount of $. I don't disagree with the fact that solving AGI alignment will be necessary when AGI happens
+
+
+---
+
 * 2022-05-20 - https://discord.com/channels/729741769192767510/730095596861521970/977254997614006333 - shorttermism doesn't mean we can't address multiples issues at once
 * 2022-05-07 - https://discord.com/channels/729741769192767510/730095596861521970/972678812930285698 - "alignment" vs "solving politics/economics and ethics"
+
+---
+
+potential co-authors: rom1504, uwu, dean pleban
