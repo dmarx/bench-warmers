@@ -1,5 +1,7 @@
 # On Paperclip Problems
 
+![](https://img.shields.io/badge/tag-publication-lightgrey)
+
 ## Why Complexity Theory Topics Are Important For Alignment
 
 *(modified from [discussion](https://discord.com/channels/729741769192767510/730095596861521970/1052599419536670760) on Eleuther.AI discord, 2022-12-14)*
