@@ -69,7 +69,97 @@ layout my eleuther rant here, maybe invite Dean Pleban from dagshub to coauthor,
 
 ---
 
-* 2022-11-22 - https://discord.com/channels/729741769192767510/730095596861521970/1044698916668592229
+## On Trancendentalness of Identity
+
+*(modified from [discussion](https://discord.com/channels/729741769192767510/730095596861521970/1044698916668592229) on Eleuther.AI discord, 2022-11-22)*
+
+> there isn't really such a thing as a continuous person, fundamentally, just instant-persons
+see eg https://carado.moe/existential-selfdet.html
+
+there isn't really such a thing as an "instant person" individually either, we're ensembles - https://plato.stanford.edu/entries/consciousness-unity/
+
+I'm of the opinion that our own "minds" are an emergent property of a collection of agents operating within a confined system. as a consequence, "AGI" can be a property of a system
+
+I think ideological radicalization induced from social media interactions is an example of a real-world "paperclip maxoimizaiton problem" that has already manifested. the harms the alignment community claims to be concerned about are already here. but for some reason stuff that's right in front of them is out of scope of alignment concerns. we're being driven towards war with each other and cooking the planet.
+
+try and think about what alignment might mean in the absence of a single intentional agent.
+
+> not getting a set of AIs to kill everything everywhere forever, such as https://www.lesswrong.com/posts/LpM3EAakwYdS6aRKf/what-multipolar-failure-looks-like-and-robust-agent-agnostic ? rather than a single one 
+
+how is this different from setting personalization algorithms loose on the world that are training us to hate and kill each other?
+
+the only thing I ever get back from aligbnment people is "we're not worried about those because the algorithm isn't actively trying to kill people. but just imagine if it was!"
+
+> also they're not really particularly motivated to kill us intrinsically. they're merely locally motivated to get attention
+
+isn't this the entire point of the "paperclip problem" thing? it doesn't matter what the intention of the system is if the harms are there
+
+> i mean fair enough but they're also not capable of killing us or even realizing that that's what would maximize their goal
+
+> i don't think we're gonna face extinction via war or famine, and it seems like social media isn't very good at causing famine (there is some war, though there could be much more, and i don't know how much it's social-media-caused)
+
+unless their goal is "get as much attention from the humans as possible" and the way they maximized that was "encourage humans to be as devisive and angry towards each other as possible" and a consequence of that was extinction via war and famine. but for some reason this is fundamentally different from asking an AI to maximize paperclips and turning everyone into paperclips. 
+
+> it's really kind of offensive to accuse ai risk people of calling existing harms "low" while at the same time trivializing the harms they're concerned about which is total imminent extinction
+
+I'm accusing AI risk people of having less imagination than they think they do. AI risk people have a very constrained view of what "AGI" might be, and seem unconcerned with the behavior of systems of algorithms that might have emergent properties that are hard to describe as agents that interact with them ourselves.
+
+basically I think everyone should read more hofstaedter. ant fugue yo.
+
+> those emergent effects don't seem like they're gonna cause extinction as soon and as likely as a powerful AI maximizing for something on purpose
+
+famous last words
+
+> i'm focusing on the largest source of existential risk. emergent effects are not intentional agents. that's why they're less dangerous.
+
+except yes they are. that's what I was saying at the beginning of the conversation. I am an emergent effect. there is no single "me" in my brain. this was demonstrated experimentally with split-brain patients.
+
+> (uwu: in general emergent effects are much more poweful than any agent. just because any agent is situated within a system)
+
+> overall there's a rough notion of you pursuing things. an AI will be better at this. in any case.
+
+and if you asked an individual neuron in my brain what that rough notion was, it wouldn't know what you were even asking it
+
+> sure, but i can also ask the entire-you. collections-of-stuff are things too. they can act somewhat coherently
+
+as members of the system, it's really hard for us to understand its emergent properties. there might be something at play that operates similar to what we would consider intention, and which has no specific desire to destroy us because it sees us similar to how we see our own white blood cells. so if all the humans go to war each other because the system wanted to maximize how much attention it was getting from humans, that's fine. all it cares about is attention. it doesn't care whether it set humans to war on each other and to extinction via nuclear holocaust. it maximized its paperclips.
+
+> the whole field of agent foundations is about what we can expect to predict about agentic things. even if they're complex things made of many parts. and we do believe some things. like instrumental convergence, goal-content integrity, etc.
+
+> you're a somewhat agentic thing. i am too. google (the company) is too. alphazero is too.
+
+> uwu: agenticness is a post-hoc label applied to stuff that can be helpful in predicting it's behavior, but I don't think that means that that analysis is useful for trying to understand systems without looking at their situated, emergent effects
+
+facebook -- the community -- is too. 4chan is too. 
+
+> 4chan is uh not very agentic
+
+like I said, you're just not being open minded about what "agentness" might even mean. there doesn't need to be a singular head of the decision making process. you can have a collective of processes that interact in ways where its useful to describe those processes as a collective. so how is 4chan not an agent? I posit any sufficiently large community exhibits properties of "agentness"
+
+> okay, let's say it is. do you think 4chan is gonna cause total extinction within a few decades.
+
+> uwu: i think 4chan could definitely be a part of the causal chain that leads to extinction in <2 years
+
+yeah, i'll concede that as well. 4chan falls into the class of agents that I'm assigning things like facebook too, the difference is really only the extent to which algorithms are members of these "communities". and 4chan is definitely influenced directly by a variety of algorithms, specifically how their message board is constructed.
+
+> Having a bunch of relatively weak systems can certainly cause extreme issues, but they're rarely going to optimize as hard (or in a singular direction) as a basically-single (or centralized, or unfractured, or whatever you want to call it) very capable system.
+For example: A bunch of companies is optimizing towards ends which are disconnected/goodharted from what we want. That is bad. However, they are not very intelligent and are also internally fractured and thus most can't apply an extreme amount of optimization power in a completely coherent direction. They do apply it, and it certainly isn't random, but it isn't strongly optimizing yet.
+We should try to solve these issues, but they're not the main problem alignment is concerned with (though there's certainly been LW posts about related topics, so I think you're overstating how much it is ignored). It would be great to handle those, but they're less likely to cause extinction. As well, ending up with a powerful singleton AGI is 'game over'.
+(Then there's the solution that if we can actually make an aligned AGI, then all the other problems become way easier).
+
+> sure, but i don' think that that whole thing is anywhere near as likely to cause extinction as a singular powerful AI
+
+my contention is that alignment people should be more concerned about systems that are comprised of lots of alogirhtms bouncing off each other. why does it have to be "singularly powerful"? Why can't a collective of algorithms exhibit that exact same property and even potentially intention? and if so, how can we be sure. we aren't already being subject to these effects? because it sure quacks like a duck
+
+> they can too. that just does't seem like what's likely to happen. how do you think we go extinct in a few years, if not a powerful AI trying to kill everyone
+
+a powerful AI that doesn't have as much direct influence on the world convinces us to kill ourselves through war and famine. which seems to be what's already happening. but alignment people seem to be unwilling to engage with this possibliity. simply because of what "AI" means to them.
+
+
+
+
+---
+
 * 2022-07-05 - https://discord.com/channels/729741769192767510/730095596861521970/994086971410481253 - global warming is a paperclip knock on effect
 * 2022-06-30 - https://discord.com/channels/729741769192767510/730095596861521970/992307615176601670 - still bitter about global warming
 * 2022-06-22 - https://discord.com/channels/729741769192767510/730095596861521970/989261044084011079 - lol
