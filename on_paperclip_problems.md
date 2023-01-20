@@ -19,7 +19,7 @@ what I'm talking about is how you can e.g. implement microsoft word in game of l
 because as far as we can tell, that's how human cognition works as well. we're getting into epistemic territory now, but part of the knowledge gap I'm describing here is confusion over what "one safe AI" even means. the language you're using here reflects a folk psychological understanding of "identity" which contemporary research has increasingly identified is an illusion. we should be concerned about an "ant-colony-like" AGI because as far as we can tell, that's how our own mind works as well. the idea that you are a "single agent" is actually more a property of your outward behavior and not the composition of your cognition. it's all an illusion. https://plato.stanford.edu/entries/consciousness-unity/
 
 > (I mean you can say, "behavior of cells are nothing like macro behaviors like emotions" but then do you need complexity theory to describe things like that? Like how does complexity theory help explain macro behaviors, that are a result of lots of cells or whatever doing their thing?)
-
+new hot take: alignment = domestication
 not just lots of cells. collectives of what you want to describe as "agents". as a concrete example in the human model, there've been studies done with people whose hemispheres have been surgically severed demonstating that their different hemispheres can exhibit different beliefs. like, one side of your brain believes in god and the other doesn't.
 
 > (or at least I can see sometiems that it's an illusion. usually it feels pretty much like I'm one thing)
@@ -280,6 +280,13 @@ you mean "of concern to alignment researchers"
 
 > rom: I think you underestimate the potential of the first problem. It's hard from a technical and incentive point of view and it can bring large amount of value of society, not only in amount of $. I don't disagree with the fact that solving AGI alignment will be necessary when AGI happens
 
+---
+
+*(2022-06-06 - EAI discord)*
+
+new hot take: alignment = domestication
+
+come at me
 
 ---
 
