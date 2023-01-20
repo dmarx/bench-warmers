@@ -160,7 +160,12 @@ a powerful AI that doesn't have as much direct influence on the world convinces 
 
 ---
 
-* 2022-07-05 - https://discord.com/channels/729741769192767510/730095596861521970/994086971410481253 - global warming is a paperclip knock on effect
+* 2022-07-05 - https://discord.com/channels/729741769192767510/730095596861521970/994086971410481253 - 
+
+global warming is a paperclip knock on effect. this is what paperclip doom looks like: https://www.youtube.com/watch?v=NHf-xSvpF-Y
+
+---
+
 * 2022-06-30 - https://discord.com/channels/729741769192767510/730095596861521970/992307615176601670 - still bitter about global warming
 * 2022-06-22 - https://discord.com/channels/729741769192767510/730095596861521970/989261044084011079 - lol
 * 2022-06-10 - https://discord.com/channels/729741769192767510/730095596861521970/985027049481699369 - BMK doesn't want to litigate the term, but clearly is fixated on a definition already
