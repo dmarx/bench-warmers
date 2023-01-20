@@ -160,9 +160,11 @@ a powerful AI that doesn't have as much direct influence on the world convinces 
 
 ---
 
+## global warming is a paperclip knock on effect
+
 * 2022-07-05 - https://discord.com/channels/729741769192767510/730095596861521970/994086971410481253 - 
 
-global warming is a paperclip knock on effect. this is what paperclip doom looks like: https://www.youtube.com/watch?v=NHf-xSvpF-Y
+this is what paperclip doom looks like: https://www.youtube.com/watch?v=NHf-xSvpF-Y
 
 ---
 
