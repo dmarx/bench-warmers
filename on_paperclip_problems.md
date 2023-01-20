@@ -169,6 +169,29 @@ this is what paperclip doom looks like: https://www.youtube.com/watch?v=NHf-xSvp
 ---
 
 * 2022-06-30 - https://discord.com/channels/729741769192767510/730095596861521970/992307615176601670 - still bitter about global warming
+
+> I don’t know about you guys, but, um, you know, I’ve been thinking recently that… that you know, maybe, um, allowing giant digital media corporations to exploit the neurochemical drama of our children for profit… You know, maybe that was, uh… a bad call by us.
+> Maybe… maybe the… the flattening of the entire subjective human experience into a… lifeless exchange of value that benefits nobody, except for, um, you know, a handful of bug-eyed salamanders in Silicon Valley… Maybe that as a… as a way of life forever… maybe that’s, um, not good.
+> -- Bo Burnham, Inside
+
+I think we'll figure out how to live with... "it" (the internet? social media? a highly connected world?) eventually, but we're going to go through several generations of really fucked up populaces first
+
+> I don't use websites with content recommenders
+
+you almost certainly do even if you don't realize it. targeted ads surround us
+
+I've made this rant before, but I'm strongly of the opinion that we're going to experience a lot of the harms the alignment community anticipates well before AGI gets here. the filter bubble thing we're talking about is an example of exactly this.
+
+I visit websites with ads and personalization. I'm just not kidding myself that it's there and affects me in ways I'm not cognizant of. so I try to be cognizant of what I can.
+
+...
+
+nearly every time I bring up climate change in here, someone brushes it off along the lines of "AGI will fix that, don't worry about it.
+
+to do: pull my climate change rants from EAI
+
+---
+
 * 2022-06-22 - https://discord.com/channels/729741769192767510/730095596861521970/989261044084011079 - lol
 * 2022-06-10 - https://discord.com/channels/729741769192767510/730095596861521970/985027049481699369 - BMK doesn't want to litigate the term, but clearly is fixated on a definition already
 * 2022-05-20 - https://discord.com/channels/729741769192767510/730095596861521970/977254997614006333 - shorttermism doesn't mean we can't address multiples issues at once
