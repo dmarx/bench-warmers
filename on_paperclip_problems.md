@@ -1,11 +1,6 @@
 # On Paperclip Problems
 
-layout my eleuther rant here, maybe invite Dean Pleban from dagshub to coauthor, follow up from our conversation
-- boat turning evil before steering into rocks vs. already on the rocks and not bailing it out
-
----
-
-**Why Complexity Theory Topics Are Important For Alignment
+## Why Complexity Theory Topics Are Important For Alignment
 
 *(modified from [discussion](https://discord.com/channels/729741769192767510/730095596861521970/1052599419536670760) on Eleuther.AI discord, 2022-12-14)*
 
@@ -63,6 +58,12 @@ insofar as my cognition could be characterized as an emergent property of a syst
 are you familiar with conway's game of life? would you consider the arrangement of cellular automata a "policy problem"? the automata are analogous to interacting algorithms with their own independent rulesets.
 
 > https://www.lesswrong.com/tag/coherent-extrapolated-volition - "we should find a way to program it in a way that it would act in our best interests – what we want it to do and not what we tell it to."
+
+---
+
+
+layout my eleuther rant here, maybe invite Dean Pleban from dagshub to coauthor, follow up from our conversation
+- boat turning evil before steering into rocks vs. already on the rocks and not bailing it out
 
 ---
 
