@@ -291,6 +291,27 @@ come at me
 ---
 
 * 2022-05-20 - https://discord.com/channels/729741769192767510/730095596861521970/977254997614006333 - shorttermism doesn't mean we can't address multiples issues at once
+
+> ersatz: I love this kind of paper. hilarious. > ""Climate change is one of the greatest challenges facing humanity - https://arxiv.org/abs/1906.05433"". The first sentence of the abstract and they are already full of shit
+
+uh.... ok then, go fix climate change.
+
+> what's the latest estimate for climate change to be an existential catastrophe? 0.1% or something like that?
+
+or maybe, crazy idea: it's possible for multiple threats to exist simultaneously and it's actually a good thing that everyone isn't just working on the same single problem.
+
+> lol if 0.1% was "one of the greatest challenges" we have to face, the world would be very different
+
+like, researching alignment is important, but climate change is actually causing huge problems already, and meanwhile my local animal shelter also needs home for their puppies. all of these problems can coexist. or should we just ignore homing the puppies until alignment is solved
+
+> emad xposting twitter:  if you want an image of the future, it's a swarm of chaotic nanobots spreading across the universe, converting everything into pictures of asuka langley sohryu, forever
+
+
+
+---
+
+
+
 * 2022-05-07 - https://discord.com/channels/729741769192767510/730095596861521970/972678812930285698 - "alignment" vs "solving politics/economics and ethics"
 
 ---
