@@ -314,6 +314,8 @@ like, researching alignment is important, but climate change is actually causing
 
 * 2022-05-07 - https://discord.com/channels/729741769192767510/730095596861521970/972678812930285698 - "alignment" vs "solving politics/economics and ethics"
 
+... something something, AGI utopia
+
 ---
 
 potential co-authors: rom1504, uwu, dean pleban
