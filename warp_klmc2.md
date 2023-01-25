@@ -11,3 +11,7 @@ i'm hungry, but it's 2am. I wanna snack, but I feel like I should be making some
 anyway: flow loss on klmc2, then use klmc2 with init image for vktrs, using init images from the input video OMG I should make that a feature.
 
 similarly, vktrs could also detect scene changes (!!!) from the input video, then borrow the timing.
+
+---
+
+yo rotoscoping idea: just latent blend the init video in a little (instead of going full on, newly re-encoded, post-transform init image)
