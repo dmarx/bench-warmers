@@ -9,6 +9,8 @@ muktimodal representations
 
 synesthesia
 
+mind of mnemonist
+
 intentionality, sign and signifier (...hyperreality. baudrillard)
 
 information triangulation
