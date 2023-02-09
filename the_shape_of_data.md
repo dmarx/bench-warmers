@@ -12,6 +12,8 @@ maybe "greatest hits" should even be its own repo with its own specialized CI th
 
 ## Misc topic ideas
 
+see also https://github.com/dmarx/bench-warmers/blob/main/physics_for_ml.md
+
 * intro (+misc)
   * stats is not maths - https://stats.stackexchange.com/questions/78579/stats-is-not-maths/78732#78732
   *  https://stats.stackexchange.com/questions/76406/explaining-a-boxplot-and-providing-a-reference-in-a-technical-paper/76407#76407
