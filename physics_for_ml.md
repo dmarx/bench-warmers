@@ -20,3 +20,5 @@ a curriculum/textbook/course on the topic might cover.
 * curvature
 * manifolds
 * probability fields
+
+related: introductory geometry curriculum reorganized to start with notions of distance, similarity, measure.
