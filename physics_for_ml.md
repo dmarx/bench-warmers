@@ -22,3 +22,5 @@ a curriculum/textbook/course on the topic might cover.
 * probability fields
 
 related: introductory geometry curriculum reorganized to start with notions of distance, similarity, measure.
+
+..lol see also: https://github.com/dmarx/bench-warmers/blob/main/the_shape_of_data.md
