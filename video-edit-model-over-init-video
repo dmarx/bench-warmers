@@ -1,0 +1,1 @@
+use klmc2 to generate a background (but in-domain) "noise" to pass to a video *editing* model, then repeatedly run editing passes to "decorrupt" the video, a la cold diffusion
