@@ -8,3 +8,5 @@ here's some decent "ocean waves" audio:
 
 * https://archive.org/details/aporee_9627_11535 - probably best
 * https://archive.org/details/aporee_5762_7243 - not bad
+* https://www.youtube.com/watch?v=rF5b60TabiI - this one might be the winner
+* https://www.youtube.com/watch?v=k4WmQwUXK7k - another strong competitor
