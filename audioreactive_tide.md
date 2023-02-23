@@ -80,6 +80,72 @@ sign_changes[0], inv_sign_changes[0]
 transitions = list(zip(sign_changes, inv_sign_changes))
 ```
 
+```python
+flowers = [
+    'rose',
+    'carnation',
+    'tulip',
+    'orchid',
+    'sunflower',
+    'snapdragon',
+    "baby's breath",
+    "lily",
+    'dahlia',
+    'poppy',
+    'geranium',
+]
+
+import random
+
+def pick_flower():
+    return random.choice(flowers)
+
+flower_seq = [pick_flower()]
+while len(flower_seq) < len(transitions) + 1:
+  curr_flower = pick_flower()
+  if curr_flower != flower_seq[-1]:
+    flower_seq.append(curr_flower)
+    
+###
+
+#from itertools import pairwise
+from itertools import tee
+
+def pairwise(iterable):
+    # pairwise('ABCDEFG') --> AB BC CD DE EF FG
+    a, b = tee(iterable)
+    next(b, None)
+    return zip(a, b)
+
+
+low, hi = 0.001, 1
+schedules = [{in_[0]:low, in_[1]:hi, out_[0]:hi, out_[1]:low} for in_, out_ in list(pairwise(transitions))]
+list(zip(flower_seq, schedules))
+
+###
+
+prompt_params = [(f"a beautiful bouquet of {flower} flowers", sched) for flower, sched in list(zip(flower_seq, schedules))]
+prompt_params = [("a beautiful bouquet of roses", {0:1, 40:1, 69:0})] + prompt_params
+
+negative_prompts = [
+    ["watermark text", {0:-0.3} ],
+     ["jpeg artifacts", {0:-0.1} ],
+     ["artist's signature", {0:-0.1}]
+]
+
+prompts_params = prompt_params + negative_prompts
+
+h = {i:v for i,v in enumerate(tide_slower_shifted)}
+
+###
+
+
+    
+    
+```
+
+
+
 ---
 
 sync periodicity of an animation to audio of rolling ocean waves crashing
