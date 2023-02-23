@@ -8,6 +8,8 @@
 
 COMPLETED: https://twitter.com/DigThatData/status/1628633830616862720
 
+Made with https://colab.research.google.com/github/dmarx/notebooks/blob/main/Stable_Diffusion_KLMC2_Animation.ipynb
+
 supplemental 
 
 ```python
