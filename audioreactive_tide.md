@@ -137,7 +137,8 @@ negative_prompts = [
 
 prompts_params = prompt_params + negative_prompts
 
-h = {i:v for i,v in enumerate(tide_slower_shifted)}
+#h = {i:v for i,v in enumerate(tide_slower_shifted)}
+h = {i:v for i,v in enumerate(smoothed)}
 
 ###
 
