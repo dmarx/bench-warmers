@@ -1,5 +1,13 @@
 # executable readme
 
+via https://andrewpwheeler.com/2021/09/06/using-jupyter-notebooks-to-make-nice-readmes-for-github/
+
+    jupyter nbconvert --execute --to markdown README.ipynb
+
+sidenote: jupyter's "setting up project infrastructure" documentation is pretty nice: https://docs.jupyter.org/en/latest/contributing/docs-contributions/doc-new-build.html
+
+---
+
 I feel like this has to be a thing already, right? apart from some full-library thing that fast.ai has or something like that. 
 
 if not, could probably convert markdown to myst and render the notebook with jupytext
