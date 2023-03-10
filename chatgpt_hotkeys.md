@@ -1,5 +1,9 @@
 # chatgpt hotkeys
 
+https://github.com/vincelwt/chatgpt-mac
+
+---
+
 map keyboard shortcuts to 
 
 * text continuation
