@@ -18,4 +18,5 @@ simpler solution: KLMC2 + controlnet
 
 KLMC2 dreaming plus conditioning gradient on flow field transferred from an input video
 
-POC with this for flow: https://www.youtube.com/watch?v=dx7whkxw1B0
+~~POC with this for flow: https://www.youtube.com/watch?v=dx7whkxw1B0~~
+-- no idea why i had this video in mind...
