@@ -17,6 +17,7 @@ Commitment to specific projects is expected to be limited and transient.
    - creates opportunity to work on backlogged code quality, documentation, ci/cd, and engineering tasks that may have been deprioritized in lieu of feature work
      - i.e. temporary extra set of hands for technical debt
 - facilitates interteam connections and communication
+  - promote and incentivize asynchronous work effectiveness
 - helps promote projects internally
 - incentivizes setting up projects to e.g. quickly onboard and assign tasks to interns
 - burst headcount (potentially pre-onboarded) for rapid team scaling or backfilling 
