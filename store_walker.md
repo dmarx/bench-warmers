@@ -49,14 +49,19 @@ Commitment to specific projects is expected to be limited and transient.
   * code practices common in open source
   * how open source incentivizes those good code practices
   * how business operations can disincentivize those same best practices
-* proposal
+* The "middle ground"
   * promote internal open source synthetically rather than relying on it to magically occur organically
     * mechanisms > intentions
    * rationale
-* team composition
-* success measures
-* goals
-* risks
+* Proposed team
+  * team mission statement 
+  * goals
+  * risks
+  * success measures
+* discussion of team composition
+  * option 1: small group of experts - better set of eyes for missed opportunity
+  * option 2: larger group of mixed skillsets - better for capturing ignored (but documented) tasks and "busywork"
+  
 * appendix
    * PR/FAQ
    * sample job description
