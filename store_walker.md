@@ -1,9 +1,9 @@
-# "Store Walkers/Roaming Experts" team of open source devs
+# Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase
 
 ![](https://img.shields.io/badge/tag-stability-lightgrey)
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)
 
-Small team of floating devs who autonomously self-assign projects and issues. "Hey what're you working on? sounds interesting how can I help?". 
+Small team of floating devs who "walk the floor" and autonomously self-assign projects and issues. "Hey what're you working on? sounds interesting how can I help?". 
 Commitment to specific projects is expected to be limited and transient.
 
 - ensures our internal products are dogfooding without putting additional burden on devs to go out of their way to dogfood. would be better if they were dogfooding, but this makes it so it's no longer left to chance. 
