@@ -57,8 +57,9 @@ Commitment to specific projects is expected to be limited and transient.
 * Proposed team
   * team mission statement 
   * goals
-  * risks
+  * responsibilities
   * success measures
+  * risks
 * discussion of team composition
   * option 1: small group of experts - better set of eyes for missed opportunity
   * option 2: larger group of mixed skillsets - better for capturing ignored (but documented) tasks and "busywork"
