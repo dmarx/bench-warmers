@@ -1,7 +1,8 @@
 # klmc2 rotoscoping
 
-![](https://img.shields.io/badge/tag-animation-lightgrey)
-![](https://img.shields.io/badge/tag-tooling-lightgrey)
+![](https://img.shields.io/badge/tag-animation-lightgrey)  
+![](https://img.shields.io/badge/tag-tooling-lightgrey)  
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
 
 q: can we construct a mapping between the respective hessians in RGB space and VAE space? maybe we can estimate the VAE hessian from the RGB optical flow field?
 
@@ -18,5 +19,5 @@ simpler solution: KLMC2 + controlnet
 
 KLMC2 dreaming plus conditioning gradient on flow field transferred from an input video
 
-~~POC with this for flow: https://www.youtube.com/watch?v=dx7whkxw1B0~~
+~~POC with this for flow: https://www.youtube.com/watch?v=dx7whkxw1B0~~  
 -- no idea why i had this video in mind...
