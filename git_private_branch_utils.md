@@ -1,5 +1,8 @@
 # Git Utilities to simulate Github "Private Branch" functionality
 
+![](https://img.shields.io/badge/tag-tooling-lightgrey)  
+![](https://img.shields.io/badge/tag-stability-lightgrey)  
+
 it's an ongoing frustration that "public/private" visibility can only be controlled at the repo level. 
 
 would probably not be too hard to write a few scripts/workflows to facilitate making a private clone behave as though it were hosting private branches 
