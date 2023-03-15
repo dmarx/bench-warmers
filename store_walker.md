@@ -1,5 +1,10 @@
 # "Store Walkers/Roaming Experts" team of open source devs
 
+![](https://img.shields.io/badge/tag-stability-lightgrey)
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-publication-lightgrey)
+![](https://img.shields.io/badge/tag-accessibility-lightgrey)
+
 Small team of floating devs who autonomously self-assign projects and issues. "Hey what're you working on? sounds interesting how can I help?". 
 Commitment to specific projects is expected to be limited and transient.
 
@@ -17,6 +22,7 @@ Commitment to specific projects is expected to be limited and transient.
 - helps promote projects internally
 - incentivizes setting up projects to e.g. quickly onboard and assign tasks to interns
 - burst headcount (potentially pre-onboarded) for rapid team scaling or backfilling 
+- possibly a good role for neuro-diverse developers who struggle in more conventional work roles
 
 ## q's 
 
