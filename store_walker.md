@@ -28,7 +28,7 @@ Commitment to specific projects is expected to be limited and transient.
 * what are success measures?
 * risks?
   * onboarding new teammates can be a burden, which this group would be imposing on the teams they are trying to collaborate with
-  * heacount that could be used elsewhere
+  * headcount that could be used elsewhere
 
 ## skills
 
