@@ -33,3 +33,4 @@ Commitment to specific projects is expected to be limited and transient.
 * takes initiative
 * experience with side projects (the job is basically to have multiple side projects)
 * experience with ML/AI preferred but not required
+* strong knowledge of python (deep familiarity with pytorch preferred but not required)
