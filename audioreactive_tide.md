@@ -3,6 +3,7 @@
 ![](https://img.shields.io/badge/tag-animation-lightgrey)
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)
 ![](https://img.shields.io/badge/tag-publication-lightgrey)
+![](https://img.shields.io/badge/tag-completed-lightgrey)
 
 ---
 
