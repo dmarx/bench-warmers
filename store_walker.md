@@ -39,3 +39,24 @@ Commitment to specific projects is expected to be limited and transient.
 * experience with side projects (the job is basically to have multiple side projects)
 * experience with ML/AI preferred but not required
 * strong knowledge of python (deep familiarity with pytorch preferred but not required)
+
+
+---
+
+## Outline
+
+* intro
+  * code practices common in open source
+  * how open source incentivizes those good code practices
+  * how business operations can disincentivize those same best practices
+* proposal
+  * promote internal open source synthetically rather than relying on it to magically occur organically
+    * mechanisms > intentions
+   * rationale
+* team composition
+* success measures
+* goals
+* risks
+* appendix
+   * PR/FAQ
+   * sample job description
