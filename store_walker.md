@@ -2,8 +2,6 @@
 
 ![](https://img.shields.io/badge/tag-stability-lightgrey)
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)
-![](https://img.shields.io/badge/tag-publication-lightgrey)
-![](https://img.shields.io/badge/tag-accessibility-lightgrey)
 
 Small team of floating devs who autonomously self-assign projects and issues. "Hey what're you working on? sounds interesting how can I help?". 
 Commitment to specific projects is expected to be limited and transient.
