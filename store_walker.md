@@ -30,6 +30,7 @@ Commitment to specific projects is expected to be limited and transient.
 * risks?
   * onboarding new teammates can be a burden, which this group would be imposing on the teams they are trying to collaborate with
   * headcount that could be used elsewhere
+  * mechanisms that facilitate closed source work discourages open source work and we want mechanisms that promote stability being open source as much as possible -- paraphrasing discussion w/ @rom1504
 
 ## skills
 
