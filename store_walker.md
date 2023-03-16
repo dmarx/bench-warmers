@@ -22,7 +22,7 @@ Commitment to specific projects is expected to be limited and transient.
 - incentivizes setting up projects to e.g. quickly onboard and assign tasks to interns
 - burst headcount (potentially pre-onboarded) for rapid team scaling or backfilling 
 - possibly a good role for neuro-diverse developers who struggle in more conventional work roles
-- internal advocates for open source philosophy across the org, help mitigate risk of us turning into OpenAI as we grow and incrasingly corporatize
+- internal advocates for open source philosophy across the org, help mitigate risk of us turning into OpenAI as we grow and increasingly corporatize
 
 ## q's 
 
