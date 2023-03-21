@@ -31,6 +31,8 @@ Commitment to specific projects is expected to be limited and transient.
   * onboarding new teammates can be a burden, which this group would be imposing on the teams they are trying to collaborate with
   * headcount that could be used elsewhere
   * mechanisms that facilitate closed source work discourages open source work and we want mechanisms that promote stability being open source as much as possible -- paraphrasing discussion w/ @rom1504
+  * multi-tasking = context switching = high cognitive demand. 
+    * rather than juggling multiple things simultaneously, might make more sense for team members to align with fewer projects at short-term commitments?
 
 ## skills
 
