@@ -31,10 +31,6 @@ def make_badge(label, prefix='tag', color='lightgrey'):
     return f"[![](https://img.shields.io/badge/{prefix}-{label}-{color})](tags/{label}.md)"
 
 
-#def make_badges(unq_tags, sep=' '):
-#     return sep.join([make_badge(tag) for tag in unq_tags])
-
-
 def random_hex_color():
     """generates a string for a random hex color"""
     # https://stackoverflow.com/questions/13998901/generating-a-random-hex-color-in-python
@@ -44,7 +40,6 @@ def random_hex_color():
 
 md_files = Path('.').glob('*.md')
 TOC = []
-#unq_tags = set()
 unq_tags = defaultdict(list)
 for fpath in list(md_files):
     if fpath.name == 'README.md':
@@ -79,11 +74,16 @@ header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{make_badges(d['tags'])}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
-#readme_stub = "# title \n\n text goes here\n\n{TOC}\n\n# another section"
-with open('README.stub') as f:
-    readme_stub = f.read()
-readme = readme_stub.replace('{TOC}', toc_str)
-readme = readme.replace('{tags}', make_badges(unq_tags))
+readme = None
+if Path('README.stub').exists():
+    with open('README.stub') as f:
+        readme_stub = f.read()
+    readme = readme_stub.replace('{TOC}', toc_str)
+    readme = readme.replace('{tags}', make_badges(unq_tags))
+    readme = readme.strip()
+if not readme:
+    with open('empty.stub') as f:
+        readme = f.read()
 
 with open('README.md','w') as f:
     f.write(readme)
