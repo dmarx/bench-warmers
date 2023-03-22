@@ -1,0 +1,4 @@
+|last_modified|title|est. idea maturity|tags
+|:---|:---|---:|:---|
+|2023-02-22|[Learned conditional semantic controls](learned-conditional-semantic-controls.md)|781|[![](https://img.shields.io/badge/tag-animation-9bf4b7)](tags/animation.md) [![](https://img.shields.io/badge/tag-colab-a168f4)](tags/colab.md) [![](https://img.shields.io/badge/tag-experimental-c5d714)](tags/experimental.md) [![](https://img.shields.io/badge/tag-prompting-e2851f)](tags/prompting.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](tags/tooling.md)|
+|2022-08-14|[Tool for Converting Google Colab "Forms" UI annotations to a more environment agnostic framework](colab-ui-converter.md)|414|[![](https://img.shields.io/badge/tag-colab-a168f4)](tags/colab.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](tags/tooling.md)|
