@@ -29,8 +29,16 @@ jobs:
         run: |
           git config --local user.name "dmarx"
           git add README.md
-          git commit -m "Updated TOC"
+          git add tags/*
+          # Thanks for the trick, ChatGPT!
+          if git diff-index --quiet HEAD --; then
+            echo "changes_to_push=false" >> $GITHUB_ENV
+          else
+            git commit -m "Updated TOC"
+            echo "changes_to_push=true" >> $GITHUB_ENV
+          fi
       - name: Push changes # push the output folder to your repo
+        if: ${{ env.changes_to_push == 'true' }}
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
