@@ -93,4 +93,6 @@ for tag, pages in unq_tags.items():
     pages = sorted(pages, key=lambda x:x['last_modified'])[::-1]
     recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{make_badges(d['tags'])}|" for d in pages]
     with open(f"tags/{tag}.md", 'w') as f:
-        f.write(header + '\n'.join(recs))
+        page_str = f"# Pages tagged `{tag}`\n\n"
+        page_str += header + '\n'.join(recs)
+        f.write(page_str)
