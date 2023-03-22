@@ -1,3 +1,5 @@
+# Pages tagged `animation`
+
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
 |2023-03-15|[klmc2 rotoscoping](klmc2_rotoscoping.md)|926|[![](https://img.shields.io/badge/tag-animation-9bf4b7)](tags/animation.md) [![](https://img.shields.io/badge/tag-experimental-c5d714)](tags/experimental.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](tags/tooling.md)|
