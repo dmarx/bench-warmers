@@ -28,7 +28,7 @@ def badges2kv(text):
 
 def make_badge(label, prefix='tag', color='lightgrey'):
     #return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
-    return f"[![](https://img.shields.io/badge/{prefix}-{label}-{color})]({label}.md)"
+    return f"[![](https://img.shields.io/badge/{prefix}-{label}-{color})](tags/{label}.md)"
 
 
 #def make_badges(unq_tags, sep=' '):
