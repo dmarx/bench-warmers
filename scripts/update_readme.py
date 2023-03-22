@@ -6,8 +6,10 @@ from collections import defaultdict
 
 random.seed(0)
 
-def get_last_modified_date(fpath, verbose=True):
+def get_last_modified_date(fpath, verbose=True, timestamp=False):
     cmd = "git log -n 1 --pretty=format:%as --".split( )
+    if timestamp:
+        cmd = "git log -n 1 --pretty=format:%at --".split( )
     cmd += [str(fpath)]
     if verbose:
         print(cmd)
@@ -26,9 +28,9 @@ def badges2kv(text):
     return [(b.split('-')[0], b.split('-')[1]) for b in badges]
 
 
-def make_badge(label, prefix='tag', color='lightgrey'):
+def make_badge(label, prefix='tag', color='lightgrey', root='.'):
     #return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
-    return f"[![](https://img.shields.io/badge/{prefix}-{label}-{color})](tags/{label}.md)"
+    return f"[![](https://img.shields.io/badge/{prefix}-{label}-{color})]({root}/tags/{label}.md)"
 
 
 def random_hex_color():
@@ -52,6 +54,7 @@ for fpath in list(md_files):
             d_ = {'fpath':fpath}
             d_['title'] = header[2:].strip()
             d_['last_modified'] = get_last_modified_date(fpath)
+            d_['last_modified_ts'] = get_last_modified_date(fpath, timestamp=True)
             d_['n_char'] = len(text)
             d_['tags'] = [v for k,v in badge_meta if k =='tag']
             d_['tags'].sort()
@@ -66,12 +69,10 @@ def make_badges(unq_tags, sep=' '):
     return sep.join([tag_badges_map[tag] for tag in unq_tags])
     
     
-TOC = sorted(TOC, key=lambda x:x['last_modified'])[::-1]
-
-url_root = '' # "https://github.com/dmarx/bench-warmers/blob/main/"
+TOC = sorted(TOC, key=lambda x:x['last_modified_ts'])[::-1]
 
 header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
-recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{make_badges(d['tags'])}|" for d in TOC]
+recs = [f"|{d['last_modified']}|[{d['title']}]({ Path('.')/d['fpath'] })|{d['n_char']}|{make_badges(d['tags'])}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
 readme = None
@@ -88,10 +89,17 @@ if not readme:
 with open('README.md','w') as f:
     f.write(readme)
     
+    
+# overriding it this way is ugly but whatever
+tag_badges_map = {tag_name:make_badge(label=tag_name, color = random_hex_color(), root='..') for tag_name in unq_tags}
+def make_badges(unq_tags, sep=' '):
+    return sep.join([tag_badges_map[tag] for tag in unq_tags])
+    
+    
 Path("tags").mkdir(exist_ok=True)
 for tag, pages in unq_tags.items():
-    pages = sorted(pages, key=lambda x:x['last_modified'])[::-1]
-    recs = [f"|{d['last_modified']}|[{d['title']}]({url_root}{d['fpath']})|{d['n_char']}|{make_badges(d['tags'])}|" for d in pages]
+    pages = sorted(pages, key=lambda x:x['last_modified_ts'])[::-1]
+    recs = [f"|{d['last_modified']}|[{d['title']}]({ Path('..')/d['fpath'] })|{d['n_char']}|{make_badges(d['tags'])}|" for d in pages]
     with open(f"tags/{tag}.md", 'w') as f:
         page_str = f"# Pages tagged `{tag}`\n\n"
         page_str += header + '\n'.join(recs)
