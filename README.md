@@ -11,10 +11,10 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-03-23|[Make an NLP dataset out of the Stanford Encyclopedia of Philosophy](sep_dataset.md)|559||
 |2023-03-23|[product thinking AI](product_thinking_ai.md)|821|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-25a9f1)](./tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-03-22|[mini RWKV port](rust_rwkv.md)|306||
 |2023-03-22|[`metatron`: simple utility for connecting STT/TTS with apis](metatron.md)|52||
-|2023-03-21|[Make an NLP dataset out of the Stanford Encyclopedia of Philosophy](sep_dataset.md)|328||
 |2023-03-21|[Bam: Alignment Solved.](ezmode_alignment.md)|1937||
 |2023-03-21|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](store_walker.md)|3758|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md)|
 |2023-03-15|[Git Utilities to simulate Github "Private Branch" functionality](git_private_branch_utils.md)|1517|[![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
