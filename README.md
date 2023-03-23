@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-03-22|[`metatron`: simple utility for connecting STT/TTS with apis](metatron.md)|52||
 |2023-03-21|[Make an NLP dataset out of the Stanford Encyclopedia of Philosophy](sep_dataset.md)|328||
 |2023-03-21|[Bam: Alignment Solved.](ezmode_alignment.md)|1937||
 |2023-03-21|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](store_walker.md)|3758|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md)|
