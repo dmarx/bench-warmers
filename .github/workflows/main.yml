@@ -26,8 +26,10 @@ jobs:
       - name: Run a one-line script
         run: python scripts/update_readme.py
       - name: Commit files
+        #if: "! git status --short" # check if there are changes to commit
         run: |
-          git config --local user.name "dmarx"
+          git config --local user.name "Github Action"
+          git config --local user.email "action@github.com"
           git add README.md
           git add tags/*
           # Thanks for the trick, ChatGPT!
