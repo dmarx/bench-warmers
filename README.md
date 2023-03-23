@@ -11,7 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-03-23|[product thinking AI](product_thinking_ai.md)|321||
+|2023-03-23|[product thinking AI](product_thinking_ai.md)|821|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-25a9f1)](./tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-03-22|[mini RWKV port](rust_rwkv.md)|306||
 |2023-03-22|[`metatron`: simple utility for connecting STT/TTS with apis](metatron.md)|52||
 |2023-03-21|[Make an NLP dataset out of the Stanford Encyclopedia of Philosophy](sep_dataset.md)|328||
