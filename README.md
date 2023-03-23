@@ -11,6 +11,8 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-03-23|[product thinking AI](product_thinking_ai.md)|321||
+|2023-03-22|[mini RWKV port](rust_rwkv.md)|306||
 |2023-03-22|[`metatron`: simple utility for connecting STT/TTS with apis](metatron.md)|52||
 |2023-03-21|[Make an NLP dataset out of the Stanford Encyclopedia of Philosophy](sep_dataset.md)|328||
 |2023-03-21|[Bam: Alignment Solved.](ezmode_alignment.md)|1937||
