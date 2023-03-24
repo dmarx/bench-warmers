@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-03-24|[accelerated finetuning with "menu of marginals"](menu_of_marginals.md)|433||
 |2023-03-24|[GPT assisted CI/CD](gpt_assisted_cicd_workflows.md)|557||
 |2023-03-24|["why do you want to know?"-instruct-esque-fintetuning](whydoyouwantoknow.md)|1703||
 |2023-03-23|[On Openness in AI](on_openness_in_ai.md)|276||
