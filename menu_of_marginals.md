@@ -1,5 +1,11 @@
 # accelerated finetuning with "menu of marginals"
 
+tldr: front-load a bunch of compute to warmstart the process
+
+...the more I think about it, the more this feels like a "that would probably work, but would cost more money than it would save"
+
+---
+
 1. compute a clustering of your training data in representation space
 2. finetune a model to each cluster
 
