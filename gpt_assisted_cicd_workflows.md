@@ -22,3 +22,4 @@ run scripts that prompt GPT to improve code as part of PR automation. proposes c
 * https://github.com/openai/openai-cookbook/blob/main/examples/Unit_test_writing_using_a_multi-step_prompt.ipynb
 * https://github.com/openai/openai-cookbook/blob/main/examples/Code_search.ipynb
 * https://github.com/dmarx/keyframed_chatgpt
+* https://github.com/openai/openai-cookbook/blob/main/code_editing_examples.md
