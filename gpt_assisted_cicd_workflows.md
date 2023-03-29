@@ -16,3 +16,9 @@ run scripts that prompt GPT to improve code as part of PR automation. proposes c
 * improve ci/cd
 * check for security issues
 * check for bugs
+
+## Relevant projects
+
+* https://github.com/openai/openai-cookbook/blob/main/examples/Unit_test_writing_using_a_multi-step_prompt.ipynb
+* https://github.com/openai/openai-cookbook/blob/main/examples/Code_search.ipynb
+* https://github.com/dmarx/keyframed_chatgpt
