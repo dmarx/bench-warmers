@@ -11,7 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-03-29|[P+ prompt inversion](p_plus_inversion.md)|178||
+|2023-03-29|[P+ prompt inversion](p_plus_inversion.md)|237||
 |2023-03-29|[GPT assisted CI/CD](gpt_assisted_cicd_workflows.md)|898||
 |2023-03-25|[Quorum](quorum.md)|144||
 |2023-03-24|[accelerated finetuning with "menu of marginals"](menu_of_marginals.md)|631||
