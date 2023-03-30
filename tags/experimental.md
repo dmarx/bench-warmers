@@ -2,7 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-03-23|[product thinking AI](../product_thinking_ai.md)|821|[![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-f3232d)](../tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
+|2023-03-29|[product thinking AI](../product_thinking_ai.md)|3068|[![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-f3232d)](../tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
 |2023-03-21|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](../store_walker.md)|3758|[![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-8ce6fc)](../tags/stability.md)|
 |2023-03-15|[klmc2 rotoscoping](../klmc2_rotoscoping.md)|926|[![](https://img.shields.io/badge/tag-animation-93e32e)](../tags/animation.md) [![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
 |2023-03-14|[audioreactive tide](../audioreactive_tide.md)|4302|[![](https://img.shields.io/badge/tag-animation-93e32e)](../tags/animation.md) [![](https://img.shields.io/badge/tag-completed-b62aa6)](../tags/completed.md) [![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-publication-3bf9ab)](../tags/publication.md)|
