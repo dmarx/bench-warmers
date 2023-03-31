@@ -2,7 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-03-29|[product thinking AI](../product_thinking_ai.md)|14268|[![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-f3232d)](../tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
+|2023-03-30|[product thinking AI](../product_thinking_ai.md)|14349|[![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-f3232d)](../tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
 |2023-03-15|[Git Utilities to simulate Github "Private Branch" functionality](../git_private_branch_utils.md)|1517|[![](https://img.shields.io/badge/tag-stability-8ce6fc)](../tags/stability.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
 |2023-03-15|[klmc2 rotoscoping](../klmc2_rotoscoping.md)|926|[![](https://img.shields.io/badge/tag-animation-93e32e)](../tags/animation.md) [![](https://img.shields.io/badge/tag-experimental-379a95)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
 |2023-03-02|[Pandas Wrangler](../pandas_wrangler.md)|910|[![](https://img.shields.io/badge/tag-tooling-3faa68)](../tags/tooling.md)|
