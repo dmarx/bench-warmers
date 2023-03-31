@@ -4,7 +4,9 @@
 ![](https://img.shields.io/badge/tag-foundation-lightgrey)  
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)  
 
+make it with this: https://www.askmarvin.ai/getting_started/bots_quickstart/
 
+---
 
 use product management acronyms to systematize chained development of complex artifacts with language models (e.g. my PR/FAQ trick)
 
