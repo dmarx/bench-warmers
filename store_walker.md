@@ -1,7 +1,7 @@
 # Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase
 
-![](https://img.shields.io/badge/tag-stability-lightgrey)
-![](https://img.shields.io/badge/tag-experimental-lightgrey)
+![](https://img.shields.io/badge/tag-stability-lightgrey)  
+![](https://img.shields.io/badge/tag-experimental-lightgrey)  
 
 Small team of floating devs who "walk the floor" and autonomously self-assign projects and issues. "Hey what're you working on? sounds interesting how can I help?". 
 Commitment to specific projects is expected to be limited and transient.
