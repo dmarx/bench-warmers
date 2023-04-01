@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-04-01|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](store_walker.md)|3762|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md)|
 |2023-04-01|[Paranoid Android](paranoid-android.md)|1666|[![](https://img.shields.io/badge/tag-alignment-379a95)](./tags/alignment.md) [![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md)|
 |2023-04-01|[Quorum](quorum.md)|272||
 |2023-03-30|[product thinking AI](product_thinking_ai.md)|14349|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-25a9f1)](./tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
@@ -23,7 +24,6 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 |2023-03-22|[mini RWKV port](rust_rwkv.md)|306||
 |2023-03-22|[`metatron`: simple utility for connecting STT/TTS with apis](metatron.md)|52||
 |2023-03-21|[Bam: Alignment Solved.](ezmode_alignment.md)|1937||
-|2023-03-21|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](store_walker.md)|3758|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md)|
 |2023-03-15|[Git Utilities to simulate Github "Private Branch" functionality](git_private_branch_utils.md)|1517|[![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-03-15|[klmc2 rotoscoping](klmc2_rotoscoping.md)|926|[![](https://img.shields.io/badge/tag-animation-9bf4b7)](./tags/animation.md) [![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-03-14|[audioreactive tide](audioreactive_tide.md)|4302|[![](https://img.shields.io/badge/tag-animation-9bf4b7)](./tags/animation.md) [![](https://img.shields.io/badge/tag-completed-0fcaa)](./tags/completed.md) [![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-publication-7ca620)](./tags/publication.md)|
