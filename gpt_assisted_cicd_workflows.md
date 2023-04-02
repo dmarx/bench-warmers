@@ -1,5 +1,7 @@
 # GPT assisted CI/CD
 
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
+
 run scripts that prompt GPT to improve code as part of PR automation. proposes changes in a new PR to merge with original PR following human approval.
 
 * add docstrings
@@ -18,6 +20,8 @@ run scripts that prompt GPT to improve code as part of PR automation. proposes c
 * check for bugs
 
 ## Relevant projects
+
+https://github.com/irgolic/AutoPR
 
 * https://github.com/openai/openai-cookbook/blob/main/examples/Unit_test_writing_using_a_multi-step_prompt.ipynb
 * https://github.com/openai/openai-cookbook/blob/main/examples/Code_search.ipynb
