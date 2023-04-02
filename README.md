@@ -11,12 +11,12 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-04-01|[GPT assisted CI/CD](gpt_assisted_cicd_workflows.md)|990|[![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-04-01|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](store_walker.md)|3762|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md)|
 |2023-04-01|[Paranoid Android](paranoid-android.md)|1666|[![](https://img.shields.io/badge/tag-alignment-379a95)](./tags/alignment.md) [![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md)|
 |2023-04-01|[Quorum](quorum.md)|272||
 |2023-03-30|[product thinking AI](product_thinking_ai.md)|14349|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-25a9f1)](./tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-03-29|[P+ prompt inversion](p_plus_inversion.md)|237||
-|2023-03-29|[GPT assisted CI/CD](gpt_assisted_cicd_workflows.md)|898||
 |2023-03-24|[accelerated finetuning with "menu of marginals"](menu_of_marginals.md)|631||
 |2023-03-24|["why do you want to know?"-instruct-esque-fintetuning](whydoyouwantoknow.md)|1703||
 |2023-03-23|[On Openness in AI](on_openness_in_ai.md)|276||

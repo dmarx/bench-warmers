@@ -2,6 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-04-01|[GPT assisted CI/CD](../gpt_assisted_cicd_workflows.md)|990|[![](https://img.shields.io/badge/tag-tooling-93e32e)](../tags/tooling.md)|
 |2023-03-30|[product thinking AI](../product_thinking_ai.md)|14349|[![](https://img.shields.io/badge/tag-experimental-3faa68)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-foundation-424c13)](../tags/foundation.md) [![](https://img.shields.io/badge/tag-tooling-93e32e)](../tags/tooling.md)|
 |2023-03-15|[Git Utilities to simulate Github "Private Branch" functionality](../git_private_branch_utils.md)|1517|[![](https://img.shields.io/badge/tag-stability-b62aa6)](../tags/stability.md) [![](https://img.shields.io/badge/tag-tooling-93e32e)](../tags/tooling.md)|
 |2023-03-15|[klmc2 rotoscoping](../klmc2_rotoscoping.md)|926|[![](https://img.shields.io/badge/tag-animation-c5a27b)](../tags/animation.md) [![](https://img.shields.io/badge/tag-experimental-3faa68)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-tooling-93e32e)](../tags/tooling.md)|
