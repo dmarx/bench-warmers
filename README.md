@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-04-03|[github-pages blog + substack?](gh-pages-blog-plus-substack.md)|250||
 |2023-04-03|[parallel diffusion](parallel-diffusion.md)|1148||
 |2023-04-01|[GPT assisted CI/CD](gpt_assisted_cicd_workflows.md)|990|[![](https://img.shields.io/badge/tag-tooling-84f8cf)](./tags/tooling.md)|
 |2023-04-01|[Internal team of Open Source devs as mechanism to promote benefits of open source development practices on non-open codebase](store_walker.md)|3762|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-stability-72fcc)](./tags/stability.md)|
