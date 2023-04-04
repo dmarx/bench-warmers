@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-04-04|[auto-coder: structured LLM colaboration](auto-coder.md)|945||
 |2023-04-04|[Quorum](quorum.md)|318||
 |2023-04-03|[github-pages blog + substack?](gh-pages-blog-plus-substack.md)|250||
 |2023-04-03|[parallel diffusion](parallel-diffusion.md)|1148||
