@@ -1,4 +1,8 @@
-# auto-coder: structured LLM colaboration
+# ~~auto-coder~~TROTFO: structured LLM colaboration
+
+lol, better name: `the rest of the fucking owl.py`
+
+---
 
 pick some file ending, `.llm_prompt` or something like that. ooooh better yet, combine that with a tag in the commit message, like `#4LLM`.  
 tag triggers a github workflow which globs all the cached `.llm_prompt` files and sends them to the completion endpoint with a "flesh out this code" prompt.  
