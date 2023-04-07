@@ -1,5 +1,10 @@
 # multimae +text
 
+![](https://img.shields.io/badge/tag-text-lightgrey)  
+![](https://img.shields.io/badge/tag-experimental-lightgrey)  
+![](https://img.shields.io/badge/tag-prompting-lightgrey)
+
+
 yo just throw a multi-mae loss on an sd finetune
 
 ----

@@ -1,5 +1,15 @@
 # Brushstroke Diffusion
 
+![](https://img.shields.io/badge/tag-painting-lightgrey)  
+![](https://img.shields.io/badge/tag-modeltraining-lightgrey)  
+![](https://img.shields.io/badge/tag-experimental-lightgrey)  
+![](https://img.shields.io/badge/tag-imageprocessing-lightgrey)  
+![](https://img.shields.io/badge/tag-wip-lightgrey)  
+![](https://img.shields.io/badge/tag-creativity-lightgrey)  
+![](https://img.shields.io/badge/tag-deepgenerativemodeling-lightgrey)  
+![](https://img.shields.io/badge/tag-artisticstyletransfer-lightgrey)
+
+
 # motivating idea
 
 via https://twitter.com/DigThatData/status/1584826328704221184
@@ -16,4 +26,4 @@ via https://twitter.com/DigThatData/status/1584826328704221184
 * if the corruption process includes deleting brushstrokes, that would give opportunity for the inverse processes to include predicting new brushstrokes
 * My hope here is that we could train a "touchup" model that iteratively predicts new brushstrokes or paint splatter or whatever atomic unit of a visual artists labor
 * using the PaintTransformer brushstrokes as the final target of the inverse process, maybe we could shuffle or randomize strokes for the forward corruption?
-  * pretrain on PaintTransformer, finetune on real art
+* pretrain on PaintTransformer, finetune on real art

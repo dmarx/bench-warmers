@@ -1,0 +1,5 @@
+# Pages tagged `painting`
+
+|last_modified|title|est. idea maturity|tags
+|:---|:---|---:|:---|
+||[Brushstroke Diffusion](../brushstroke-diffusion.md)|1408|[![](https://img.shields.io/badge/tag-artisticstyletransfer-95bed6)](../tags/artisticstyletransfer.md) [![](https://img.shields.io/badge/tag-creativity-1743a)](../tags/creativity.md) [![](https://img.shields.io/badge/tag-deepgenerativemodeling-c92725)](../tags/deepgenerativemodeling.md) [![](https://img.shields.io/badge/tag-experimental-da139a)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-imageprocessing-43d799)](../tags/imageprocessing.md) [![](https://img.shields.io/badge/tag-modeltraining-d548d8)](../tags/modeltraining.md) [![](https://img.shields.io/badge/tag-painting-98b52b)](../tags/painting.md) [![](https://img.shields.io/badge/tag-wip-f53bfe)](../tags/wip.md)|

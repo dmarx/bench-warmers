@@ -1,5 +1,12 @@
 # INR CNN Filter Learning
 
+![](https://img.shields.io/badge/tag-deep_learning-lightgrey)  
+![](https://img.shields.io/badge/tag-experimental-lightgrey)  
+![](https://img.shields.io/badge/tag-CNN-lightgrey)  
+![](https://img.shields.io/badge/tag-filter_learning-lightgrey)  
+![](https://img.shields.io/badge/tag-INR-lightgrey)
+
+
 WARNING: 2deep4this
 
 INR that predicts the filters for a CNN

@@ -1,5 +1,8 @@
 # accelerated finetuning with "menu of marginals"
 
+![](https://img.shields.io/badge/tag-experimental-lightgrey)
+
+
 tldr: front-load a bunch of compute to warmstart the process
 
 ...the more I think about it, the more this feels like a "that would probably work, but would cost more money than it would save"

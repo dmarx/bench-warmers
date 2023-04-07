@@ -1,5 +1,10 @@
 # warp klmc2.md
 
+![](https://img.shields.io/badge/tag-wip-lightgrey)  
+![](https://img.shields.io/badge/tag-tooling-lightgrey)  
+![](https://img.shields.io/badge/tag-animation-lightgrey)
+
+
 just add an optical flow loss.
 
 shit, I should add classifier guidance too. and a clip prior.
