@@ -38,6 +38,7 @@ def parse_tags(text: str) -> Tuple[set, str]:
 class Document:
     def __init__(self, fpath: Path):
         self.fpath = fpath
+        self.tags, self.content = set(), ""
         self.parse()
     def parse(self):
         #lines = self.fpath.read().split('\n')
