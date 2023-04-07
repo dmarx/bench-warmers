@@ -16,7 +16,9 @@ def get_last_modified_date(fpath, verbose=True, timestamp=False):
         #print(cmd)
         logger.debug(cmd)
     response = subprocess.run(cmd, capture_output=True)
+    logger.debug(response)
     outv = response.stdout.decode()
+    logger.debug(outv)
     if len(outv.split('\n')) > 1:
         outv = (outv.split())[0]
     if verbose:
