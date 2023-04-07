@@ -176,6 +176,6 @@ def main(docs):
 
         
 if __name__ == '__main__':
-    FOLDER= 'examples' #'.'
+    FOLDER= '.'
     docs = [Document(fpath) for fpath in Path(FOLDER).glob('*.md')]
     main(docs)
