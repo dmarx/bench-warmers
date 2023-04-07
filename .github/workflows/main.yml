@@ -21,8 +21,12 @@ jobs:
         with:
           fetch-depth: '0'
       - uses: actions/setup-python@v2
+      - name: install dependencies
+        run: pip install openai loguru
       - name: Predict tags
         run: python scripts/tag.py      
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Build README
         run: python scripts/update_readme.py
       - name: Commit files
