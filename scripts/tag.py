@@ -137,7 +137,7 @@ def isolate_tags_from_completion(completion):
     tags = completion.split(',')
     return [t.strip() for t in tags]
 
-def build_chat_prompt(doc: Document, prompt_head: str):
+def build_chat_prompt(doc: Document, prompt_head: str, max_content_len: int = 2000):
     """
     build prompt to predict tags for a specific document.
     modified for chat models
@@ -145,7 +145,10 @@ def build_chat_prompt(doc: Document, prompt_head: str):
     #i = 99 # arbitrary 'large-ish' number
     i, system_prompt = prompt_head
     #prompt = prompt_head 
-    user_prompt = f"<content-{i}>{doc.title}\n\n{doc.content}</content-{i}>\n"
+    content = doc.content
+    if len(content) > max_content_len:
+        content = content[:max_content_len]
+    user_prompt = f"<content-{i}>{doc.title}\n\n{content}</content-{i}>\n"
     user_prompt += f"<tags-{i}>"
     messages = [
       {'role':'system', 'content':system_prompt},
