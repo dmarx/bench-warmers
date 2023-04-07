@@ -3,20 +3,25 @@ import random
 import re
 import subprocess
 from collections import defaultdict
+from loguru import logger
 
 random.seed(0)
 
 def get_last_modified_date(fpath, verbose=True, timestamp=False):
-    cmd = "git log --pretty=format:%as --author='^(?!action).*$' --perl-regexp -- | head -1".split( )
+    cmd = "git log --pretty=format:%as --author='^(?!action).*$' --perl-regexp -- ".split( )
     if timestamp:
-        cmd = "git log --pretty=format:%at --author='^(?!action).*$' --perl-regexp -- | head -1".split( )
+        cmd = "git log --pretty=format:%at --author='^(?!action).*$' --perl-regexp -- ".split( )
     cmd += [str(fpath)]
     if verbose:
-        print(cmd)
+        #print(cmd)
+        logger.debug(cmd)
     response = subprocess.run(cmd, capture_output=True)
     outv = response.stdout.decode()
+    if len(outv.split('\n')) > 1:
+        outv = (outv.split())[0]
     if verbose:
-        print(outv)
+        #print(outv)
+        logger.debug(outv)
     return outv
 
 
