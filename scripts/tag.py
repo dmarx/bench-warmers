@@ -134,6 +134,8 @@ def isolate_tags_from_completion(completion):
         parts = completion.split(sep)
         completion = parts[0]
     logger.debug(completion)
+    for c in ("'{}"):
+        completion = completion.replace(c,"")
     tags = completion.split(',')
     return [t.strip() for t in tags]
 
