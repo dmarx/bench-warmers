@@ -5,7 +5,6 @@ name: update-readme
 # Controls when the workflow will run
 on:
   push:
-    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,8 +21,9 @@ jobs:
         with:
           fetch-depth: '0'
       - uses: actions/setup-python@v2
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Predict tags
+        run: python scripts/tag.py      
+      - name: Build README
         run: python scripts/update_readme.py
       - name: Commit files
         #if: "! git status --short" # check if there are changes to commit
