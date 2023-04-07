@@ -7,9 +7,9 @@ from collections import defaultdict
 random.seed(0)
 
 def get_last_modified_date(fpath, verbose=True, timestamp=False):
-    cmd = "git log -n 1 --pretty=format:%as --author='^(?!krlmlr).*$' --perl-regexp --".split( )
+    cmd = "git log --pretty=format:%as --author='^(?!action).*$' --perl-regexp -- | head -1".split( )
     if timestamp:
-        cmd = "git log -n 1 --pretty=format:%at --author='^(?!krlmlr).*$' --perl-regexp --".split( )
+        cmd = "git log --pretty=format:%at --author='^(?!action).*$' --perl-regexp -- | head -1".split( )
     cmd += [str(fpath)]
     if verbose:
         print(cmd)
