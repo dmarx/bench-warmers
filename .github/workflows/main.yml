@@ -34,8 +34,8 @@ jobs:
         run: |
           git config --local user.name "Github Action"
           git config --local user.email "action@github.com"
-          git add README.md
-          git add tags/*
+          git add *.md
+          git add tags/*.md
           # Thanks for the trick, ChatGPT!
           if git diff-index --quiet HEAD --; then
             echo "changes_to_push=false" >> $GITHUB_ENV
