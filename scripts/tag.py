@@ -2,6 +2,8 @@ import openai
 from pathlib import Path
 from typing import List, Tuple
 from loguru import logger
+from tenacity import retry, stop_after_attempt, wait_random_exponential
+
                 
 def is_tag(line: str):
     """
@@ -104,7 +106,7 @@ def build_prompt(doc: Document, prompt_head: str):
     prompt += f"<tags-{i}>"
     return prompt
 
-  
+@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(6))
 def predict_completion(prompt):
     """
     guess tags for document
