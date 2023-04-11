@@ -7,14 +7,18 @@ from collections import defaultdict
 random.seed(0)
 
 def get_last_modified_date(fpath, verbose=True, timestamp=False):
-    cmd = "git log -n 1 --pretty=format:%as --".split( )
+    fmt = "%as"
     if timestamp:
-        cmd = "git log -n 1 --pretty=format:%at --".split( )
+        fmt="%at"
+    cmd = f"git log --author='^(?!action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
     cmd += [str(fpath)]
     if verbose:
         print(cmd)
     response = subprocess.run(cmd, capture_output=True)
     outv = response.stdout.decode()
+    if verbose:
+        print(outv)
+    outv = outv.split()[0]
     if verbose:
         print(outv)
     return outv
