@@ -8,22 +8,21 @@ from loguru import logger
 random.seed(0)
 
 def get_last_modified_date(fpath, verbose=True, timestamp=False):
-    cmd = "git log --pretty=format:%as --author='^(?!action).*$' --perl-regexp -- ".split( )
+    fmt = "%as"
     if timestamp:
-        cmd = "git log --pretty=format:%at --author='^(?!action).*$' --perl-regexp -- ".split( )
+        fmt="%at"
+    # ignore commits where author=action@github.com
+    cmd = f"git log --author='^(?!action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
     cmd += [str(fpath)]
     if verbose:
-        #print(cmd)
-        logger.debug(cmd)
+        print(cmd)
     response = subprocess.run(cmd, capture_output=True)
-    logger.debug(response)
     outv = response.stdout.decode()
-    logger.debug(outv)
-    if len(outv.split('\n')) > 1:
-        outv = (outv.split())[0]
     if verbose:
-        #print(outv)
-        logger.debug(outv)
+        print(outv)
+    outv = outv.split()[0]
+    if verbose:
+        print(outv)
     return outv
 
 
