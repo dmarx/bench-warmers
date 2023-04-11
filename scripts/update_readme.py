@@ -15,11 +15,13 @@ def get_last_modified_date(fpath, verbose=True, timestamp=False):
     cmd = f"git log --author='^(?!action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
     cmd += [str(fpath)]
     if verbose:
-        print(cmd)
+        logger.debug(cmd)
     response = subprocess.run(cmd, capture_output=True)
-    print(response.returncode)
-    print(response.stderr.decode())
+    logger.debug(response.returncode)
+    logger.debug(response.stderr.decode())
     outv = response.stdout.decode()
+    logger.debug(outv)
+    logger.debug(response)
     if verbose:
         print(outv)
     outv = outv.split()[0]
