@@ -1,5 +1,11 @@
 # Private Tutor
 
+![](https://img.shields.io/badge/tag-education-lightgrey)  
+![](https://img.shields.io/badge/tag-AI-assisted-lightgrey)  
+![](https://img.shields.io/badge/tag-discussion-lightgrey)  
+![](https://img.shields.io/badge/tag-startup-lightgrey)
+
+
 https://discord.com/channels/729741769192767510/730095596861521970/1095219896624894002
 
 bro i've got it
