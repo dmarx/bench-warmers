@@ -4,7 +4,7 @@ from typing import List, Tuple
 from loguru import logger
 from tenacity import retry, stop_after_attempt, wait_random_exponential
                 
-@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(10))
+
 def is_tag(line: str):
     """
     parse all tags present in a document line
@@ -117,7 +117,8 @@ def predict_completion(prompt):
     )
     return response['choices'][0]['message']['content']
 
-  
+
+@retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(10))
 def predict_chat_completion(prompt):
     """
     guess tags for document
