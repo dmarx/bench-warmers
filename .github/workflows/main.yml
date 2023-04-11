@@ -22,7 +22,7 @@ jobs:
           fetch-depth: '0'
       - uses: actions/setup-python@v2
       - name: install dependencies
-        run: pip install openai loguru
+        run: pip install openai loguru tenacity
       - name: Predict tags
         run: python scripts/tag.py      
         env:
