@@ -27,7 +27,7 @@ jobs:
         if: env.OPENAI_API_KEY != ''
         run: python scripts/tag.py      
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY_FOO }}
       - name: Build README
         run: python scripts/update_readme.py
       - name: Commit files
