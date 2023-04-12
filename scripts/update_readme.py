@@ -12,7 +12,8 @@ def get_last_modified_date(fpath, verbose=True, timestamp=False):
     if timestamp:
         fmt="%at"
     # ignore commits where author=action@github.com
-    cmd = f"git log --author='^(?!.*action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
+    #cmd = f"git log --author='^(?!.*action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
+    cmd = f"git log --author='^(?!Github).*$' --perl-regexp --pretty=format:{fmt} --".split( )
     #cmd = f"git log --pretty=format:{fmt} --".split() # straight killin me here...
     cmd += [str(fpath)]
     if verbose:
