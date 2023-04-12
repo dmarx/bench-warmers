@@ -13,22 +13,28 @@ def get_last_modified_date(fpath, verbose=True, timestamp=False):
         fmt="%at"
     # ignore commits where author=action@github.com
     #cmd = f"git log --author='^(?!.*action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
-    cmd = f"git log --author='^(?!Github).*$' --perl-regexp --pretty=format:{fmt} --".split( )
+    #cmd = f"git log --author='^(?!Github).*$' --perl-regexp --pretty=format:{fmt} --".split( )
     #cmd = f"git log --pretty=format:{fmt} --".split() # straight killin me here...
+    cmd = f"git log --pretty=format:{fmt}__%ae --".split() # straight killin me here...
     cmd += [str(fpath)]
     if verbose:
         logger.debug(cmd)
     response = subprocess.run(cmd, capture_output=True)
     #logger.debug(response.returncode)
     #logger.debug(response.stderr.decode())
-    outv = response.stdout.decode()
-    logger.debug(outv)
+    commits = response.stdout.decode()
+    #logger.debug(outv)
     logger.debug(response)
     if verbose:
         print(outv)
-    outv = outv.split()[0]
+    #outv = outv.split()[0]
+    commits = commits.split()
+    for c in commits:
+        outv, author_email = c.split('__')
+        if author_email != 'action@github.com':
+            break
     if verbose:
-        print(outv)
+        logger.debug(outv)
     return outv
 
 
