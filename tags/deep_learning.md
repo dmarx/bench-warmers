@@ -1,4 +1,4 @@
-# Pages tagged `INR`
+# Pages tagged `deep_learning`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|

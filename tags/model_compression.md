@@ -1,4 +1,4 @@
-# Pages tagged `ggml`
+# Pages tagged `model_compression`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|

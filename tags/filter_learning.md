@@ -1,4 +1,4 @@
-# Pages tagged `INR`
+# Pages tagged `filter_learning`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
