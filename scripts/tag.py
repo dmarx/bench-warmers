@@ -76,6 +76,11 @@ def sort_docs(docs):
     return tags_present, tags_absent
 
 
+SAMPLE_TAGS =[
+  "![](https://img.shields.io/badge/tag-completed-lightgrey)",
+  "![](https://img.shields.io/badge/tag-fun_idea-lightgrey)",
+]
+
 # these thresholds are only very approximately respected and were chosen blindly
 def build_prompt_head(documents: List[Document], max_example_len: int=200, max_partial_prompt_len: int=1000):
     """
@@ -91,6 +96,8 @@ def build_prompt_head(documents: List[Document], max_example_len: int=200, max_p
             examples += f"<tags-{i}>{doc.tags}</tags-{i}>\n"
             j=i
         all_tags.update(doc.tags)
+    if len(all_tags)==0:
+        all_tags=set(SAMPLE_TAGS)
     tags_prompt = f"Available tags: {','.join(all_tags)}\n"
     return j+1, tags_prompt + examples
 
