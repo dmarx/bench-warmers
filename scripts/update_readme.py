@@ -25,8 +25,8 @@ def get_last_modified_date(fpath, verbose=True, timestamp=False):
     commits = response.stdout.decode()
     #logger.debug(outv)
     logger.debug(response)
-    if verbose:
-        print(outv)
+    #if verbose:
+    #    print(outv)
     #outv = outv.split()[0]
     commits = commits.split()
     for c in commits:
