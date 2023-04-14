@@ -2,12 +2,8 @@
 
 ![](https://img.shields.io/badge/tag-standard-lightgrey)  
 ![](https://img.shields.io/badge/tag-documentation-lightgrey)  
-![](https://img.shields.io/badge/tag-embedding-lightgrey)  
-![](https://img.shields.io/badge/tag-readthedocs-lightgrey)  
-![](https://img.shields.io/badge/tag-nlp-lightgrey)  
 ![](https://img.shields.io/badge/tag-accessibility-lightgrey)  
-![](https://img.shields.io/badge/tag-querying-lightgrey)  
-![](https://img.shields.io/badge/tag-service-lightgrey)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
 
 https://twitter.com/DigThatData/status/1646891215290511362
@@ -23,3 +19,8 @@ and inference some specific model just to be able to read a particular set of do
 4. maybe we need some sort of standard for emitting natural language queries to docs. that way the docs could represent however they want, and the LLM would just expect to receive a
 a cursor that yields relevant chunks of documentation.
 5. starting to feel like what we need here is a documentation hosting and retrieval service, like readthedocs
+
+one way we could potentially get around this would be docker. the repository could build a container that provides an endpoint for a lookup service. could even take text as a payload
+and then the whole "fetching and using the correct model" thing would be abstracted away. 
+
+frankly, a simple local embedding DB that could be pinged like this would just be super useful in general. 
