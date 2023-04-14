@@ -2,7 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-14|[we need a documentation embedding standard](../doc-embed-standard.md)|2167|[![](https://img.shields.io/badge/tag-accessibility-7c795e)](../tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-96f12e)](../tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-5e378d)](../tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-4bcfd8)](../tags/tooling.md)|
+|2023-04-14|[we need a documentation embedding standard](../doc-embed-standard.md)|2177|[![](https://img.shields.io/badge/tag-accessibility-7c795e)](../tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-96f12e)](../tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-5e378d)](../tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-4bcfd8)](../tags/tooling.md)|
 |2023-04-04|[~~auto-coder~~TROTFO: structured LLM colaboration](../auto-coder.md)|1223|[![](https://img.shields.io/badge/tag-prompting-ff6770)](../tags/prompting.md) [![](https://img.shields.io/badge/tag-tooling-4bcfd8)](../tags/tooling.md)|
 |2023-04-03|[github-pages blog + substack?](../gh-pages-blog-plus-substack.md)|481|[![](https://img.shields.io/badge/tag-tooling-4bcfd8)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-wip-e7673c)](../tags/wip.md)|
 |2023-04-01|[GPT assisted CI/CD](../gpt_assisted_cicd_workflows.md)|990|[![](https://img.shields.io/badge/tag-tooling-4bcfd8)](../tags/tooling.md)|
