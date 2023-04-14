@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-10-27|[multimae +text](../multimae_w_text.md)|479|[![](https://img.shields.io/badge/tag-experimental-fecb83)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-prompting-ff6770)](../tags/prompting.md) [![](https://img.shields.io/badge/tag-text-8fb3d)](../tags/text.md)|
+|2022-10-27|[multimae +text](../multimae_w_text.md)|479|[![](https://img.shields.io/badge/tag-experimental-6a156e)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-prompting-4aea2)](../tags/prompting.md) [![](https://img.shields.io/badge/tag-text-83cbca)](../tags/text.md)|
