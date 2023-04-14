@@ -11,7 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-14|[we need a documentation embedding standard](doc-embed-standard.md)|1977|[![](https://img.shields.io/badge/tag-accessibility-5d33f3)](./tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-4d8aaa)](./tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-acbc2f)](./tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
+|2023-04-14|[we need a documentation embedding standard](doc-embed-standard.md)|2167|[![](https://img.shields.io/badge/tag-accessibility-5d33f3)](./tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-4d8aaa)](./tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-acbc2f)](./tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
 |2023-04-10|[Private Tutor](private_tutor.md)|819|[![](https://img.shields.io/badge/tag-AI-5b6ac0)](./tags/AI.md) [![](https://img.shields.io/badge/tag-discussion-617c8)](./tags/discussion.md) [![](https://img.shields.io/badge/tag-education-28ab17)](./tags/education.md) [![](https://img.shields.io/badge/tag-startup-95446)](./tags/startup.md)|
 |2023-04-04|[~~auto-coder~~TROTFO: structured LLM colaboration](auto-coder.md)|1223|[![](https://img.shields.io/badge/tag-prompting-7ca620)](./tags/prompting.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
 |2023-04-04|[Quorum](quorum.md)|379|[![](https://img.shields.io/badge/tag-experimental-4b9e32)](./tags/experimental.md)|
