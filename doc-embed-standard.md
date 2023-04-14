@@ -6,6 +6,15 @@
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
 
+ok so let's say parameterize this like so:
+embedder_model_id: <repo/model> # i.e. assumes huggingface
+tokenizer_model_id: <repo/model>
+directory_to_index: /path/to/folder 
+port: 8888
+
+
+---
+
 https://twitter.com/DigThatData/status/1646891215290511362
 https://discord.com/channels/1086642728764452924/1088253884725727322/1096231558207242240
 
