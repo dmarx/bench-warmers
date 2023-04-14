@@ -6,11 +6,12 @@
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
 
-ok so let's say parameterize this like so:
-embedder_model_id: <repo/model> # i.e. assumes huggingface
-tokenizer_model_id: <repo/model>
-directory_to_index: /path/to/folder 
-port: 8888
+ok so let's say parameterize this like so:  
+
+embedder_model_id: <repo/model> # i.e. assumes huggingface  
+tokenizer_model_id: <repo/model>  
+directory_to_index: /path/to/folder  
+port: 8888  
 
 
 ---
