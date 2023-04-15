@@ -34,3 +34,9 @@ one way we could potentially get around this would be docker. the repository cou
 and then the whole "fetching and using the correct model" thing would be abstracted away. 
 
 frankly, a simple local embedding DB that could be pinged like this would just be super useful in general. 
+
+-------
+
+## relevant projects
+
+* https://github.com/arc53/docsgpt/
