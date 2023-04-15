@@ -11,8 +11,8 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-04-14|[we need a documentation embedding standard](doc-embed-standard.md)|2245|[![](https://img.shields.io/badge/tag-accessibility-cb29b)](./tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-acbc2f)](./tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-ad1215)](./tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
 |2023-04-14|[LLM Helper](llm-helper.md)|182|[![](https://img.shields.io/badge/tag-LLM-32613c)](./tags/LLM.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
-|2023-04-14|[we need a documentation embedding standard](doc-embed-standard.md)|2177|[![](https://img.shields.io/badge/tag-accessibility-cb29b)](./tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-acbc2f)](./tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-ad1215)](./tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
 |2023-04-10|[Private Tutor](private_tutor.md)|819|[![](https://img.shields.io/badge/tag-AI-95446)](./tags/AI.md) [![](https://img.shields.io/badge/tag-discussion-617c8)](./tags/discussion.md) [![](https://img.shields.io/badge/tag-education-28ab17)](./tags/education.md) [![](https://img.shields.io/badge/tag-startup-4d8aaa)](./tags/startup.md)|
 |2023-04-04|[~~auto-coder~~TROTFO: structured LLM colaboration](auto-coder.md)|1223|[![](https://img.shields.io/badge/tag-prompting-7ca620)](./tags/prompting.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
 |2023-04-04|[Quorum](quorum.md)|379|[![](https://img.shields.io/badge/tag-experimental-4b9e32)](./tags/experimental.md)|
