@@ -10,6 +10,9 @@
 ![](https://img.shields.io/badge/tag-meta-lightgrey)  
 ![](https://img.shields.io/badge/tag-stability-lightgrey)
 
+https://github.com/dmarx/video-killed-the-radio-star
+
+---
 
 https://colab.research.google.com/github/openai/whisper/blob/master/notebooks/LibriSpeech.ipynb#scrollTo=T5Gs4qD52D46
 
