@@ -1,11 +1,17 @@
 # subtitles to storyboard
 
-![](https://img.shields.io/badge/tag-tooling-84f8cf)
-![](https://img.shields.io/badge/tag-wip-84f8cf)
-![](https://img.shields.io/badge/tag-opensource-84f8cf)
-![](https://img.shields.io/badge/tag-prompting-84f8cf)
-![](https://img.shields.io/badge/tag-accessibility-84f8cf)
-![](https://img.shields.io/badge/tag-animation-84f8cf)
+![](https://img.shields.io/badge/tag-tooling-lightgrey)  
+![](https://img.shields.io/badge/tag-wip-lightgrey)  
+![](https://img.shields.io/badge/tag-opensource-lightgrey)  
+![](https://img.shields.io/badge/tag-prompting-lightgrey)  
+![](https://img.shields.io/badge/tag-accessibility-lightgrey)  
+![](https://img.shields.io/badge/tag-animation-lightgrey)  
+![](https://img.shields.io/badge/tag-completed-lightgrey)  
+
+
+https://github.com/dmarx/video-killed-the-radio-star
+
+---
 
 POC! 
 https://colab.research.google.com/drive/1maXdiY1CIijYgRjMda_6vEL7keP8wr-l#scrollTo=IwLoLLXpbzD2
