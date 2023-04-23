@@ -2,6 +2,7 @@
 
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)  
 ![](https://img.shields.io/badge/tag-optimization-lightgrey)
+![](https://img.shields.io/badge/tag-scaling-lightgrey)
 
 
 (followup idea from "paired dropout" - constrianing drop out to only sample one index from a pair and pair up all weights)
