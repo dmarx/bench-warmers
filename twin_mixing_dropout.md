@@ -17,3 +17,8 @@ should be functionally similar to "paired dropout", but doubling (quadrupling?) 
 interpretable as a learned per-parameter variance prior
 
 ... actually, could probably even just bootstrap over the same sample in memory for a while
+
+---
+
+ooh maybe this could be a distributed thing. ddp, pair up training nodes to randomly exchange weights
+
