@@ -1,5 +1,11 @@
 # twin mixing bootstrap regularization
 
+![](https://img.shields.io/badge/tag-completed-darkgreen)  
+![](https://img.shields.io/badge/tag-experimental-lightgrey)  
+![](https://img.shields.io/badge/tag-interpretability-lightgrey)  
+![](https://img.shields.io/badge/tag-regularization-lightgrey)
+
+
 (followup idea from "paired dropout" - constrianing drop out to only sample one index from a pair and pair up all weights)
 
 * have two copies of a model in memory. for each batch of data, split it in half and only let each set of weights see a respective half batch.

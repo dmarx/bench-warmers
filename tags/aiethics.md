@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-03-24|["why do you want to know?"-instruct-esque-fintetuning](../whydoyouwantoknow.md)|1987|[![](https://img.shields.io/badge/tag-aiethics-fe76cf)](../tags/aiethics.md) [![](https://img.shields.io/badge/tag-alignment-ebbec3)](../tags/alignment.md) [![](https://img.shields.io/badge/tag-dialogue-8fb3d)](../tags/dialogue.md) [![](https://img.shields.io/badge/tag-models-8a140)](../tags/models.md) [![](https://img.shields.io/badge/tag-wip-6a156e)](../tags/wip.md)|
+|2023-03-24|["why do you want to know?"-instruct-esque-fintetuning](../whydoyouwantoknow.md)|1987|[![](https://img.shields.io/badge/tag-aiethics-e33481)](../tags/aiethics.md) [![](https://img.shields.io/badge/tag-alignment-da6994)](../tags/alignment.md) [![](https://img.shields.io/badge/tag-dialogue-b59164)](../tags/dialogue.md) [![](https://img.shields.io/badge/tag-models-2b1224)](../tags/models.md) [![](https://img.shields.io/badge/tag-wip-eac1b9)](../tags/wip.md)|
