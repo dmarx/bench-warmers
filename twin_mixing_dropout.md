@@ -1,9 +1,7 @@
 # twin mixing bootstrap regularization
 
-![](https://img.shields.io/badge/tag-completed-darkgreen)  
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)  
-![](https://img.shields.io/badge/tag-interpretability-lightgrey)  
-![](https://img.shields.io/badge/tag-regularization-lightgrey)
+![](https://img.shields.io/badge/tag-optimization-lightgrey)
 
 
 (followup idea from "paired dropout" - constrianing drop out to only sample one index from a pair and pair up all weights)
