@@ -26,6 +26,7 @@ this basically the crux of it. the ability for users to extend the platform with
 * common ux toolkit
 * something like panel-param could potentially make this sort of thing ux agnostic. experimentation required
 * workhorse appears to be [`scripts.Script`](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Developing-custom-scripts) class. could probably port a lot of funcitonality by supporting just this class
+  * encapsulates step-by-step processing flow with hooks and callbacks
 
 # misc
 
