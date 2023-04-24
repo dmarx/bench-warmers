@@ -25,8 +25,17 @@ this basically the crux of it. the ability for users to extend the platform with
 * could be combined with the "offloading" pattern by adopting an `apt` registry style approach. let users create their own curated collections other users can subscribe to
 * common ux toolkit
 * something like panel-param could potentially make this sort of thing ux agnostic. experimentation required
+
+## `modules.scripts.Script`
+
+https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/modules/scripts.py
+
 * workhorse appears to be [`scripts.Script`](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Developing-custom-scripts) class. could probably port a lot of funcitonality by supporting just this class
-  * encapsulates step-by-step processing flow with hooks and callbacks
+* encapsulates step-by-step processing flow with hooks and callbacks
+* separation of data from processing
+  * the `Scripts` class is structured to have methods overrided, but it's not actually an ABC. 
+  * methods are all defined empty, users can override whichever ones they need or want.
+  * separate runner class handles actually operating over the scripted procedure
 
 # misc
 
