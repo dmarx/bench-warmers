@@ -24,3 +24,8 @@ this basically the crux of it. the ability for users to extend the platform with
 * could be combined with the "offloading" pattern by adopting an `apt` registry style approach. let users create their own curated collections other users can subscribe to
 * common ux toolkit
 * something like panel-param could potentially make this sort of thing ux agnostic. experimentation required
+
+# misc
+
+* convenient and robust installation script
+  - dummy-proof setup as much as possible
