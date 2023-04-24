@@ -29,3 +29,4 @@ this basically the crux of it. the ability for users to extend the platform with
 
 * convenient and robust installation script
   - dummy-proof setup as much as possible
+* in addition to UX customizability, extensive command-line flag options for backend customization and optimization as well
