@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-11-29|[stick-breaking prior for semi-correlated feature initialization](../stickbreaking-init.md)|690|[![](https://img.shields.io/badge/tag-experimental-eac1b9)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-modeling-98b52b)](../tags/modeling.md) [![](https://img.shields.io/badge/tag-wip-4a3565)](../tags/wip.md)|
+|2022-11-29|[stick-breaking prior for semi-correlated feature initialization](../stickbreaking-init.md)|690|[![](https://img.shields.io/badge/tag-experimental-fda5ff)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-modeling-4d5a4)](../tags/modeling.md) [![](https://img.shields.io/badge/tag-wip-4bcfd8)](../tags/wip.md)|
