@@ -25,6 +25,7 @@ this basically the crux of it. the ability for users to extend the platform with
 * could be combined with the "offloading" pattern by adopting an `apt` registry style approach. let users create their own curated collections other users can subscribe to
 * common ux toolkit
 * something like panel-param could potentially make this sort of thing ux agnostic. experimentation required
+* workhorse appears to be [`scripts.Script`](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Developing-custom-scripts) class. could probably port a lot of funcitonality by supporting just this class
 
 # misc
 
