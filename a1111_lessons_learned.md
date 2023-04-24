@@ -36,3 +36,4 @@ this basically the crux of it. the ability for users to extend the platform with
   * extensions
   * tabs
   * etc
+* localizations explicitly supported
