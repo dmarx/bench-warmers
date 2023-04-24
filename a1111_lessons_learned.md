@@ -36,6 +36,7 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/modules/scri
   * the `Scripts` class is structured to have methods overrided, but it's not actually an ABC. 
   * methods are all defined empty, users can override whichever ones they need or want.
   * separate runner class handles actually operating over the scripted procedure
+  * abstracts away setup, building UI, batch processing
 
 # misc
 
