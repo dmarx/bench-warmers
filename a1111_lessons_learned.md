@@ -4,7 +4,7 @@
 ![](https://img.shields.io/badge/tag-apt_registry-lightgrey)  
 ![](https://img.shields.io/badge/tag-documentation-lightgrey)  
 ![](https://img.shields.io/badge/tag-discoverability-lightgrey)  
-![](https://img.shields.io/badge/tag-tooling-84f8cf)  
+![](https://img.shields.io/badge/tag-tooling-lightgrey)  
 ![](https://img.shields.io/badge/tag-opensource-lightgrey)  
 ![](https://img.shields.io/badge/tag-ux-lightgrey)  
 ![](https://img.shields.io/badge/tag-extensions-lightgrey)  
@@ -51,3 +51,6 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/modules/scri
   * etc
 * localizations explicitly supported
 
+# questions
+
+* what do the "hijack" procedures do?
