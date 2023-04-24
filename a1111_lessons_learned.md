@@ -29,6 +29,7 @@ this basically the crux of it. the ability for users to extend the platform with
 
 # misc
 
+* internals: https://miro.com/app/board/uXjVMdgY-TY=/
 * convenient and robust installation script
   - dummy-proof setup as much as possible
 * in addition to UX customizability, extensive command-line flag options for backend customization and optimization as well
@@ -38,3 +39,4 @@ this basically the crux of it. the ability for users to extend the platform with
   * tabs
   * etc
 * localizations explicitly supported
+
