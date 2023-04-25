@@ -1,15 +1,10 @@
 # a1111 lessons learned
 
-![](https://img.shields.io/badge/tag-curation-lightgrey)  
-![](https://img.shields.io/badge/tag-apt_registry-lightgrey)  
-![](https://img.shields.io/badge/tag-documentation-lightgrey)  
-![](https://img.shields.io/badge/tag-discoverability-lightgrey)  
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)  
 ![](https://img.shields.io/badge/tag-opensource-lightgrey)  
 ![](https://img.shields.io/badge/tag-ux-lightgrey)  
-![](https://img.shields.io/badge/tag-extensions-lightgrey)  
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)
-
+![](https://img.shields.io/badge/tag-stability-lightgrey)
 
 documenting some thoughts on what makes a1111 work well as a foss project, brainstorming improvements for future projects
 
