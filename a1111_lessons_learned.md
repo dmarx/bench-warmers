@@ -28,7 +28,7 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/modules/scri
 * workhorse appears to be [`scripts.Script`](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Developing-custom-scripts) class. could probably port a lot of funcitonality by supporting just this class
 * encapsulates step-by-step processing flow with hooks and callbacks
 * separation of data from processing
-  * the `Scripts` class is structured to have methods overrided, but it's not actually an ABC. 
+  * the `Scripts` class is structured to have methods overrided, but it's not actually an ABC. designed to be painless to extend
   * methods are all defined empty, users can override whichever ones they need or want.
   * separate runner class handles actually operating over the scripted procedure
   * abstracts away setup, building UI, batch processing
