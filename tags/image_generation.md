@@ -2,5 +2,5 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-02-22|[look-ahead traversal sampling](../look-ahead-traversal-sampling.md)|1184|[![](https://img.shields.io/badge/tag-MCMC-35d2ce)](../tags/MCMC.md) [![](https://img.shields.io/badge/tag-animation-6a156e)](../tags/animation.md) [![](https://img.shields.io/badge/tag-control-8e95e2)](../tags/control.md) [![](https://img.shields.io/badge/tag-experimental-fda5ff)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_generation-1dc0d1)](../tags/image_generation.md)|
-|2022-07-08|[Scale-Agnostic VQGAN](../scale-agnostic_VQGAN.md)|387|[![](https://img.shields.io/badge/tag-experimental-fda5ff)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_generation-1dc0d1)](../tags/image_generation.md)|
+|2023-02-22|[look-ahead traversal sampling](../look-ahead-traversal-sampling.md)|1184|[![](https://img.shields.io/badge/tag-MCMC-cdef47)](../tags/MCMC.md) [![](https://img.shields.io/badge/tag-animation-eac1b9)](../tags/animation.md) [![](https://img.shields.io/badge/tag-control-99b5f2)](../tags/control.md) [![](https://img.shields.io/badge/tag-experimental-4aea2)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_generation-394ee4)](../tags/image_generation.md)|
+|2022-07-08|[Scale-Agnostic VQGAN](../scale-agnostic_VQGAN.md)|387|[![](https://img.shields.io/badge/tag-experimental-4aea2)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_generation-394ee4)](../tags/image_generation.md)|

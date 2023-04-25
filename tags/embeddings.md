@@ -1,4 +1,4 @@
-# Pages tagged `nlp`
+# Pages tagged `embeddings`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
