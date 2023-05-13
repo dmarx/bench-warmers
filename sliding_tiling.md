@@ -1,4 +1,4 @@
-# sliding tiling
+# Sliding Tiling
 
 use the temporalnet tiling trick, hold on to last three frames, keep frozen as inpainting condition on next 6 tiles (so 3x3 grid, where the left wall of the grid is fixed). then slide it so there's only one wall left, freeze that, rinse and repeat for butter smooth.
 
