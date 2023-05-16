@@ -163,7 +163,7 @@ def build_chat_prompt(doc: Document, prompt_head: str, max_content_len: int = 20
     user_prompt = f"<content-{i}>{doc.title}\n\n{content}</content-{i}>\n"
     user_prompt += f"<tags-{i}>"
     messages = [
-      {'role':'system', 'content':system_prompt},
+      {'role':'system', 'content':system_prompt[:max_content_len]},
       {'role':'user',   'content':user_prompt},
     ]
     return messages
