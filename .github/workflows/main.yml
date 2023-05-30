@@ -23,11 +23,11 @@ jobs:
       - uses: actions/setup-python@v2
       - name: install dependencies
         run: pip install openai loguru tenacity
-      - name: Predict tags
-        if: env.OPENAI_API_KEY != ''
-        run: python scripts/tag.py      
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+#       - name: Predict tags
+#         if: env.OPENAI_API_KEY != ''
+#         run: python scripts/tag.py      
+#         env:
+#           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Build README
         run: python scripts/update_readme.py
       - name: Commit files
