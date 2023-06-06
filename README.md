@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-06-05|[personalized anything](personalized_anything.md)|916||
 |2023-06-03|[Intro to Latents: The Geometry of Ideas](intro-to-latents.md)|305||
 |2023-05-29|[generative outfill](generative_outfill.md)|84||
 |2023-05-19|[multimodal multiconditioning adaptor](multimodal_multiconditioning_adaptor.md)|105||
