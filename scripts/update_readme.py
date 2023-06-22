@@ -49,7 +49,7 @@ def badges2kv_labels(text):
     lines = [line.strip() for line in lines if line.strip()]
     lines = [line for line in lines if not line.startswith('#')]
     if lines[0].startswith('labels:'):
-        labels = lines[0].replace('labels:').strip().split(',')
+        labels = lines[0].replace('labels:','').strip().split(',')
         return [('tag', label.strip()) for label in labels]
 
 
