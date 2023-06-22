@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-06-21|[(draft) vktrs design whitepaper](vktrs_design_whitepaper.md)|1128||
 |2023-06-15|[animating on autopilot](animating_on_autopilot.md)|2013||
 |2023-06-15|[animation autopilot](animation_autopilot.md)|126||
 |2023-06-05|[personalized anything](personalized_anything.md)|916||
