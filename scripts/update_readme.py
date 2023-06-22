@@ -39,6 +39,21 @@ def get_last_modified_date(fpath, verbose=True, timestamp=False):
 
 
 def badges2kv(text):
+    outv = badges2kv_labels(text)
+    if not outv:
+        outv = badges2kv_regex(text)
+    return outv
+
+def badges2kv_labels(text):
+    lines = text.split('\n')
+    lines = [line.strip() for line in lines if line.strip()]
+    lines = [line for line in lines if not line.startswith('#')]
+    if lines[0].startswith('labels:'):
+        labels = lines[0].replace('labels:').strip().split(',')
+        return [('tag', label.strip()) for labels]
+
+
+def badges2kv_regex(text):
     testpat = r'\/([a-zA-Z]+-[a-zA-Z_]+-[a-zA-Z]+)'
 
     badges = re.findall(testpat, text)
