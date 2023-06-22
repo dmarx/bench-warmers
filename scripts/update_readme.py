@@ -50,7 +50,7 @@ def badges2kv_labels(text):
     lines = [line for line in lines if not line.startswith('#')]
     if lines[0].startswith('labels:'):
         labels = lines[0].replace('labels:').strip().split(',')
-        return [('tag', label.strip()) for labels]
+        return [('tag', label.strip()) for label in labels]
 
 
 def badges2kv_regex(text):
