@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-06-26|[standalone utility for adding latent encoding to exif](latent-exif.md)|216||
 |2023-06-23|[Seed differentiable vectorization with paths inferred from semantic segmentation](vectorize_anything.md)|301|[![](https://img.shields.io/badge/tag-experimentation-25d3f)](./tags/experimentation.md) [![](https://img.shields.io/badge/tag-segmentation-603dc8)](./tags/segmentation.md) [![](https://img.shields.io/badge/tag-svg-2ebd3b)](./tags/svg.md) [![](https://img.shields.io/badge/tag-tooling-72fcc)](./tags/tooling.md)|
 |2023-06-21|[(draft) vktrs design whitepaper](vktrs_design_whitepaper.md)|1128|[![](https://img.shields.io/badge/tag-publication-25a9f1)](./tags/publication.md)|
 |2023-06-15|[animating on autopilot](animating_on_autopilot.md)|2013||
