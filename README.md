@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-07-06|[attribution distillation/tuning](attribution_tuning.md)|204|[![](https://img.shields.io/badge/tag-experimentation-29c88d)](./tags/experimentation.md) [![](https://img.shields.io/badge/tag-model_compression-5c1fef)](./tags/model_compression.md) [![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-06|[Diffusion2GAN - GAN PEFT on diffusion generations](diffusion2gan.md)|346||
 |2023-06-28|[AI bob ross youtube channel/twitter](ai_bob_ross.md)|191|[![](https://img.shields.io/badge/tag-nts-13fda6)](./tags/nts.md)|
 |2023-06-26|[standalone utility for adding latent encoding to exif](latent-exif.md)|216||

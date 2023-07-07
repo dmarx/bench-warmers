@@ -2,6 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-07-06|[attribution distillation/tuning](../attribution_tuning.md)|204|[![](https://img.shields.io/badge/tag-experimentation-4db4d2)](../tags/experimentation.md) [![](https://img.shields.io/badge/tag-model_compression-32d44f)](../tags/model_compression.md) [![](https://img.shields.io/badge/tag-publication-2b1421)](../tags/publication.md)|
 |2023-06-21|[(draft) vktrs design whitepaper](../vktrs_design_whitepaper.md)|1128|[![](https://img.shields.io/badge/tag-publication-2b1421)](../tags/publication.md)|
 |2023-03-23|[On Openness in AI](../on_openness_in_ai.md)|517|[![](https://img.shields.io/badge/tag-alignment-c4c41f)](../tags/alignment.md) [![](https://img.shields.io/badge/tag-publication-2b1421)](../tags/publication.md) [![](https://img.shields.io/badge/tag-publicgood-734214)](../tags/publicgood.md)|
 |2023-03-23|[Make an NLP dataset out of the Stanford Encyclopedia of Philosophy](../sep_dataset.md)|727|[![](https://img.shields.io/badge/tag-dataset-96f021)](../tags/dataset.md) [![](https://img.shields.io/badge/tag-publication-2b1421)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-ff6770)](../tags/wip.md)|
