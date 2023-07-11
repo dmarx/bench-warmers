@@ -43,6 +43,8 @@ close: https://github.com/recalign/RecAlign
 
 another strong candidate: https://github.com/salesforce/LAVIS
 
+...ok looks like LLAVA has already been improved upon too - https://llavar.github.io/
+
 ---
 
 this looks promising: https://github.com/georgia-tech-db/evadb
