@@ -55,3 +55,5 @@ maybe some shortlist of content like important AI papers:
 
 * https://github.com/thunlp/Document-Plugin
 * https://github.com/thunlp/Knowledge-Plugin
+
+separate project from personalized policies: persist papers from arxiv (plus code) as knowledge plugins for personalized research assistant
