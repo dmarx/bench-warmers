@@ -71,6 +71,10 @@ ok now we're talking:
   * https://arxiv.org/abs/2306.05425
   * https://otter-ntu.github.io/
   - inherits from OpenFlamingo
+ 
+this is what i was looking for i think: https://github.com/haotian-liu/LLaVA#LLaVA-MPT-7b
+
+looks like it's a llama model. still need that checkpoint. way overdue.
 
 ---
 
