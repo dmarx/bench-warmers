@@ -94,3 +94,6 @@ separate project from personalized policies: persist papers from arxiv (plus cod
 ---
 
 uh... hard maybe... https://github.com/princeton-nlp/MeZO
+
+another hard maybe: https://github.com/mlc-ai/mlc-llm
+another h
