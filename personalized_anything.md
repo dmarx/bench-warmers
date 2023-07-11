@@ -27,13 +27,18 @@ i've already got my twitter export, i just need to finetune on that.
 grab some pre-trained multimodal model, finetune it on whether a tweet was authored, liked, or retweeted by me. for quote tweets, fill the contents...
 naw i'm making this too complicated, just generic LLM autoregressive next word prediction objective should be fine. 
 
+---
+
 relevant:
 
 * https://github.com/ljsabc/Fujisaki
-* 
 
 anyway, multimodal model. LLaVA or whatever. 
 
 "instruct" tune it, predicting my reply tweet in response to the context "prompt"
 
 ... this has to already be a thing by now, right?
+
+---
+
+this looks promising: https://github.com/georgia-tech-db/evadb
