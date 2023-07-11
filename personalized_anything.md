@@ -74,6 +74,10 @@ ok now we're talking:
   * https://otter-ntu.github.io/
   - inherits from OpenFlamingo
     - https://github.com/mlfoundations/open_flamingo
+   
+* another one based on OpenFlamingo: https://github.com/open-mmlab/Multimodal-GPT
+
+i wonderif maybe we could benefit from a "model merge" of those open flamingo checkpoints
  
 this is what i was looking for i think: https://github.com/haotian-liu/LLaVA#LLaVA-MPT-7b
 
