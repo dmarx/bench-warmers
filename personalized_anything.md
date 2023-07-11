@@ -55,6 +55,8 @@ LoRA trainer: https://github.com/official-elinas/zeus-llm-trainer
 
 another llm finetuner/server: https://github.com/OptimalScale/LMFlow
 
+https://github.com/mlc-ai/web-llm
+
 ---
 
 fallback plan: augment a conventional LLM with visual descriptions
