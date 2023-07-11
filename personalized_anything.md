@@ -42,3 +42,5 @@ anyway, multimodal model. LLaVA or whatever.
 ---
 
 this looks promising: https://github.com/georgia-tech-db/evadb
+
+also this: https://github.com/kvablack/LLaVA-server
