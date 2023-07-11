@@ -60,6 +60,15 @@ maybe some shortlist of content like important AI papers:
 * https://github.com/thunlp/Document-Plugin
 * https://github.com/thunlp/Knowledge-Plugin
 
+---
+
+ok now we're talking: https://github.com/Luodian/Otter
+
+- inherits from OpenFlamingo
+
+
+---
+
 separate project from personalized policies: persist papers from arxiv (plus code) as knowledge plugins for personalized research assistant
 
 ---
