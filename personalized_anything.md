@@ -61,6 +61,8 @@ https://github.com/mlc-ai/web-llm
 
 lol https://github.com/jdagdelen/hyperDB
 
+https://github.com/lm-sys/FastChat
+
 ---
 
 fallback plan: augment a conventional LLM with visual descriptions
