@@ -53,6 +53,8 @@ if i go llama family: https://github.com/coreylowman/llama-dfdx
 
 LoRA trainer: https://github.com/official-elinas/zeus-llm-trainer
 
+another llm finetuner/server: https://github.com/OptimalScale/LMFlow
+
 ---
 
 fallback plan: augment a conventional LLM with visual descriptions
