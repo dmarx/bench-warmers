@@ -67,6 +67,10 @@ maybe some shortlist of content like important AI papers:
 Another approach: EVAPORATE
 * https://github.com/HazyResearch/evaporate
 
+and another: https://github.com/VPGTrans/VPGTrans
+
+
+
 ---
 
 ok now we're talking: 
