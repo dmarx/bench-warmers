@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-10-02|[On "The Singularity"](../alternative-perspective-on-the-singularity.md)|475|[![](https://img.shields.io/badge/tag-trash-ebbec3)](../tags/trash.md)|
+|2022-10-02|[On "The Singularity"](../alternative-perspective-on-the-singularity.md)|475|[![](https://img.shields.io/badge/tag-trash-77a0)](../tags/trash.md)|
