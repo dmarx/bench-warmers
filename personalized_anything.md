@@ -63,6 +63,8 @@ lol https://github.com/jdagdelen/hyperDB
 
 https://github.com/lm-sys/FastChat
 
+another LoRA trainer - https://docs.adapterhub.ml/model_overview.html
+
 ---
 
 fallback plan: augment a conventional LLM with visual descriptions
