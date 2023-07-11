@@ -85,6 +85,8 @@ another take: align a frozen vision encoder with a frozen llm - https://github.c
 
 oh yeah, there's always full-on hugginggpt esque orchestrator approach: https://github.com/lupantech/chameleon-llm
 
+https://github.com/amazon-science/mm-cot
+
 ---
 
 ok now we're talking: 
