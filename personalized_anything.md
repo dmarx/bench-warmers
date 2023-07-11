@@ -50,3 +50,8 @@ also this: https://github.com/kvablack/LLaVA-server
 fallback plan: augment a conventional LLM with visual descriptions
 
 * https://github.com/ContextualAI/lens
+
+maybe some shortlist of content like important AI papers:
+
+* https://github.com/thunlp/Document-Plugin
+* https://github.com/thunlp/Knowledge-Plugin
