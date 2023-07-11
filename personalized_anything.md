@@ -57,6 +57,8 @@ another llm finetuner/server: https://github.com/OptimalScale/LMFlow
 
 https://github.com/mlc-ai/web-llm
 
+lol https://github.com/jdagdelen/hyperDB
+
 ---
 
 fallback plan: augment a conventional LLM with visual descriptions
