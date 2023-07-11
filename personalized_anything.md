@@ -39,6 +39,8 @@ anyway, multimodal model. LLaVA or whatever.
 
 ... this has to already be a thing by now, right?
 
+close: https://github.com/recalign/RecAlign
+
 ---
 
 this looks promising: https://github.com/georgia-tech-db/evadb
