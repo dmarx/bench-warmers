@@ -45,6 +45,8 @@ this looks promising: https://github.com/georgia-tech-db/evadb
 
 also this: https://github.com/kvablack/LLaVA-server
 
+* https://github.com/FL33TW00D/laserbeak
+
 while we're at it: https://github.com/pgvector/pgvector
 
 if i go llama family: https://github.com/coreylowman/llama-dfdx
