@@ -60,6 +60,9 @@ maybe some shortlist of content like important AI papers:
 * https://github.com/thunlp/Document-Plugin
 * https://github.com/thunlp/Knowledge-Plugin
 
+Another approach: EVAPORATE
+* https://github.com/HazyResearch/evaporate
+
 ---
 
 ok now we're talking: 
@@ -69,6 +72,9 @@ ok now we're talking:
   * https://otter-ntu.github.io/
   - inherits from OpenFlamingo
 
+---
+
+weakly related? https://github.com/google-research/pix2struct
 
 ---
 
