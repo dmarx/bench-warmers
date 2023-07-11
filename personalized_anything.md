@@ -89,6 +89,8 @@ this is what i was looking for i think: https://github.com/haotian-liu/LLaVA#LLa
 
 looks like it's a llama model. still need that checkpoint. way overdue.
 
+maybe can convert llama base model's to openllama? https://github.com/openlm-research/open_llama
+
 ---
 
 weakly related? https://github.com/google-research/pix2struct
