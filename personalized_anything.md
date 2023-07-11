@@ -62,8 +62,9 @@ maybe some shortlist of content like important AI papers:
 
 ---
 
-ok now we're talking: https://github.com/Luodian/Otter
-
+ok now we're talking: 
+* https://github.com/Luodian/Otter
+* https://otter-ntu.github.io/
 - inherits from OpenFlamingo
 
 
