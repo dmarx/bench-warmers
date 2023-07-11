@@ -89,6 +89,8 @@ oh yeah, there's always full-on hugginggpt esque orchestrator approach: https://
 
 https://github.com/amazon-science/mm-cot
 
+MAGMA - https://arxiv.org/abs/2112.05253
+
 ---
 
 ok now we're talking: 
