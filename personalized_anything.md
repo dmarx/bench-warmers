@@ -47,6 +47,8 @@ also this: https://github.com/kvablack/LLaVA-server
 
 while we're at it: https://github.com/pgvector/pgvector
 
+if i go llama family: https://github.com/coreylowman/llama-dfdx
+
 ---
 
 fallback plan: augment a conventional LLM with visual descriptions
