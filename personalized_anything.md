@@ -69,6 +69,7 @@ Another approach: EVAPORATE
 
 and another: https://github.com/VPGTrans/VPGTrans
 
+another take: align a frozen vision encoder with a frozen llm - https://github.com/Vision-CAIR/MiniGPT-4
 
 
 ---
