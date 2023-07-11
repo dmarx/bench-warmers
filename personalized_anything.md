@@ -41,6 +41,8 @@ anyway, multimodal model. LLaVA or whatever.
 
 close: https://github.com/recalign/RecAlign
 
+another strong candidate: https://github.com/salesforce/LAVIS
+
 ---
 
 this looks promising: https://github.com/georgia-tech-db/evadb
