@@ -1,5 +1,7 @@
 # personalized anything
 
+labels: productivity, personalization, llm, gdpr_data_export
+
 here's how this would work e.g. for mastodon. generalized from there.
 
 1. consume feeds of mastodon people i follow
@@ -18,3 +20,15 @@ so i'm thinking about mastodon right now, but this could really be a feed of any
 just let an LLM see your content interaction history and ask it directly if a piece of content is something you'd find interesting. 
 
 NTS: crack open the twitter data export
+
+----------------
+
+i've already got my twitter export, i just need to finetune on that.
+grab some pre-trained multimodal model, finetune it on whether a tweet was authored, liked, or retweeted by me. for quote tweets, fill the contents...
+naw i'm making this too complicated, just generic LLM autoregressive next word prediction objective should be fine. 
+
+anyway, multimodal model. LLaVA or whatever. 
+
+"instruct" tune it, predicting my reply tweet in response to the context "prompt"
+
+... this has to already be a thing by now, right?
