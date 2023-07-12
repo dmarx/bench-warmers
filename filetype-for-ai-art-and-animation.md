@@ -14,6 +14,13 @@ so add a simple installer and wrapper packaging a project abstraction around tha
 
 so when user wants to rollback or fork their project, all of that information lives in the folder (as a git directory)
 
+**rollback + fork functionality**
+
+as an artist, i want to specify the filename of an animation frame i want to fork at. 
+  - rollback(<commit>): git reset --hard <commit>
+  - fork(filename): search git log for commits that change that file, branch, rollback to commit
+
+
 ---
 
 For the animation tree stuff, would probably be sufficient to assign each image a UUID, and then store that UUID and the UUID of the immediate parent image in the metadata
