@@ -3,6 +3,19 @@
 ![](https://img.shields.io/badge/tag-animation-lightgrey)
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)
 
+ok, i way overcomplicated everything.
+
+lightweight wrapper over git + thing that watces a folder and automatically tracks changes with git to facilitate rolling back
+
+i think someone made a thing like that already and just haven't marketed it as an ai art thing.
+
+so add a simple installer and wrapper packaging a project abstraction around that thing to make it easier for artists to understand how to use it
+
+
+so when user wants to rollback or fork their project, all of that information lives in the folder (as a git directory)
+
+---
+
 For the animation tree stuff, would probably be sufficient to assign each image a UUID, and then store that UUID and the UUID of the immediate parent image in the metadata
 
 ---
