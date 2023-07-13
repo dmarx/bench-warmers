@@ -20,6 +20,9 @@ as an artist, i want to specify the filename of an animation frame i want to for
   - rollback(<commit>): git reset --hard <commit>
   - fork(filename): search git log for commits that change that file, branch, rollback to commit
 
+relevant: https://facebook.github.io/watchman/
+
+pair programming with chatgpt: https://chat.openai.com/c/cd6f9ff1-c878-4f24-bf91-88058e57ff0e
 
 ---
 
