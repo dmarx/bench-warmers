@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-07-08|[finetune a segmentation model on a medical classification task](../finetune_a_segmentation_model_on_a_medical_classification_task.md)|476|[![](https://img.shields.io/badge/tag-experimental-2b1421)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_processing-1eefac)](../tags/image_processing.md) [![](https://img.shields.io/badge/tag-medical_image_analysis-3f9741)](../tags/medical_image_analysis.md) [![](https://img.shields.io/badge/tag-tooling-869bd0)](../tags/tooling.md)|
+|2022-07-08|[finetune a segmentation model on a medical classification task](../finetune_a_segmentation_model_on_a_medical_classification_task.md)|476|[![](https://img.shields.io/badge/tag-experimental-997e5)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_processing-c6963e)](../tags/image_processing.md) [![](https://img.shields.io/badge/tag-medical_image_analysis-6013c8)](../tags/medical_image_analysis.md) [![](https://img.shields.io/badge/tag-tooling-53417a)](../tags/tooling.md)|
