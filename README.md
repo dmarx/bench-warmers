@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-07-16|[denoising gradient descent](sgd_as_descent.md)|69||
 |2023-07-16|[checkpoint-to-LoRA](checkpoint2LoRA.md)|241||
 |2023-07-16|[Palette of Priors](palette_of_prios.md)|505||
 |2023-07-16|[What is it like to be NASA?](what_is_it_like_to_be_nasa.md)|7900||
