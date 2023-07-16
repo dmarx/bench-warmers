@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-07-16|[checkpoint-to-LoRA](checkpoint2LoRA.md)|241||
 |2023-07-16|[Palette of Priors](palette_of_prios.md)|505||
 |2023-07-16|[What is it like to be NASA?](what_is_it_like_to_be_nasa.md)|7900||
 |2023-07-14|[Technical Constraints Considered Harmful.](constraints_considered_hazardous.md)|177|[![](https://img.shields.io/badge/tag-best_practices-f53bfe)](./tags/best_practices.md) [![](https://img.shields.io/badge/tag-engineering-da139a)](./tags/engineering.md) [![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
