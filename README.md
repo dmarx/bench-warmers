@@ -11,6 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-07-16|[What is it like to be NASA?](what_is_it_like_to_be_nasa.md)|7900||
 |2023-07-14|[Technical Constraints Considered Harmful.](constraints_considered_hazardous.md)|177|[![](https://img.shields.io/badge/tag-best_practices-f53bfe)](./tags/best_practices.md) [![](https://img.shields.io/badge/tag-engineering-da139a)](./tags/engineering.md) [![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-13|[CLIP ReLoRA](clip_relora.md)|141|[![](https://img.shields.io/badge/tag-experimentation-7ca620)](./tags/experimentation.md) [![](https://img.shields.io/badge/tag-open_source-61717a)](./tags/open_source.md) [![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-12|[design a 'file type' (or related spec/standard)](filetype-for-ai-art-and-animation.md)|5288|[![](https://img.shields.io/badge/tag-animation-f3232d)](./tags/animation.md) [![](https://img.shields.io/badge/tag-tooling-0fcaa)](./tags/tooling.md)|
@@ -29,7 +30,6 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 |2023-05-19|[multimodal multiconditioning adaptor](multimodal_multiconditioning_adaptor.md)|105||
 |2023-05-15|[student-teacher model compression](student_teacher_model_compression.md)|319||
 |2023-05-13|[Sliding Tiling](sliding-tiling.md)|859||
-|2023-05-12|[What is it like to be NASA?](what_is_it_like_to_be_nasa.md)|7048||
 |2023-04-25|[a1111 lessons learned](a1111_lessons_learned.md)|2586|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-opensource-617c8)](./tags/opensource.md) [![](https://img.shields.io/badge/tag-stability-945e60)](./tags/stability.md) [![](https://img.shields.io/badge/tag-tooling-0fcaa)](./tags/tooling.md) [![](https://img.shields.io/badge/tag-ux-3a4f8e)](./tags/ux.md)|
 |2023-04-24|[hypernetwork code embedding](hypernetwork_embedding_for_code.md)|889|[![](https://img.shields.io/badge/tag-LLM-48e52e)](./tags/LLM.md) [![](https://img.shields.io/badge/tag-embeddings-29a3fa)](./tags/embeddings.md) [![](https://img.shields.io/badge/tag-machinelearning-379a95)](./tags/machinelearning.md) [![](https://img.shields.io/badge/tag-models-3faa68)](./tags/models.md) [![](https://img.shields.io/badge/tag-nlp-93e32e)](./tags/nlp.md)|
 |2023-04-23|[twin mixing bootstrap regularization](twin_mixing_dropout.md)|897|[![](https://img.shields.io/badge/tag-experimental-c5d714)](./tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-6f4790)](./tags/optimization.md) [![](https://img.shields.io/badge/tag-scaling-5b6ac0)](./tags/scaling.md)|
