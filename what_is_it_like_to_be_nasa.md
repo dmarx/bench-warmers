@@ -1,6 +1,17 @@
 # What is it like to be NASA?
 
 
+https://discord.com/channels/729741769192767510/730095596861521970/1130063570835619860
+
+every living thing experiences some form of homeostasis, and you can describe any experience relative to that.
+extending this, any system that exhibits an equilibrium state that it is drawn towards exhibits "behaviors" that are functionally no different from how we would want to characterize what it means to have subjective experience.
+so the same way people can be antagonistic or cooperative towards each other, so can larger organizations.
+and a country that is experiencing economic stability is meaningfully a "happier entity" than a country that is at war or experiencing starvation.
+relative to some semblance of an "equilibrium state", you can map basically any sufficiently large and complex system into a kind of phenomenological vector space. 
+
+
+---
+
 ## setup: co-writing with chatgpt
 
 
