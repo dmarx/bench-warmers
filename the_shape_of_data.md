@@ -30,6 +30,8 @@ see also https://github.com/dmarx/bench-warmers/blob/main/physics_for_ml.md
   * looking yourself in the mirror as a statistician - https://datascience.stackexchange.com/questions/29140/what-makes-you-confident-in-your-results-at-what-point-do-you-think-you-can-pre/29147#29147
 * distances and similarity
   * bag of words
+    * vector as semantic representation
+    * value of "directional" similarity = invariant to scaling = vectors are more than just coordinates and cosine similarity is more appropriate than euclidean dist
   * tf-idf
   * word2vec - https://datascience.stackexchange.com/questions/26683/does-it-make-sense-to-combine-pca-with-an-artificial-neural-network/26685#26685
   * manhattan distance vs. euclidean distance vs. cosine sim
@@ -38,6 +40,7 @@ see also https://github.com/dmarx/bench-warmers/blob/main/physics_for_ml.md
   * curse of dimensionality - https://stats.stackexchange.com/questions/61390/is-there-unsupervised-regression/65426#65426
   * numerical stability, matrix conditioning and inversion - https://stats.stackexchange.com/questions/88228/how-do-you-calculate-the-ordinary-least-squares-estimated-coefficients-in-a-mult/88229#88229
   * clustering - https://datascience.stackexchange.com/questions/28337/does-k-means-objective-function-imply-distance-metric-is-euclidean/28341#28341
+    * matrix factorization - https://twitter.com/DigThatData/status/1679724092826734593
   * kmeans is spherical, GMM is elipsoid - https://stats.stackexchange.com/questions/80601/why-only-the-mean-value-is-used-in-k-means-clustering-method/80603#80603
   * ranking - https://stats.stackexchange.com/questions/62526/how-to-interpret-the-capped-binomial-deviance-as-rating-model-fit-in-two-player/76878#76878
   * matrices as input-output operators - https://datascience.stackexchange.com/questions/27945/what-is-the-use-of-additional-column-of-1s-in-normal-equation/27946#27946
