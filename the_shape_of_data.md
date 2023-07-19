@@ -109,6 +109,7 @@ see also https://github.com/dmarx/bench-warmers/blob/main/physics_for_ml.md
     * as a rotation - https://stats.stackexchange.com/questions/66518/interpreting-plot-of-pca-results-from-3-to-2-dimensions/66525#66525
     * variable significance - https://stats.stackexchange.com/questions/65709/negative-binomial-glm-the-most-complex-model-always-has-lowest-aic-all-interac/65717#65717
     * https://stats.stackexchange.com/questions/76483/regression-through-pca/76489#76489
+    * how low rank factorization produces semantics (or: how semantics are distributions over features) - https://twitter.com/DigThatData/status/1679724092826734593
   * fourier
   * taylor series
   * big O and little o notation
