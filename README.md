@@ -11,8 +11,8 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
+|2023-07-19|[The Shape Of Data](the_shape_of_data.md)|22912|[![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-19|[Early Adoption: How to Contribute to Cutting Edge Research w/o needing a PhD](early_adoption_and_fomo.md)|3413|[![](https://img.shields.io/badge/tag-career_advice-9acea8)](./tags/career_advice.md) [![](https://img.shields.io/badge/tag-early_adoption-99d437)](./tags/early_adoption.md) [![](https://img.shields.io/badge/tag-mentoring-32f6f2)](./tags/mentoring.md) [![](https://img.shields.io/badge/tag-reddit-acaf3f)](./tags/reddit.md)|
-|2023-07-19|[The Shape Of Data](the_shape_of_data.md)|22694|[![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-16|[checkpoint-to-LoRA](checkpoint2LoRA.md)|325||
 |2023-07-16|[denoising gradient descent](sgd_as_descent.md)|69||
 |2023-07-16|[Palette of Priors](palette_of_prios.md)|505||
