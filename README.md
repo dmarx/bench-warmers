@@ -11,7 +11,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-19|[The Shape Of Data](the_shape_of_data.md)|22529|[![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
+|2023-07-19|[The Shape Of Data](the_shape_of_data.md)|22694|[![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-16|[checkpoint-to-LoRA](checkpoint2LoRA.md)|325||
 |2023-07-16|[denoising gradient descent](sgd_as_descent.md)|69||
 |2023-07-16|[Palette of Priors](palette_of_prios.md)|505||

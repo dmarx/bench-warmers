@@ -2,7 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-19|[The Shape Of Data](../the_shape_of_data.md)|22529|[![](https://img.shields.io/badge/tag-publication-5d9a82)](../tags/publication.md)|
+|2023-07-19|[The Shape Of Data](../the_shape_of_data.md)|22694|[![](https://img.shields.io/badge/tag-publication-5d9a82)](../tags/publication.md)|
 |2023-07-14|[Technical Constraints Considered Harmful.](../constraints_considered_hazardous.md)|177|[![](https://img.shields.io/badge/tag-best_practices-1ee399)](../tags/best_practices.md) [![](https://img.shields.io/badge/tag-engineering-49fd1a)](../tags/engineering.md) [![](https://img.shields.io/badge/tag-publication-5d9a82)](../tags/publication.md)|
 |2023-07-13|[CLIP ReLoRA](../clip_relora.md)|141|[![](https://img.shields.io/badge/tag-experimentation-92ab1c)](../tags/experimentation.md) [![](https://img.shields.io/badge/tag-open_source-12f6d5)](../tags/open_source.md) [![](https://img.shields.io/badge/tag-publication-5d9a82)](../tags/publication.md)|
 |2023-07-09|[cycle refinement as mode finding (via fixed point iteration/annealing)](../cycle_refinement_as_modefinding.md)|506|[![](https://img.shields.io/badge/tag-experimentation-92ab1c)](../tags/experimentation.md) [![](https://img.shields.io/badge/tag-publication-5d9a82)](../tags/publication.md) [![](https://img.shields.io/badge/tag-text2image-e8ae48)](../tags/text2image.md) [![](https://img.shields.io/badge/tag-text2video-b5ec2c)](../tags/text2video.md)|
