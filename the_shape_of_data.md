@@ -148,10 +148,15 @@ see also https://github.com/dmarx/bench-warmers/blob/main/physics_for_ml.md
     * https://stats.stackexchange.com/questions/88429/markov-chains-2/88754#88754
 * iterative systems, chaos, attractors, cycles
 * learning dynamics
+  * phase changes
+    * sigmoid curves = phase change separated by buffer zones
+    * something something singularity theory
   * metropolis hastings - https://stats.stackexchange.com/questions/64293/understanding-metropolis-hastings-with-asymmetric-proposal-distribution/64402#64402
   * MCMC and unnormalized distributions - https://stats.stackexchange.com/questions/86909/how-to-generate-random-variables-from-a-defined-density-via-r/86913#86913
   * learning rate magnitude - https://stats.stackexchange.com/questions/87188/optimization-of-the-regularized-least-squares-with-gradient-descent/87196#87196
   * convexity
+    * curvature + minimum
+  * constraints (often) = sharpness and edges -> simplex algorithm
   * momentum
   * adapatabilty
   * iterated algorithms
