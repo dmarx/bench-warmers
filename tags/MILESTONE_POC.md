@@ -2,5 +2,5 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-01-29|[alt gh account for blogging w githubb as publication platform](../alt_gh_account_for_blogging.md)|305|[![](https://img.shields.io/badge/tag-MILESTONE_POC-96bcc)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-publication-53417a)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-77a0)](../tags/wip.md)|
-|2022-09-24|[declarative infill](../declarative-infill.md)|748|[![](https://img.shields.io/badge/tag-MILESTONE_POC-96bcc)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-experimental-da6994)](../tags/experimental.md)|
+|2023-01-29|[alt gh account for blogging w githubb as publication platform](../alt_gh_account_for_blogging.md)|305|[![](https://img.shields.io/badge/tag-MILESTONE_POC-77485f)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-publication-92ab1c)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-5d9a82)](../tags/wip.md)|
+|2022-09-24|[declarative infill](../declarative-infill.md)|748|[![](https://img.shields.io/badge/tag-MILESTONE_POC-77485f)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-experimental-d5f6c6)](../tags/experimental.md)|

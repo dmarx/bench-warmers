@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-23|[twin mixing bootstrap regularization](../twin_mixing_dropout.md)|897|[![](https://img.shields.io/badge/tag-experimental-da6994)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-5d9a82)](../tags/optimization.md) [![](https://img.shields.io/badge/tag-scaling-22d494)](../tags/scaling.md)|
+|2023-04-23|[twin mixing bootstrap regularization](../twin_mixing_dropout.md)|897|[![](https://img.shields.io/badge/tag-experimental-d5f6c6)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-aa21fc)](../tags/optimization.md) [![](https://img.shields.io/badge/tag-scaling-35d2ce)](../tags/scaling.md)|
