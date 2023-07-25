@@ -107,7 +107,7 @@ from loguru import logger
 
 random.seed(0)
 
-def get_last_modified_date_old(fpath, verbose=True, timestamp=False):
+def get_last_modified_date_old(fpath, verbose=True, timestamp=True):
     fmt = "%as"
     if timestamp:
         fmt="%at"
@@ -173,6 +173,16 @@ def random_hex_color():
     r = lambda: random.randint(0,255)
     return  f"{r():x}{r():x}{r():x}"
 
+#timestamp = get_last_modified_date(filepath, repo)
+#date = datetime.fromtimestamp(timestamp)
+#print(date.strftime('%Y-%m-%d %H:%M:%S'))
+
+from datetime import datetime as dt
+
+def timestamp_to_date(timestamp, fmt='%Y-%m-%d'):
+    date = dt.fromtimestamp(timestamp)
+    return date.strftime('%Y-%m-%d %H:%M:%S')
+
 md_files = Path('.').glob('*.md')
 TOC = []
 unq_tags = defaultdict(list)
@@ -186,8 +196,8 @@ for fpath in list(md_files):
             badge_meta = badges2kv(text)
             d_ = {'fpath':fpath}
             d_['title'] = header[2:].strip()
-            d_['last_modified'] = get_last_modified_date(fpath)
-            d_['last_modified_ts'] = get_last_modified_date(fpath, timestamp=True)
+            d_['last_modified_ts'] = get_last_modified_date(fpath)
+            d_['last_modified'] = timestamp_to_date(d_['last_modified_ts'])
             d_['n_char'] = len(text)
             d_['tags'] = [v for k,v in badge_meta if k =='tag']
             d_['tags'].sort()
