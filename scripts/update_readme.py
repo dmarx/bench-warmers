@@ -6,7 +6,9 @@ from typing import List, Union
 #logger = logging.getLogger(__name__)
 from loguru import logger
 
-def get_file_commits(fpath: str, repo: git.Repo) -> List[git.Commit]:
+GIT_REPO = git.Repo('.')
+
+def get_file_commits(fpath: str, repo=GIT_REPO: git.Repo) -> List[git.Commit]:
     """Get all commits for a file in reverse chronological order."""
     commits = list(repo.iter_commits(paths=fpath))
     return commits
@@ -71,7 +73,7 @@ def is_title_change_only(commit: git.Commit, fpath: str) -> bool:
                 return True
     return False
 
-def get_last_modified_date(fpath: str, repo: git.Repo) -> Union[int, None]:
+def get_last_modified_date(fpath: str, repo=GIT_REPO: git.Repo) -> Union[int, None]:
     """Get the last modification date of a file that is not by an automated user or a simple rename, tag change or title change."""
     file_commits = get_file_commits(fpath, repo)
     if not file_commits:
@@ -105,7 +107,7 @@ from loguru import logger
 
 random.seed(0)
 
-def get_last_modified_date(fpath, verbose=True, timestamp=False):
+def get_last_modified_date_old(fpath, verbose=True, timestamp=False):
     fmt = "%as"
     if timestamp:
         fmt="%at"
