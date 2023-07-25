@@ -1,5 +1,6 @@
 import git
 import logging
+import time
 from typing import List, Union
 
 #logging.basicConfig(level=logging.INFO)
@@ -187,7 +188,7 @@ def get_last_modified_date(fpath: str, repo: git.Repo =GIT_REPO) -> Union[int, N
     file_commits = get_file_commits(fpath, repo)
     if not file_commits:
         logger.error(f"No commits found for file: {fpath}")
-        return None
+        return int(time.time()) #None
 
     for commit in reversed(file_commits):
         if is_automated_user(commit) or is_rename_only(commit, fpath):
