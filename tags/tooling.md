@@ -3,6 +3,7 @@
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
 |2023-07-16|[checkpoint-to-LoRA](../checkpoint2LoRA.md)|356|[![](https://img.shields.io/badge/tag-experimental-869bd0)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-tooling-c4fb38)](../tags/tooling.md)|
+|2023-06-26|[standalone utility for adding latent encoding to exif](../latent-exif.md)|233|[![](https://img.shields.io/badge/tag-tooling-c4fb38)](../tags/tooling.md)|
 |2023-06-23|[Seed differentiable vectorization with paths inferred from semantic segmentation](../vectorize_anything.md)|301|[![](https://img.shields.io/badge/tag-experimentation-1eefac)](../tags/experimentation.md) [![](https://img.shields.io/badge/tag-segmentation-d5ffe)](../tags/segmentation.md) [![](https://img.shields.io/badge/tag-svg-a68128)](../tags/svg.md) [![](https://img.shields.io/badge/tag-tooling-c4fb38)](../tags/tooling.md)|
 |2023-04-24|[a1111 lessons learned](../a1111_lessons_learned.md)|2586|[![](https://img.shields.io/badge/tag-experimental-869bd0)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-opensource-b7fb0)](../tags/opensource.md) [![](https://img.shields.io/badge/tag-stability-752fd7)](../tags/stability.md) [![](https://img.shields.io/badge/tag-tooling-c4fb38)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-ux-35d2ce)](../tags/ux.md)|
 |2023-04-14|[LLM Helper](../llm-helper.md)|182|[![](https://img.shields.io/badge/tag-LLM-c6963e)](../tags/LLM.md) [![](https://img.shields.io/badge/tag-tooling-c4fb38)](../tags/tooling.md)|

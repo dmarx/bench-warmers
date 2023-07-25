@@ -23,7 +23,7 @@ See template repository with setup instructions here: https://github.com/dmarx/w
 |2023-07-07|[attribution distillation/tuning](attribution_tuning.md)|204|[![](https://img.shields.io/badge/tag-experimentation-61717a)](./tags/experimentation.md) [![](https://img.shields.io/badge/tag-model_compression-6685b7)](./tags/model_compression.md) [![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-07-06|[Diffusion2GAN - GAN PEFT on diffusion generations](diffusion2gan.md)|346||
 |2023-06-28|[AI bob ross youtube channel/twitter](ai_bob_ross.md)|191|[![](https://img.shields.io/badge/tag-nts-cb29b)](./tags/nts.md)|
-|2023-06-26|[standalone utility for adding latent encoding to exif](latent-exif.md)|216||
+|2023-06-26|[standalone utility for adding latent encoding to exif](latent-exif.md)|233|[![](https://img.shields.io/badge/tag-tooling-7ca620)](./tags/tooling.md)|
 |2023-06-23|[Seed differentiable vectorization with paths inferred from semantic segmentation](vectorize_anything.md)|301|[![](https://img.shields.io/badge/tag-experimentation-61717a)](./tags/experimentation.md) [![](https://img.shields.io/badge/tag-segmentation-b62aa6)](./tags/segmentation.md) [![](https://img.shields.io/badge/tag-svg-3bf9ab)](./tags/svg.md) [![](https://img.shields.io/badge/tag-tooling-7ca620)](./tags/tooling.md)|
 |2023-06-22|[(draft) vktrs design whitepaper](vktrs_design_whitepaper.md)|1128|[![](https://img.shields.io/badge/tag-publication-33b5de)](./tags/publication.md)|
 |2023-06-15|[animating on autopilot](animating_on_autopilot.md)|2013||
