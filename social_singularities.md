@@ -1,4 +1,4 @@
-# Social Media and Singularity Theory
+# Social Media and Singularity Theory: Information geometry and society
 
 labels: alignment, publication
 
