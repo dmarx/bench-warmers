@@ -8,7 +8,7 @@ from loguru import logger
 
 GIT_REPO = git.Repo('.')
 
-def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[Commit]:
+def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
     """
     Get commit hashes from the output of 'git blame' for a file.
 
