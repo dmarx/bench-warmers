@@ -2,6 +2,6 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-10-19 06:48:47|[DINO diffusion](../DINO-diffusion.md)|334|[![](https://img.shields.io/badge/tag-completed-48fb29)](../tags/completed.md) [![](https://img.shields.io/badge/tag-experimental-869bd0)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-nerf-b7fb0)](../tags/nerf.md) [![](https://img.shields.io/badge/tag-tooling-35b163)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-wip-53417a)](../tags/wip.md)|
-|2022-07-31 18:31:14|[NeRF-GAN / VQ-NeRF for procedural generation](../nerf-gan.md)|314|[![](https://img.shields.io/badge/tag-animation-9c3a4a)](../tags/animation.md) [![](https://img.shields.io/badge/tag-nerf-b7fb0)](../tags/nerf.md)|
-|2022-07-09 02:36:12|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](../train_a_SinNeRF_on_a_pytti_animation.md)|647|[![](https://img.shields.io/badge/tag-animation-9c3a4a)](../tags/animation.md) [![](https://img.shields.io/badge/tag-nerf-b7fb0)](../tags/nerf.md)|
+|2022-10-19|[DINO diffusion](../DINO-diffusion.md)|334|[![](https://img.shields.io/badge/tag-completed-48fb29)](../tags/completed.md) [![](https://img.shields.io/badge/tag-experimental-869bd0)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-nerf-b7fb0)](../tags/nerf.md) [![](https://img.shields.io/badge/tag-tooling-35b163)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-wip-53417a)](../tags/wip.md)|
+|2022-07-31|[NeRF-GAN / VQ-NeRF for procedural generation](../nerf-gan.md)|314|[![](https://img.shields.io/badge/tag-animation-9c3a4a)](../tags/animation.md) [![](https://img.shields.io/badge/tag-nerf-b7fb0)](../tags/nerf.md)|
+|2022-07-09|[Train a SinNeRF on an AI-generated animation (e.g. PyTTI)](../train_a_SinNeRF_on_a_pytti_animation.md)|647|[![](https://img.shields.io/badge/tag-animation-9c3a4a)](../tags/animation.md) [![](https://img.shields.io/badge/tag-nerf-b7fb0)](../tags/nerf.md)|
