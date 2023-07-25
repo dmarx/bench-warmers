@@ -17,7 +17,7 @@ def convert_issue_to_note(issue: Issue, g: Github, repo_name: str):
     ])
 
     # create (and commit) a new note
-    repo.create_file(issue.title.replace(" ", "_") + ".md", f"Create note from issue #{issue_number}", file_content)
+    repo.create_file(issue.title.replace(" ", "_") + ".md", f"Create note from issue #{issue.number}", file_content)
 
     # add a comment with a link to the new note
     issue.create_comment(f"Issue migrated to note: {issue.title.replace(' ', '_')}.md")
