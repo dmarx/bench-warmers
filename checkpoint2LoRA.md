@@ -1,5 +1,7 @@
 # checkpoint-to-LoRA
 
+labels: experiment, tooling
+
 1. subtract checkpoint from base model to get delta weights
 2. SVD the delta weights
 3. that's it, we're done.
