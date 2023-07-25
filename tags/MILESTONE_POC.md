@@ -3,4 +3,4 @@
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
 |2023-04-07|[alt gh account for blogging w githubb as publication platform](../alt_gh_account_for_blogging.md)|305|[![](https://img.shields.io/badge/tag-MILESTONE_POC-29349d)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-publication-ea1833)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-92ab1c)](../tags/wip.md)|
-|2022-08-15|[declarative infill](../declarative-infill.md)|748|[![](https://img.shields.io/badge/tag-MILESTONE_POC-29349d)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-experimental-c4c41f)](../tags/experimental.md)|
+|2022-09-25|[declarative infill](../declarative-infill.md)|748|[![](https://img.shields.io/badge/tag-MILESTONE_POC-29349d)](../tags/MILESTONE_POC.md) [![](https://img.shields.io/badge/tag-experimental-c4c41f)](../tags/experimental.md)|
