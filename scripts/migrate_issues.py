@@ -41,4 +41,4 @@ def create_files_from_issues(repo_name: str, label_name: str, token: str):
 # The token should be stored as an environment variable to avoid exposing it in the script
 token = os.getenv('GITHUB_TOKEN')
 repo_name = os.getenv('GITHUB_REPOSITORY')
-create_files_from_issues(repo_name, 'actally-an-article', token)
+create_files_from_issues(repo_name, 'actually-an-article', token)
