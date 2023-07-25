@@ -22,12 +22,18 @@ jobs:
           fetch-depth: '0'
       - uses: actions/setup-python@v2
       - name: install dependencies
-        run: pip install openai loguru tenacity gitpython
-#       - name: Predict tags
-#         if: env.OPENAI_API_KEY != ''
-#         run: python scripts/tag.py      
-#         env:
-#           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai loguru tenacity gitpython PyGithub
+#      - name: migrate notes in issues
+#        run: python convert_issues_to_notes.py
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+##       - name: Predict tags
+##         if: env.OPENAI_API_KEY != ''
+##         run: python scripts/tag.py      
+##         env:
+##           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Build README
         run: python scripts/update_readme.py
       - name: Commit files
