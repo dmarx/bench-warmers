@@ -25,7 +25,7 @@ jobs:
         run: | 
           #git config --local user.name "Github Action"
           #git config --local user.email "action@github.com"
-          python scripts/convert_issues_to_notes.py
+          python scripts/migrate_issues.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
