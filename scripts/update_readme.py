@@ -13,6 +13,25 @@ def get_file_commits(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
     commits = list(repo.iter_commits(paths=fpath))
     return commits
 
+def get_diffs_for_file(commit: git.Commit, fpath: str) -> list:
+    """
+    Get the diffs associated with a file in a given commit.
+
+    Args:
+        commit (git.Commit): The commit to check.
+        fpath (str): The file path to check.
+
+    Returns:
+        list: A list of git.Diff objects associated with the file.
+    """
+    diffs = []
+    for parent in commit.parents:
+        diff_index = parent.diff(commit)
+        diffs.extend([d for d in diff_index.iter_change_type('M') if d.a_path == fpath or d.b_path == fpath])
+
+    return diffs
+
+
 def is_automated_user(commit: git.Commit) -> bool:
     """Check if a commit is by an automated user."""
     automated_users = ["action@github.com"] # Add other automated users if needed
