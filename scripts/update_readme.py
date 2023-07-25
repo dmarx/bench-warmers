@@ -73,6 +73,29 @@ def is_title_change_only(commit: git.Commit, fpath: str) -> bool:
                 return True
     return False
 
+def is_badge_change_only(commit: git.Commit, fpath: str) -> bool:
+    """
+    Check if a commit only modifies the tags of a file.
+    
+    Args:
+        commit (git.Commit): The commit to check.
+        fpath (str): The file path to check.
+
+    Returns:
+        bool: True if the commit only modifies the tags of the file, False otherwise.
+    """
+    diffs = get_diffs_for_file(commit, fpath)
+    for diff in diffs:
+        old_lines = diff.a_blob.data_stream.read().decode().split('\n')
+        new_lines = diff.b_blob.data_stream.read().decode().split('\n')
+
+        old_lines_no_badges = [line for line in old_lines if not re.match(r'^!\[\]', line)]
+        new_lines_no_badges = [line for line in new_lines if not re.match(r'^!\[\]', line)]
+
+        if old_lines_no_badges != new_lines_no_badges:
+            return False
+    return True
+
 def get_last_modified_date(fpath: str, repo: git.Repo =GIT_REPO) -> Union[int, None]:
     """Get the last modification date of a file that is not by an automated user or a simple rename, tag change or title change."""
     file_commits = get_file_commits(fpath, repo)
@@ -83,7 +106,9 @@ def get_last_modified_date(fpath: str, repo: git.Repo =GIT_REPO) -> Union[int, N
     for commit in reversed(file_commits):
         if is_automated_user(commit) or is_rename_only(commit, fpath):
             continue
-        if is_tag_change_only(commit, fpath) or is_title_change_only(commit, fpath):
+        if is_title_change_only(commit, fpath):
+            continue
+        if is_tag_change_only(commit, fpath) or is_badge_change_only(commit, fpath):
             continue
         return commit.committed_date
 
