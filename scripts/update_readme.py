@@ -125,7 +125,7 @@ def is_title_change_only(commit: git.Commit, fpath: str) -> bool:
             new_lines = diff.b_blob.data_stream.read().decode().split('\n')
             old_title = diff_lines[0] if len(diff_lines) > 0 and diff_lines[0].startswith('# ') else ''
             new_title = new_lines[0] if len(new_lines) > 0 and new_lines[0].startswith('# ') else ''
-            unchanged_lines = [old == new for old, new in zip(diff_lines, new_lines)]
+            unchanged_lines = [old.strip() == new.strip() for old, new in zip(diff_lines, new_lines)]
             if len(unchanged_lines) > 0:
                 unchanged_lines[0] = True
             if all(unchanged_lines) and old_title != new_title:
