@@ -1,3 +1,101 @@
+import git
+import logging
+from typing import List, Union
+
+#logging.basicConfig(level=logging.INFO)
+#logger = logging.getLogger(__name__)
+from loguru import logger
+
+def get_file_commits(fpath: str, repo: git.Repo) -> List[git.Commit]:
+    """Get all commits for a file in reverse chronological order."""
+    commits = list(repo.iter_commits(paths=fpath))
+    return commits
+
+def is_automated_user(commit: git.Commit) -> bool:
+    """Check if a commit is by an automated user."""
+    automated_users = ["action@github.com"] # Add other automated users if needed
+    return commit.author.email in automated_users
+
+def is_rename_only(commit: git.Commit, fpath: str) -> bool:
+    """Check if a commit only renames or moves the file."""
+    try:
+        diffs = commit.parents[0].diff(commit)
+    except IndexError:
+        logger.error("No parent found for commit")
+        return False
+
+    for diff in diffs.iter_change_type('R'):
+        if diff.a_blob.path == fpath or diff.b_blob.path == fpath:
+            return True
+    return False
+
+def is_tag_change_only(commit: git.Commit, fpath: str) -> bool:
+    """Check if a commit only changes the tags of the file."""
+    try:
+        diffs = commit.parents[0].diff(commit)
+    except IndexError:
+        logger.error("No parent found for commit")
+        return False
+
+    for diff in diffs.iter_change_type('M'):
+        if diff.a_blob.path == fpath or diff.b_blob.path == fpath:
+            diff_lines = diff.a_blob.data_stream.read().decode().split('\n')
+            new_lines = diff.b_blob.data_stream.read().decode().split('\n')
+            old_tags = diff_lines[2] if len(diff_lines) > 2 else ''
+            new_tags = new_lines[2] if len(new_lines) > 2 else ''
+            unchanged_lines = [old == new for old, new in zip(diff_lines, new_lines)]
+            if len(unchanged_lines) > 2:
+                unchanged_lines[2] = True
+            if all(unchanged_lines) and old_tags != new_tags:
+                return True
+    return False
+
+def is_title_change_only(commit: git.Commit, fpath: str) -> bool:
+    """Check if a commit only changes the title of the file."""
+    try:
+        diffs = commit.parents[0].diff(commit)
+    except IndexError:
+        logger.error("No parent found for commit")
+        return False
+
+    for diff in diffs.iter_change_type('M'):
+        if diff.a_blob.path == fpath or diff.b_blob.path == fpath:
+            diff_lines = diff.a_blob.data_stream.read().decode().split('\n')
+            new_lines = diff.b_blob.data_stream.read().decode().split('\n')
+            old_title = diff_lines[0] if len(diff_lines) > 0 and diff_lines[0].startswith('# ') else ''
+            new_title = new_lines[0] if len(new_lines) > 0 and new_lines[0].startswith('# ') else ''
+            unchanged_lines = [old == new for old, new in zip(diff_lines, new_lines)]
+            if len(unchanged_lines) > 0:
+                unchanged_lines[0] = True
+            if all(unchanged_lines) and old_title != new_title:
+                return True
+    return False
+
+def get_last_modified_date(fpath: str, repo: git.Repo) -> Union[int, None]:
+    """Get the last modification date of a file that is not by an automated user or a simple rename, tag change or title change."""
+    file_commits = get_file_commits(fpath, repo)
+    if not file_commits:
+        logger.error(f"No commits found for file: {fpath}")
+        return None
+
+    for commit in reversed(file_commits):
+        if is_automated_user(commit) or is_rename_only(commit, fpath):
+            continue
+        if is_tag_change_only(commit, fpath) or is_title_change_only(commit, fpath):
+            continue
+        return commit.committed_date
+
+    return file_commits[-1].committed_date
+
+## Usage
+##repo = git.Repo('/path/to/your/repo')
+##fpath = 'path/to/your/file'
+##last_modified_date = get_last_modified_date(fpath, repo)
+##print(f"The last modified date of the file {fpath} is {last_modified_date}")
+
+
+################################
+
 from pathlib import Path
 import random
 import re
