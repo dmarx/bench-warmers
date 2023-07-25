@@ -2,10 +2,10 @@ from github import Github
 from github.Issue import Issue
 import os
 
-def convert_issue_to_note(issue_number: int, g: Github, username: str, repository: str):
+def convert_issue_to_note(issue: Issue, g: Github, repo_name: str):
     """Fetch issue, create a new markdown note from its content, and close the issue."""
-    repo = g.get_repo(f"{username}/{repository}")
-    issue = repo.get_issue(number=issue_number)
+    repo = g.get_repo(repo_name)
+    #issue = repo.get_issue(number=issue_number)
     file_content = issue.body
 
     # add "from_issue" badge
@@ -36,7 +36,7 @@ def create_files_from_issues(repo_name: str, label_name: str, token: str):
     for issue in open_issues:
         # Check if the issue has the correct label
         if label_name in [label.name for label in issue.labels]:
-            convert_issue_to_note(issue, repo_name, token)
+            convert_issue_to_note(issue, g, repo_name)
 
 # The token should be stored as an environment variable to avoid exposing it in the script
 token = os.getenv('GITHUB_TOKEN')
