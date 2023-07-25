@@ -2,18 +2,27 @@ from github import Github
 from github.Issue import Issue
 import os
 
-def convert_issue_to_note(issue: Issue, repo_name: str, token: str):
-    """Converts a single issue into a markdown note in the repository."""
-    g = Github(token)
-    repo = g.get_repo(repo_name)
+def convert_issue_to_note(issue_number: int, g: Github, username: str, repository: str):
+    """Fetch issue, create a new markdown note from its content, and close the issue."""
+    repo = g.get_repo(f"{username}/{repository}")
+    issue = repo.get_issue(number=issue_number)
+    file_content = issue.body
 
-    file_content = f"# {issue.title}\n\n{issue.body}"
-    file_path = f"{issue.title.replace(' ', '_')}.md"
-    repo.create_file(path=file_path, message=f"Convert issue #{issue.number} to note",
-                     content=file_content)
+    # add "from_issue" badge
+    file_content = "\n\n".join([
+        "# " + issue.title,
+        "labels: from_issue",
+        file_content,
+        "[Link to original issue](" + issue.html_url + ")",
+    ])
 
-    # Comment on and close the issue
-    issue.create_comment(f"Issue has been converted to a note. See the note [here](https://github.com/{repo_name}/blob/main/{file_path}).")
+    # create (and commit) a new note
+    repo.create_file(issue.title.replace(" ", "_") + ".md", f"Create note from issue #{issue_number}", file_content)
+
+    # add a comment with a link to the new note
+    issue.create_comment(f"Issue migrated to note: {issue.title.replace(' ', '_')}.md")
+
+    # close the issue
     issue.edit(state='closed')
 
 def create_files_from_issues(repo_name: str, label_name: str, token: str):
