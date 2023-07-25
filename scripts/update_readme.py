@@ -8,9 +8,29 @@ from loguru import logger
 
 GIT_REPO = git.Repo('.')
 
+def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[Commit]:
+    """
+    Get commit hashes from the output of 'git blame' for a file.
+
+    Args:
+        fpath (str): The file path.
+
+    Returns:
+        list: A list of commit objects.
+    """
+    result = subprocess.run(['git', 'blame', '--line-porcelain', fpath], capture_output=True, text=True)
+    lines = result.stdout.split('\n')
+    commit_lines = [line for line in lines if line.startswith('commit ')]
+    commit_hashes = [line.split()[1] for line in commit_lines]
+
+    commits = [repo.commit(hash_) for hash_ in commit_hashes]
+
+    return commits
+
 def get_file_commits(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
     """Get all commits for a file in reverse chronological order."""
-    commits = list(repo.iter_commits(paths=fpath))
+    #commits = list(repo.iter_commits(paths=fpath))
+    commits = get_commits_from_blame(fpath)
     return commits
 
 def get_diffs_for_file(commit: git.Commit, fpath: str) -> list:
