@@ -181,7 +181,7 @@ from datetime import datetime as dt
 
 def timestamp_to_date(timestamp, fmt='%Y-%m-%d'):
     date = dt.fromtimestamp(timestamp)
-    return date.strftime('%Y-%m-%d %H:%M:%S')
+    return date.strftime(fmt)
 
 md_files = Path('.').glob('*.md')
 TOC = []
