@@ -90,6 +90,27 @@ def is_rename_only(commit: git.Commit, fpath: str) -> bool:
             return True
     return False
 
+# def is_tag_change_only(commit: git.Commit, fpath: str) -> bool:
+#     """Check if a commit only changes the tags of the file."""
+#     try:
+#         diffs = commit.parents[0].diff(commit)
+#     except IndexError:
+#         logger.error("No parent found for commit")
+#         return False
+
+#     for diff in diffs.iter_change_type('M'):
+#         if diff.a_blob.path == fpath or diff.b_blob.path == fpath:
+#             diff_lines = diff.a_blob.data_stream.read().decode().split('\n')
+#             new_lines = diff.b_blob.data_stream.read().decode().split('\n')
+#             old_tags = diff_lines[2] if len(diff_lines) > 2 else ''
+#             new_tags = new_lines[2] if len(new_lines) > 2 else ''
+#             unchanged_lines = [old == new for old, new in zip(diff_lines, new_lines)]
+#             if len(unchanged_lines) > 2:
+#                 unchanged_lines[2] = True
+#             if all(unchanged_lines) and old_tags != new_tags:
+#                 return True
+#     return False
+
 def is_tag_change_only(commit: git.Commit, fpath: str) -> bool:
     """Check if a commit only changes the tags of the file."""
     try:
@@ -102,14 +123,20 @@ def is_tag_change_only(commit: git.Commit, fpath: str) -> bool:
         if diff.a_blob.path == fpath or diff.b_blob.path == fpath:
             diff_lines = diff.a_blob.data_stream.read().decode().split('\n')
             new_lines = diff.b_blob.data_stream.read().decode().split('\n')
-            old_tags = diff_lines[2] if len(diff_lines) > 2 else ''
-            new_tags = new_lines[2] if len(new_lines) > 2 else ''
+            
+            old_tags_line = next((line for line in diff_lines if line.startswith("labels:")), '')
+            new_tags_line = next((line for line in new_lines if line.startswith("labels:")), '')
+
             unchanged_lines = [old == new for old, new in zip(diff_lines, new_lines)]
-            if len(unchanged_lines) > 2:
-                unchanged_lines[2] = True
-            if all(unchanged_lines) and old_tags != new_tags:
+            
+            if old_tags_line or new_tags_line:  # if either file has a labels line
+                index = diff_lines.index(old_tags_line) if old_tags_line in diff_lines else new_lines.index(new_tags_line)
+                unchanged_lines[index] = True
+            
+            if all(unchanged_lines) and old_tags_line != new_tags_line:
                 return True
     return False
+
 
 def is_title_change_only(commit: git.Commit, fpath: str) -> bool:
     """Check if a commit only changes the title of the file."""
