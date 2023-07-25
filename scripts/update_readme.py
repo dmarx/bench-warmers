@@ -29,9 +29,9 @@ def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Com
 
 def get_file_commits(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
     """Get all commits for a file in reverse chronological order."""
-    #commits = list(repo.iter_commits(paths=fpath))
-    commits = get_commits_from_blame(fpath)
-    return commits
+    commits = list(repo.iter_commits(paths=fpath))
+    commits += get_commits_from_blame(fpath) # possibly gets us some commits from old filenames
+    return list(set(commits))
 
 def get_diffs_for_file(commit: git.Commit, fpath: str) -> list:
     """
