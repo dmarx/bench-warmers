@@ -1,5 +1,7 @@
 # Palette of Priors
 
+labels: experimental, lora
+
 this is an older idea i've been kicking around, but i think it actually makes a lot more sense in the LoRA world than it did in the DreamBooth world
 
 so here's a full experiment:
