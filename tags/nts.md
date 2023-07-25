@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-06-28|[AI bob ross youtube channel/twitter](../ai_bob_ross.md)|191|[![](https://img.shields.io/badge/tag-nts-3c7f53)](../tags/nts.md)|
+|2023-06-28|[AI bob ross youtube channel/twitter](../ai_bob_ross.md)|191|[![](https://img.shields.io/badge/tag-nts-2b1224)](../tags/nts.md)|
