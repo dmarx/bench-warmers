@@ -23,8 +23,8 @@ jobs:
       # this needs to run before the checkout becaue it will result in remotely generated commits
       - name: migrate notes in issues
         run: | 
-          git config --local user.name "Github Action"
-          git config --local user.email "action@github.com"
+          #git config --local user.name "Github Action"
+          #git config --local user.email "action@github.com"
           python convert_issues_to_notes.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
