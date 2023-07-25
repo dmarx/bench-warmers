@@ -20,19 +20,22 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install openai loguru tenacity gitpython PyGithub
-      # this needs to run before the checkout becaue it will result in remotely generated commits
-      - name: migrate notes in issues
-        run: | 
-          #git config --local user.name "Github Action"
-          #git config --local user.email "action@github.com"
-          python scripts/migrate_issues.py
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       # https://stackoverflow.com/questions/60868897/git-log-dates-incorrect-in-a-github-action
       - uses: actions/checkout@v3
         with:
           fetch-depth: '0'
+      # this needs to run before the checkout becaue it will result in remotely generated commits
+      # ... but then we won't have the scripts directory. so checkout first, then pull after i guess
+      - name: migrate notes in issues
+        run: | 
+          #git config --local user.name "Github Action"
+          #git config --local user.email "action@github.com"
+          python scripts/migrate_issues.py
+          git pull origin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 ##       - name: Predict tags
 ##         if: env.OPENAI_API_KEY != ''
 ##         run: python scripts/tag.py      
