@@ -1,6 +1,6 @@
 # Social Media and Singularity Theory: Information geometry and society
 
-labels: alignment, publication
+labels: alignment, publication, information geometry, philosophy
 
 This whole situation with volatility in the social media adoption space is a perfect demonstration of why "singularity theory" has become a big deal in explaining deep learning recently. Before we can adopt the "best" technology, as a society, we have to abandon the old one. But this requires achieving a critical mass, after which a phase change (adapting to the new normal) can happen. This kind of phase change happens at what's called a "singularity" -- used here in the same sense as how a black hole is a singularity. It's a geometry term of art. -- On either side of the singularity is a buffer region of slow change. Inertia. As you approach a region where change is possible, you accelerate towards that change as you get closer to it, but when you're not basically right on top of it, it's hard to get enough momentum to meaningfully change. We see this sort of phenomena all over the place socially. The social equivalent is Thomas Kuhn's "paradigm shifts" that happen in the neighborhood of "scientific revolutions". The revolution is a "signularity". 
 
