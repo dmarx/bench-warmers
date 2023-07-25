@@ -15,20 +15,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      # https://stackoverflow.com/questions/60868897/git-log-dates-incorrect-in-a-github-action
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: '0'
       - uses: actions/setup-python@v2
       - name: install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install openai loguru tenacity gitpython PyGithub
-#      - name: migrate notes in issues
-#        run: python convert_issues_to_notes.py
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # this needs to run before the checkout becaue it will result in remotely generated commits
+      - name: migrate notes in issues
+        run: | 
+          git config --local user.name "Github Action"
+          git config --local user.email "action@github.com"
+          python convert_issues_to_notes.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # https://stackoverflow.com/questions/60868897/git-log-dates-incorrect-in-a-github-action
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
 ##       - name: Predict tags
 ##         if: env.OPENAI_API_KEY != ''
 ##         run: python scripts/tag.py      
