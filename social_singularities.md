@@ -1,6 +1,6 @@
 # Social Media and Singularity Theory: Information geometry and society
 
-labels: alignment, publication, information geometry, philosophy
+labels: alignment, publication, information_geometry, philosophy
 
 Thread: https://bsky.app/profile/digthatdata.bsky.social/post/3k3eujdu3un2m
 
