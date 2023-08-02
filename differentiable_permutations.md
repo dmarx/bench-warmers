@@ -8,6 +8,7 @@ since this is apparently something I've been thinking about on and off in the co
   * https://github.com/Cyanogenoid/perm-optim/blob/master/permutation.py
 * [Learning Permutations with Sinkhorn Policy Gradient](https://paperswithcode.com/paper/learning-permutations-with-sinkhorn-policy) - "Sinkhorn layer produces continuous relaxations of permutation matrices"
 * https://paperswithcode.com/paper/git-re-basin-merging-models-modulo
+* [Learning Latent Permutations with Gumbel-Sinkhorn Networks](https://arxiv.org/abs/1802.08665)
 
 ----
 
