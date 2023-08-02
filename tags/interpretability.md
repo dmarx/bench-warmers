@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-23|[twin mixing bootstrap regularization](../twin_mixing_dropout.md)|861|[![](https://img.shields.io/badge/tag-completed-fda5ff)](../tags/completed.md) [![](https://img.shields.io/badge/tag-experimental-4d35f9)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-interpretability-a68128)](../tags/interpretability.md) [![](https://img.shields.io/badge/tag-regularization-b4243e)](../tags/regularization.md)|
+|2023-08-02|[Notes on differentiable permutations](../differentiable_permutations.md)|700|[![](https://img.shields.io/badge/tag-differentiable_permutation-cdef47)](../tags/differentiable_permutation.md) [![](https://img.shields.io/badge/tag-experimental-4db4d2)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-interpretability-99b5f2)](../tags/interpretability.md) [![](https://img.shields.io/badge/tag-regularization-d46ff4)](../tags/regularization.md)|

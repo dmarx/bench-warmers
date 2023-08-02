@@ -1,4 +1,4 @@
-# Pages tagged `regularization`
+# Pages tagged `differentiable_permutation`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
