@@ -19,6 +19,13 @@ going beyond novelty mode, let's think through what a micro startup accelerator 
 - need a payments service, IAM. AWS? stripe?
 - for this to work, gonna need SEO :(
 
+# Recipe
+
+* front page with service front and center
+* standardized API
+* results page
+* user page
+
 # services
 
 ## CV
