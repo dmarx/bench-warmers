@@ -327,9 +327,12 @@ for fpath in list(md_files):
 
 tag_badges_map = {tag_name:make_badge(label=tag_name, color = random_hex_color()) for tag_name in unq_tags}
 
-def make_badges(unq_tags, sep=' '):
+def make_badges_old(unq_tags, sep=' '):
     return sep.join([tag_badges_map[tag] for tag in unq_tags])
-    
+
+def make_badges(tag_counts, sep=' '):
+    return sep.join([tag_badges_map[tag] for tag, _ in tag_counts.most_common()])
+
     
 TOC = sorted(TOC, key=lambda x:x['last_modified_ts'])[::-1]
 
@@ -343,14 +346,15 @@ from collections import Counter
 cnt = Counter()
 for k,v in unq_tags.items():
   cnt[k] = len(v)
-cnt.most_common()
+#cnt.most_common()
 
 readme = None
 if Path('README.stub').exists():
     with open('README.stub') as f:
         readme_stub = f.read()
     readme = readme_stub.replace('{TOC}', toc_str)
-    readme = readme.replace('{tags}', make_badges(unq_tags))
+    #readme = readme.replace('{tags}', make_badges(unq_tags))
+    readme = readme.replace('{tags}', make_badges(cnt))
     #readme += f"\n\n<!--\n{[(k, len(v)) for k,v in unq_tags.items()]}\n--!>"
     readme += f"\n\n<!--\n{cnt.most_common()}\n--!>"
     readme = readme.strip()
