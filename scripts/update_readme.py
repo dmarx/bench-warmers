@@ -20,7 +20,8 @@ def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Com
         list: A list of commit objects.
     """
     result = subprocess.run(['git', 'blame', '--line-porcelain', fpath], capture_output=True, text=True)
-    lines = result.stdout.split('\n')
+    #lines = result.stdout.split('\n')
+    lines = result.stdout.split()
     commit_hashes = [line for line in lines if re.match(r'^[0-9a-f]{40}$', line)]
     commit_hashes = list(dict.fromkeys(commit_hashes))  # remove duplicates while preserving order
 
