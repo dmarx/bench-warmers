@@ -336,6 +336,7 @@ if Path('README.stub').exists():
         readme_stub = f.read()
     readme = readme_stub.replace('{TOC}', toc_str)
     readme = readme.replace('{tags}', make_badges(unq_tags))
+    readme += f"\n\n<!--\n{[(k, len(v)) for k,v in unq_tags.items()]}\n--!>"
     readme = readme.strip()
 if not readme:
     with open('empty.stub') as f:
