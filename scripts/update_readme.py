@@ -337,13 +337,22 @@ header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({ Path('.')/d['fpath'] })|{d['n_char']}|{make_badges(d['tags'])}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
+
+from collections import Counter
+
+cnt = Counter()
+for k,v in unq_tags.items():
+  cnt[k] = len(v)
+cnt.most_common()
+
 readme = None
 if Path('README.stub').exists():
     with open('README.stub') as f:
         readme_stub = f.read()
     readme = readme_stub.replace('{TOC}', toc_str)
     readme = readme.replace('{tags}', make_badges(unq_tags))
-    readme += f"\n\n<!--\n{[(k, len(v)) for k,v in unq_tags.items()]}\n--!>"
+    #readme += f"\n\n<!--\n{[(k, len(v)) for k,v in unq_tags.items()]}\n--!>"
+    readme += f"\n\n<!--\n{cnt.most_common()}\n--!>"
     readme = readme.strip()
 if not readme:
     with open('empty.stub') as f:
