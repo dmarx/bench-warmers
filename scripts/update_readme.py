@@ -1,4 +1,5 @@
 import git
+import json
 import logging
 import time
 from typing import List, Union
@@ -295,6 +296,10 @@ def timestamp_to_date(timestamp, fmt='%Y-%m-%d'):
     date = dt.fromtimestamp(timestamp)
     return date.strftime(fmt)
 
+import json
+with open("tag_lemmatization.json") as f:
+    tags_map = json.load(f)
+
 md_files = Path('.').glob('*.md')
 TOC = []
 unq_tags = defaultdict(list)
@@ -311,7 +316,9 @@ for fpath in list(md_files):
             d_['last_modified_ts'] = get_last_modified_date(fpath)
             d_['last_modified'] = timestamp_to_date(d_['last_modified_ts'])
             d_['n_char'] = len(text)
-            d_['tags'] = [v for k,v in badge_meta if k =='tag']
+            #d_['tags'] = [v for k,v in badge_meta if k =='tag']
+            d_['tags'] = [tags_map.get(v,v) for k,v in badge_meta if k =='tag']
+            d_['tags'] = [t for t in d_['tags'] if t] # in case we have any tags that lemmatize to empty string
             d_['tags'].sort()
             #unq_tags.update(d_['tags'])
             for tag in d_['tags']:
