@@ -33,6 +33,8 @@ i think this might need content to get transferred over?
   * token merging
   * NeRF
   * text-to-3d
+
+Discuss the history as we go
  
 # Title ideas
 
