@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-09-05|[Diffusion that respects transparency](../diffusion-that-respects-transparency.md)|246|[![](https://img.shields.io/badge/tag-completed-3f9741)](../tags/completed.md) [![](https://img.shields.io/badge/tag-diffusion-c6963e)](../tags/diffusion.md) [![](https://img.shields.io/badge/tag-image_processing-6013c8)](../tags/image_processing.md) [![](https://img.shields.io/badge/tag-transparency-e3be61)](../tags/transparency.md)|
+|2023-04-07|[Diffusion that respects transparency](../diffusion-that-respects-transparency.md)|246|[![](https://img.shields.io/badge/tag-completed-3f9741)](../tags/completed.md) [![](https://img.shields.io/badge/tag-diffusion-c6963e)](../tags/diffusion.md) [![](https://img.shields.io/badge/tag-image_processing-6013c8)](../tags/image_processing.md) [![](https://img.shields.io/badge/tag-transparency-e3be61)](../tags/transparency.md)|
