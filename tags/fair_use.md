@@ -1,4 +1,4 @@
-# Pages tagged `ethics`
+# Pages tagged `fair_use`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|

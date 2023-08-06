@@ -1,4 +1,4 @@
-# Pages tagged `ethics`
+# Pages tagged `remix_culture`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|

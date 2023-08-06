@@ -1,4 +1,4 @@
-# Pages tagged `ethics`
+# Pages tagged `ai_ethics`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
