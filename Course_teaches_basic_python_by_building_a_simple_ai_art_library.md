@@ -33,6 +33,9 @@ i think this might need content to get transferred over?
   * token merging
   * NeRF
   * text-to-3d
+  * audio-reactivity
+    * this could basically be a whole separate course/book
+
 
 Discuss the history as we go
  
