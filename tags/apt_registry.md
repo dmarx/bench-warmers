@@ -1,5 +1,0 @@
-# Pages tagged `apt_registry`
-
-|last_modified|title|est. idea maturity|tags
-|:---|:---|---:|:---|
-|2023-04-24|[a1111 lessons learned](../a1111_lessons_learned.md)|2801|[![](https://img.shields.io/badge/tag-apt_registry-dd597e)](../tags/apt_registry.md) [![](https://img.shields.io/badge/tag-curation-3f9741)](../tags/curation.md) [![](https://img.shields.io/badge/tag-discoverability-c6963e)](../tags/discoverability.md) [![](https://img.shields.io/badge/tag-documentation-e8ae48)](../tags/documentation.md) [![](https://img.shields.io/badge/tag-experimental-4aea2)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-extensions-b5ec2c)](../tags/extensions.md) [![](https://img.shields.io/badge/tag-opensource-96f021)](../tags/opensource.md) [![](https://img.shields.io/badge/tag-tooling-734214)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-ux-f76896)](../tags/ux.md)|
