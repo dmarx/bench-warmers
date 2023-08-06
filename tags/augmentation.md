@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2022-10-24|[micro epoch training](../micro-epoch.md)|733|[![](https://img.shields.io/badge/tag-augmentation-3c7f53)](../tags/augmentation.md) [![](https://img.shields.io/badge/tag-dataset-c4fb38)](../tags/dataset.md) [![](https://img.shields.io/badge/tag-heuristics-22d494)](../tags/heuristics.md) [![](https://img.shields.io/badge/tag-tooling-fe4dc)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-training-90446b)](../tags/training.md)|
+|2023-04-07|[micro epoch training](../micro-epoch.md)|733|[![](https://img.shields.io/badge/tag-augmentation-8fb3d)](../tags/augmentation.md) [![](https://img.shields.io/badge/tag-dataset-4db4d2)](../tags/dataset.md) [![](https://img.shields.io/badge/tag-heuristics-8a140)](../tags/heuristics.md) [![](https://img.shields.io/badge/tag-tooling-82d6e)](../tags/tooling.md) [![](https://img.shields.io/badge/tag-training-83cbca)](../tags/training.md)|
