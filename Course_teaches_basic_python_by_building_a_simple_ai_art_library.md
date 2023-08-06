@@ -15,7 +15,10 @@ i think this might need content to get transferred over?
 * classifier-guided t2i - CLIP-RGB
 * image parameterizations - CLIP-DIP, CLIP-VQGAN
 * denoising autoencoders, diffusion - SD t2i, heat dissipation (blurring diffusion)
-* animation, composition from motion - i2i, 2D transforms
+* animation
+  * composition from motion - VQGAN i2i, 2D transforms
+  * color correction, new vae - SD i2i 2D
+  * depth estimation, optical flow, 3d transforms - SD i2i 3D
 * finetuning - dreambooth, TI
 * advanced topics
   * multi-prompting
