@@ -16,8 +16,11 @@ i think this might need content to get transferred over?
 * image parameterizations - CLIP-DIP, CLIP-VQGAN
 * denoising autoencoders, diffusion - SD t2i, heat dissipation (blurring diffusion)
 * animation, composition from motion - i2i, 2D transforms
+* finetuning - dreambooth, TI
 * advanced topics
   * multi-prompting
   * controlnet
   * lora
   * region prompting
+  * KLMC2
+  * AnimateDiff
