@@ -19,6 +19,7 @@ i think this might need content to get transferred over?
   * composition from motion - VQGAN i2i, 2D transforms
   * color correction, new vae - SD i2i 2D
   * depth estimation, optical flow, 3d transforms - SD i2i 3D
+  * basic ffmpeg
 * finetuning - dreambooth, TI
 * advanced topics
   * multi-prompting
