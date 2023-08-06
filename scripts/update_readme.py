@@ -230,32 +230,35 @@ def make_badges_ordered(tag_counts, sep=' '):
 
 with open("tag_lemmatization.json") as f:
     tags_map = json.load(f)
-
-
-md_files = Path('.').glob('*.md')
 TOC = []
 unq_tags = defaultdict(list)
-for fpath in list(md_files):
-    if fpath.name == 'README.md':
-        continue
-    with open(fpath) as f: 
-        header = f.readline()
-        if header.startswith('# '):
-            text = f.read()
-            badge_meta = badges2kv(text)
-            d_ = {'fpath':fpath}
-            d_['title'] = header[2:].strip()
-            d_['last_modified_ts'] = get_last_modified_date(fpath)
-            d_['last_modified'] = timestamp_to_date(d_['last_modified_ts'])
-            d_['n_char'] = len(text)
-            #d_['tags'] = [v for k,v in badge_meta if k =='tag']
-            d_['tags'] = [tags_map.get(v,v) for k,v in badge_meta if k =='tag']
-            d_['tags'] = [t for t in d_['tags'] if t] # in case we have any tags that lemmatize to empty string
-            d_['tags'].sort()
-            #unq_tags.update(d_['tags'])
-            for tag in d_['tags']:
-                unq_tags[tag].append(d_)
-            TOC.append(d_)
+
+roots = ['.', './entries']
+for root in roots:
+    #md_files = Path('.').glob('*.md')
+    md_files = Path(root).glob('*.md')
+    
+    for fpath in list(md_files):
+        if fpath.name == 'README.md':
+            continue
+        with open(fpath) as f: 
+            header = f.readline()
+            if header.startswith('# '):
+                text = f.read()
+                badge_meta = badges2kv(text)
+                d_ = {'fpath':fpath}
+                d_['title'] = header[2:].strip()
+                d_['last_modified_ts'] = get_last_modified_date(fpath)
+                d_['last_modified'] = timestamp_to_date(d_['last_modified_ts'])
+                d_['n_char'] = len(text)
+                #d_['tags'] = [v for k,v in badge_meta if k =='tag']
+                d_['tags'] = [tags_map.get(v,v) for k,v in badge_meta if k =='tag']
+                d_['tags'] = [t for t in d_['tags'] if t] # in case we have any tags that lemmatize to empty string
+                d_['tags'].sort()
+                #unq_tags.update(d_['tags'])
+                for tag in d_['tags']:
+                    unq_tags[tag].append(d_)
+                TOC.append(d_)
 
 tag_badges_map = {tag_name:make_badge(label=tag_name, color = random_hex_color()) for tag_name in unq_tags}
     
