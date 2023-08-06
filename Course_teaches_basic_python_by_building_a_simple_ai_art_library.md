@@ -24,3 +24,13 @@ i think this might need content to get transferred over?
   * region prompting
   * KLMC2
   * AnimateDiff
+* bonus topics
+  * stylegan
+  * style transfer
+  * token merging
+  * NeRF
+  * text-to-3d
+ 
+# Title ideas
+
+* AI Art Technical Masterclass: Under-the-hood of Generative AI Tools
