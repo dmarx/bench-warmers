@@ -240,7 +240,7 @@ for root in roots:
     md_files = Path(root).glob('*.md')
     
     for fpath in list(md_files):
-        if fpath.name == 'README.md':
+        if fpath.name in ('README.md', 'FAQ.md'):
             continue
         with open(fpath) as f: 
             header = f.readline()
