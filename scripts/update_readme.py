@@ -3,31 +3,11 @@ import json
 import logging
 import time
 from typing import List, Union
-
-#logging.basicConfig(level=logging.INFO)
-#logger = logging.getLogger(__name__)
 from loguru import logger
+
 
 GIT_REPO = git.Repo('.')
 
-# def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
-#     """
-#     Get commit hashes from the output of 'git blame' for a file.
-
-#     Args:
-#         fpath (str): The file path.
-
-#     Returns:
-#         list: A list of commit objects.
-#     """
-#     result = subprocess.run(['git', 'blame', '--line-porcelain', fpath], capture_output=True, text=True)
-#     lines = result.stdout.split('\n')
-#     commit_lines = [line for line in lines if line.startswith('commit ')]
-#     commit_hashes = [line.split()[1] for line in commit_lines]
-
-#     commits = [repo.commit(hash_) for hash_ in commit_hashes]
-
-#     return commits
 
 def get_commits_from_blame(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
     """
@@ -55,6 +35,7 @@ def get_file_commits(fpath: str, repo: git.Repo =GIT_REPO) -> List[git.Commit]:
     commits += get_commits_from_blame(fpath) # possibly gets us some commits from old filenames
     return list(set(commits))
 
+
 def get_diffs_for_file(commit: git.Commit, fpath: str) -> list:
     """
     Get the diffs associated with a file in a given commit.
@@ -79,6 +60,7 @@ def is_automated_user(commit: git.Commit) -> bool:
     automated_users = ["action@github.com"] # Add other automated users if needed
     return commit.author.email in automated_users
 
+
 def is_rename_only(commit: git.Commit, fpath: str) -> bool:
     """Check if a commit only renames or moves the file."""
     try:
@@ -92,26 +74,6 @@ def is_rename_only(commit: git.Commit, fpath: str) -> bool:
             return True
     return False
 
-# def is_tag_change_only(commit: git.Commit, fpath: str) -> bool:
-#     """Check if a commit only changes the tags of the file."""
-#     try:
-#         diffs = commit.parents[0].diff(commit)
-#     except IndexError:
-#         logger.error("No parent found for commit")
-#         return False
-
-#     for diff in diffs.iter_change_type('M'):
-#         if diff.a_blob.path == fpath or diff.b_blob.path == fpath:
-#             diff_lines = diff.a_blob.data_stream.read().decode().split('\n')
-#             new_lines = diff.b_blob.data_stream.read().decode().split('\n')
-#             old_tags = diff_lines[2] if len(diff_lines) > 2 else ''
-#             new_tags = new_lines[2] if len(new_lines) > 2 else ''
-#             unchanged_lines = [old == new for old, new in zip(diff_lines, new_lines)]
-#             if len(unchanged_lines) > 2:
-#                 unchanged_lines[2] = True
-#             if all(unchanged_lines) and old_tags != new_tags:
-#                 return True
-#     return False
 
 def is_tag_change_only(commit: git.Commit, fpath: str) -> bool:
     """Check if a commit only changes the tags of the file."""
@@ -184,6 +146,7 @@ def is_badge_change_only(commit: git.Commit, fpath: str) -> bool:
             return False
     return True
 
+
 def get_last_modified_date(fpath: str, repo: git.Repo =GIT_REPO) -> Union[int, None]:
     """Get the last modification date of a file that is not by an automated user or a simple rename, tag change or title change."""
     file_commits = get_file_commits(fpath, repo)
@@ -202,12 +165,6 @@ def get_last_modified_date(fpath: str, repo: git.Repo =GIT_REPO) -> Union[int, N
 
     return file_commits[-1].committed_date
 
-## Usage
-##repo = git.Repo('/path/to/your/repo')
-##fpath = 'path/to/your/file'
-##last_modified_date = get_last_modified_date(fpath, repo)
-##print(f"The last modified date of the file {fpath} is {last_modified_date}")
-
 
 ################################
 
@@ -215,40 +172,12 @@ from pathlib import Path
 import random
 import re
 import subprocess
-from collections import defaultdict
+from collections import defaultdict, Counter
 from loguru import logger
+from datetime import datetime as dt
+import json
 
 random.seed(0)
-
-def get_last_modified_date_old(fpath, verbose=True, timestamp=True):
-    fmt = "%as"
-    if timestamp:
-        fmt="%at"
-    # ignore commits where author=action@github.com
-    #cmd = f"git log --author='^(?!.*action).*$' --perl-regexp --pretty=format:{fmt} --".split( )
-    #cmd = f"git log --author='^(?!Github).*$' --perl-regexp --pretty=format:{fmt} --".split( )
-    #cmd = f"git log --pretty=format:{fmt} --".split() # straight killin me here...
-    cmd = f"git log --pretty=format:{fmt}__%ae --".split() # straight killin me here...
-    cmd += [str(fpath)]
-    if verbose:
-        logger.debug(cmd)
-    response = subprocess.run(cmd, capture_output=True)
-    #logger.debug(response.returncode)
-    #logger.debug(response.stderr.decode())
-    commits = response.stdout.decode()
-    #logger.debug(outv)
-    logger.debug(response)
-    #if verbose:
-    #    print(outv)
-    #outv = outv.split()[0]
-    commits = commits.split()
-    for c in commits:
-        outv, author_email = c.split('__')
-        if author_email != 'action@github.com':
-            break
-    if verbose:
-        logger.debug(outv)
-    return outv
 
 
 def badges2kv(text):
@@ -256,6 +185,7 @@ def badges2kv(text):
     if not outv:
         outv = badges2kv_regex(text)
     return outv
+
 
 def badges2kv_labels(text):
     lines = text.split('\n')
@@ -270,12 +200,10 @@ def badges2kv_regex(text):
     testpat = r'\/([a-zA-Z]+-[a-zA-Z_]+-[a-zA-Z]+)'
 
     badges = re.findall(testpat, text)
-    #return {b.split('-')[0]:b.split('-')[1] for b in badges}
     return [(b.split('-')[0], b.split('-')[1]) for b in badges]
 
 
 def make_badge(label, prefix='tag', color='lightgrey', root='.'):
-    #return f"![](https://img.shields.io/badge/{prefix}-{label}-{color})"
     return f"[![](https://img.shields.io/badge/{prefix}-{label}-{color})]({root}/tags/{label}.md)"
 
 
@@ -286,19 +214,23 @@ def random_hex_color():
     r = lambda: random.randint(0,255)
     return  f"{r():x}{r():x}{r():x}"
 
-#timestamp = get_last_modified_date(filepath, repo)
-#date = datetime.fromtimestamp(timestamp)
-#print(date.strftime('%Y-%m-%d %H:%M:%S'))
-
-from datetime import datetime as dt
 
 def timestamp_to_date(timestamp, fmt='%Y-%m-%d'):
     date = dt.fromtimestamp(timestamp)
     return date.strftime(fmt)
 
-import json
+
+def make_badges(unq_tags, sep=' '):
+    return sep.join([tag_badges_map[tag] for tag in unq_tags])
+
+
+def make_badges_ordered(tag_counts, sep=' '):
+    return sep.join([tag_badges_map[tag] for tag, _ in tag_counts.most_common()])
+
+
 with open("tag_lemmatization.json") as f:
     tags_map = json.load(f)
+
 
 md_files = Path('.').glob('*.md')
 TOC = []
@@ -326,13 +258,6 @@ for fpath in list(md_files):
             TOC.append(d_)
 
 tag_badges_map = {tag_name:make_badge(label=tag_name, color = random_hex_color()) for tag_name in unq_tags}
-
-def make_badges(unq_tags, sep=' '):
-    return sep.join([tag_badges_map[tag] for tag in unq_tags])
-
-def make_badges_ordered(tag_counts, sep=' '):
-    return sep.join([tag_badges_map[tag] for tag, _ in tag_counts.most_common()])
-
     
 TOC = sorted(TOC, key=lambda x:x['last_modified_ts'])[::-1]
 
@@ -340,22 +265,16 @@ header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({ Path('.')/d['fpath'] })|{d['n_char']}|{make_badges(d['tags'])}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
-
-from collections import Counter
-
 cnt = Counter()
 for k,v in unq_tags.items():
   cnt[k] = len(v)
-#cnt.most_common()
 
 readme = None
 if Path('README.stub').exists():
     with open('README.stub') as f:
         readme_stub = f.read()
     readme = readme_stub.replace('{TOC}', toc_str)
-    #readme = readme.replace('{tags}', make_badges(unq_tags))
     readme = readme.replace('{tags}', make_badges_ordered(cnt))
-    #readme += f"\n\n<!--\n{[(k, len(v)) for k,v in unq_tags.items()]}\n--!>"
     readme += f"\n\n<!--\n{cnt.most_common()}\n--!>"
     readme = readme.strip()
 if not readme:
