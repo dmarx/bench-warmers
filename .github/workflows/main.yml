@@ -46,7 +46,7 @@ jobs:
           python scripts/move_entries.py
           git config --local user.name "Github Action"
           git config --local user.email "action@github.com"
-          git add *.md
+          git add entries/*.md
           # Thanks for the trick, ChatGPT!
           if git diff-index --quiet HEAD --; then
             echo "changes_to_push=false" >> $GITHUB_ENV
