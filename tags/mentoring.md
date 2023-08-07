@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-19|[Early Adoption: How to Contribute to Cutting Edge Research w/o needing a PhD](../early_adoption_and_fomo.md)|3413|[![](https://img.shields.io/badge/tag-career_advice-869cae)](../tags/career_advice.md) [![](https://img.shields.io/badge/tag-early_adoption-3c7f53)](../tags/early_adoption.md) [![](https://img.shields.io/badge/tag-mentoring-22d494)](../tags/mentoring.md) [![](https://img.shields.io/badge/tag-reddit-90446b)](../tags/reddit.md)|
+|2023-08-07|[Early Adoption: How to Contribute to Cutting Edge Research w/o needing a PhD](../entries/early_adoption_and_fomo.md)|3413|[![](https://img.shields.io/badge/tag-career_advice-3c7f53)](../tags/career_advice.md) [![](https://img.shields.io/badge/tag-early_adoption-22d494)](../tags/early_adoption.md) [![](https://img.shields.io/badge/tag-mentoring-90446b)](../tags/mentoring.md) [![](https://img.shields.io/badge/tag-reddit-35d2ce)](../tags/reddit.md)|
