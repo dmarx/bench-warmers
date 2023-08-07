@@ -43,7 +43,11 @@ jobs:
 ##           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: move entries to subdir and commit
         run: |
-          python scripts/move_entries.py
+          for file in *.md; do
+            if [ "$file" != "README.md" ] && [ "$file" != "FAQ.md" ]; then
+              git mv "$file" entries/
+            fi
+          done
           git config --local user.name "Github Action"
           git config --local user.email "action@github.com"
           git add entries/*.md
