@@ -14,5 +14,5 @@ if __name__ == '__main__':
     for fpath in Path(root).glob('*.md'):
         if fpath.name in IGNORE_FILES:
             continue
-        if subdir not in fpath:
+        if subdir not in str(fpath):
             move_to_subdir(fpath, subdir)
