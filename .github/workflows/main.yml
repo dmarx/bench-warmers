@@ -41,6 +41,19 @@ jobs:
 ##         run: python scripts/tag.py      
 ##         env:
 ##           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: move entries to subdir and commit
+        run: |
+          python scripts/move_entries.py
+          git config --local user.name "Github Action"
+          git config --local user.email "action@github.com"
+          git add *.md
+          # Thanks for the trick, ChatGPT!
+          if git diff-index --quiet HEAD --; then
+            echo "changes_to_push=false" >> $GITHUB_ENV
+          else
+            git commit -m "Updated TOC"
+            echo "changes_to_push=true" >> $GITHUB_ENV
+          fi
       - name: Build README
         run: python scripts/update_readme.py
       - name: Commit files
