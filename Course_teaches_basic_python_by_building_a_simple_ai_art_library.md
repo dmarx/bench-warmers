@@ -9,8 +9,13 @@ i think this might need content to get transferred over?
 ---
 
 # Assignments/curriculum
-
-* cosine similarity and intro to latents: semantic search (image retrieval) with CLIP
+* intro to latents
+  * vectors are directions, not coordinates
+  * simple small vocab basis with bag of words
+  * cosine similarity
+* intro to CLIP space
+  * shared multimodal latent manifold, distinct text vs. image regions (revisit this with CLIP-DIP, unCLIP-DIP)
+  * semantic search (image retrieval) with CLIP
 * SGD - deepdream, PEZ, clip interrogator
 * classifier-guided t2i - CLIP-RGB
 * image parameterizations - CLIP-DIP, CLIP-VQGAN
