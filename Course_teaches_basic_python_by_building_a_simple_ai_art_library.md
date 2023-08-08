@@ -51,3 +51,6 @@ Discuss the history as we go
 # Title ideas
 
 * AI Art Technical Masterclass: Under-the-hood of Generative AI Tools
+* AI Internals
+* AI Mastercraft
+* Intro to Latents
