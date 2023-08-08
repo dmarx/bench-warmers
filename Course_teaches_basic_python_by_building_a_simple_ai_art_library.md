@@ -9,10 +9,13 @@ i think this might need content to get transferred over?
 ---
 
 # Assignments/curriculum
+
 * intro to latents
+  * pretty much only linear algebra we need: `<m x n> * <n x k> = <m x k>`
   * vectors are directions, not coordinates
   * simple small vocab basis with bag of words
   * cosine similarity
+  * matrix factorization -> topic modeling
 * intro to CLIP space
   * shared multimodal latent manifold, distinct text vs. image regions (revisit this with CLIP-DIP, unCLIP-DIP)
   * semantic search (image retrieval) with CLIP
