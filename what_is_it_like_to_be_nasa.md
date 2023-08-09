@@ -1,5 +1,6 @@
 # What is it like to be NASA?
 
+labels: philosophy, theory_of_mind, society_of_mind, organization_as_entity, disunity_of_identity
 
 https://discord.com/channels/729741769192767510/730095596861521970/1130063570835619860
 
