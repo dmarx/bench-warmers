@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-07|[karlo + DIP](../karlo-dip.md)|358|[![](https://img.shields.io/badge/tag-deepimageprior-a68128)](../tags/deepimageprior.md) [![](https://img.shields.io/badge/tag-experimental-ea1833)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_generation-b4243e)](../tags/image_generation.md) [![](https://img.shields.io/badge/tag-prior-b7fb0)](../tags/prior.md) [![](https://img.shields.io/badge/tag-wip-4db4d2)](../tags/wip.md)|
+|2023-01-12|[karlo + DIP](../karlo-dip.md)|358|[![](https://img.shields.io/badge/tag-deepimageprior-c6963e)](../tags/deepimageprior.md) [![](https://img.shields.io/badge/tag-experimental-da6994)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-image_generation-6013c8)](../tags/image_generation.md) [![](https://img.shields.io/badge/tag-prior-e3be61)](../tags/prior.md) [![](https://img.shields.io/badge/tag-wip-ebbec3)](../tags/wip.md)|
