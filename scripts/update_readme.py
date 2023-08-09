@@ -261,7 +261,11 @@ for root in roots:
                     unq_tags[tag].append(d_)
                 TOC.append(d_)
 
-tag_badges_map = {tag_name:make_badge(label=tag_name, color = random_hex_color()) for tag_name in unq_tags}
+cnt = Counter()
+for k,v in unq_tags.items():
+  cnt[k] = len(v)
+
+tag_badges_map = {tag_name:make_badge(prefix=cnt[tag_name], label=tag_name, color = random_hex_color()) for tag_name in unq_tags}
     
 TOC = sorted(TOC, key=lambda x:x['last_modified_ts'])[::-1]
 
@@ -269,9 +273,7 @@ header= "|last_modified|title|est. idea maturity|tags\n|:---|:---|---:|:---|\n"
 recs = [f"|{d['last_modified']}|[{d['title']}]({ Path('.')/d['fpath'] })|{d['n_char']}|{make_badges(d['tags'])}|" for d in TOC]
 toc_str= header + '\n'.join(recs)
 
-cnt = Counter()
-for k,v in unq_tags.items():
-  cnt[k] = len(v)
+
 
 readme = None
 if Path('README.stub').exists():
