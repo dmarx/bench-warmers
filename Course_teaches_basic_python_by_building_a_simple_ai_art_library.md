@@ -23,6 +23,9 @@ i think this might need content to get transferred over?
 * classifier-guided t2i - CLIP-RGB
 * image parameterizations - CLIP-DIP, CLIP-VQGAN
 * denoising autoencoders, diffusion schedules, CFG - SD t2i, cold diffusion (blurring diffusion, heat dissipation... something non-gaussian)
+  * reversing corruption processes - cold diffusion, etc.
+  * denoising image vs denoising latent
+  * in-painting, prompt-to-prompt
 * animation
   * composition from motion - VQGAN i2i, 2D transforms
   * color correction, new vae - SD i2i 2D
