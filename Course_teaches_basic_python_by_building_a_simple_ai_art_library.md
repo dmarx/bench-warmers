@@ -1,6 +1,6 @@
 # Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library
 
-labels: from_issue
+labels: from_issue, curriculum, education, textbook, publication
 
 i think this might need content to get transferred over?
 
