@@ -1,24 +1,6 @@
 # Physics For ML
 
-![](https://img.shields.io/badge/tag-textbook-lightgrey)  
-![](https://img.shields.io/badge/tag-tensorcalculus-lightgrey)  
-![](https://img.shields.io/badge/tag-pde-lightgrey)  
-![](https://img.shields.io/badge/tag-gaugetheory-lightgrey)  
-![](https://img.shields.io/badge/tag-relativity-lightgrey)  
-![](https://img.shields.io/badge/tag-machinelearning-lightgrey)  
-![](https://img.shields.io/badge/tag-quantummechanics-lightgrey)  
-![](https://img.shields.io/badge/tag-education-lightgrey)  
-![](https://img.shields.io/badge/tag-ode-lightgrey)  
-![](https://img.shields.io/badge/tag-brownianmotion-lightgrey)  
-![](https://img.shields.io/badge/tag-eigenvectors-lightgrey)  
-![](https://img.shields.io/badge/tag-curvature-lightgrey)  
-![](https://img.shields.io/badge/tag-probabilityfields-lightgrey)  
-![](https://img.shields.io/badge/tag-physics-lightgrey)  
-![](https://img.shields.io/badge/tag-curriculum-lightgrey)  
-![](https://img.shields.io/badge/tag-optimization-lightgrey)  
-![](https://img.shields.io/badge/tag-manifolds-lightgrey)  
-![](https://img.shields.io/badge/tag-grouptheory-lightgrey)
-
+labels: publication, education, curriculum
 
 i mentioned in eleuther that I felt physics should be part of the ML curriculum. thought it might be interesting to collect some notes on what
 a curriculum/textbook/course on the topic might cover.
