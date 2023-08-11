@@ -3,7 +3,6 @@
 ![](https://img.shields.io/badge/tag-deep%20learning-lightgrey)  
 ![](https://img.shields.io/badge/tag-wip-lightgrey)  
 ![](https://img.shields.io/badge/tag-experimental-lightgrey)  
-![](https://img.shields.io/badge/tag-modeling-lightgrey)
 
 
 fleshing this out a bit more, I'm pretty sure the idea here was to intelligently add capacity to a network mid-training?
