@@ -2,6 +2,7 @@
 
 labels: experimentation, tooling, segmentation, svg
 
+given a raster image, apply semantic segmentation and fit svg paths to the learned masks. Use these paths to initialize a differentiable image vectorization. could even parallelize across path-bounded regions and fit a vectorization to each independently, thereby producing semantically meaningful path objects and layers. furthering this idea, could apply this procedure recursively, initializing the sub-vecotirzation process with more granular segmentations, etc.
 
 ### relevant projects
 
