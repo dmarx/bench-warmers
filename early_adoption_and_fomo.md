@@ -1,6 +1,6 @@
 # Early Adoption: How to Contribute to Cutting Edge Research w/o needing a PhD
 
-labels: career_advice, reddit, mentoring, early_adoption
+labels: career_advice, reddit, mentoring, early_adoption, autobiographical
 
 https://www.reddit.com/r/MLQuestions/comments/153jf55/how_to_move_forward_in_an_ml_career_without/jsm2g3l/?context=3
 
