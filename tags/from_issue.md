@@ -2,9 +2,9 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-08-06|[Graph analytics on checkpoints](../Graph_analytics_on_checkpoints.md)|280|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-test-c92725)](../tags/test.md)|
-|2023-08-06|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|2385|[![](https://img.shields.io/badge/tag-curriculum-3a9a4f)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-12f6d5)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-publication-d5f6c6)](../tags/publication.md)|
+|2023-08-06|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|2454|[![](https://img.shields.io/badge/tag-curriculum-3a9a4f)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-12f6d5)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-publication-d5f6c6)](../tags/publication.md)|
 |2023-08-04|[Ai art methods masterclass](../Ai_art_methods_masterclass.md)|167|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
+|2023-07-25|[Graph analytics on checkpoints](../Graph_analytics_on_checkpoints.md)|280|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-test-c92725)](../tags/test.md)|
 |2023-07-25|[Stego db](../Stego_db.md)|136|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
 |2023-07-25|[Yaml-state](../Yaml-state.md)|167|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
 |2023-07-25|[Self-serve data lake](../Self-serve_data_lake.md)|315|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
