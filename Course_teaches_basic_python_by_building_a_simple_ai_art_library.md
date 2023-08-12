@@ -11,6 +11,13 @@ i think this might need content to get transferred over?
 # Assignments/curriculum
 
 * Tools of the trade
+  * git
+    * git clone
+    * git branch
+    * git commit
+    * git pull
+    * git push 
+  * venv 
   * image utilities 
     * PILlow
     * ffmpeg
