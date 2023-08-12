@@ -2,7 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-08-12|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|2711|[![](https://img.shields.io/badge/tag-curriculum-3a9a4f)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-12f6d5)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-publication-d5f6c6)](../tags/publication.md)|
+|2023-08-08|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|2711|[![](https://img.shields.io/badge/tag-curriculum-3a9a4f)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-12f6d5)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-publication-d5f6c6)](../tags/publication.md)|
 |2023-08-04|[Ai art methods masterclass](../Ai_art_methods_masterclass.md)|167|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
 |2023-07-25|[Stego db](../Stego_db.md)|136|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
 |2023-07-25|[Yaml-state](../Yaml-state.md)|167|[![](https://img.shields.io/badge/tag-from_issue-c4c41f)](../tags/from_issue.md)|
