@@ -66,7 +66,10 @@ i think this might need content to get transferred over?
   * classifier free guidance, null token as prior - CFG, NTI
   * reversing corruption processes - cold diffusion, etc.
   * denoising image vs denoising latent
-  * auto-regressive conditioning - in-painting, prompt-to-prompt, img2img
+  * auto-regressive conditioning
+    * in-painting - RePaint
+    * prompt-to-prompt
+    * img2img
   * cross attention guidance
     * token weighting
     * compositional / regional prompting
