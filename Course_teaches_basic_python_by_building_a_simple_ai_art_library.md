@@ -61,12 +61,15 @@ i think this might need content to get transferred over?
 * SGD - deepdream, PEZ, clip interrogator
 * classifier-guided t2i - CLIP-RGB
 * differentiable image parameterization - CLIP-DIP
-
 * two-phase modeling with autoencoders - CLIP-VQGAN
 * denoising autoencoders, diffusion schedules, CFG - SD t2i, cold diffusion (blurring diffusion, heat dissipation... something non-gaussian)
+  * classifier free guidance, null token as prior - CFG, NTI
   * reversing corruption processes - cold diffusion, etc.
   * denoising image vs denoising latent
-  * in-painting, prompt-to-prompt
+  * auto-regressive conditioning - in-painting, prompt-to-prompt, img2img
+  * cross attention guidance
+    * token weighting
+    * compositional / regional prompting
 * animation
   * composition from motion - VQGAN i2i, 2D transforms
   * color correction, new vae - SD i2i 2D
