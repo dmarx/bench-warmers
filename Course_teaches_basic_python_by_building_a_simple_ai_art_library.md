@@ -32,7 +32,8 @@ i think this might need content to get transferred over?
   * semantic search (image retrieval) with CLIP
 * SGD - deepdream, PEZ, clip interrogator
 * classifier-guided t2i - CLIP-RGB
-* image parameterizations - CLIP-DIP, CLIP-VQGAN
+* differentiable image parameterization - CLIP-DIP
+* two-phase modeling with autoencoders - CLIP-VQGAN
 * denoising autoencoders, diffusion schedules, CFG - SD t2i, cold diffusion (blurring diffusion, heat dissipation... something non-gaussian)
   * reversing corruption processes - cold diffusion, etc.
   * denoising image vs denoising latent
