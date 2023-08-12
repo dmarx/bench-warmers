@@ -10,6 +10,17 @@ i think this might need content to get transferred over?
 
 # Assignments/curriculum
 
+* Utilities
+  * ffmpeg
+  * PILlow
+  * cv2
+  * pytorch
+* SGD for hackers
+  * incremental updates
+  * gradient flow (backprop)
+  * gradient accumulation
+  * gradient checkpointing
+  * Adam, momentum
 * intro to latents
   * pretty much only linear algebra we need: `<m x n> * <n x k> = <m x k>`
   * vectors are directions, not coordinates
@@ -53,7 +64,7 @@ Discuss the history as we go
  
 # Title ideas
 
+* AI Internals - actually, maybe make this a youtube channel +socials/discord
 * AI Art Technical Masterclass: Under-the-hood of Generative AI Tools
-* AI Internals
 * AI Mastercraft
 * Intro to Latents
