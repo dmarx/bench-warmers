@@ -36,12 +36,16 @@ i think this might need content to get transferred over?
   * simple small vocab basis with bag of words
   * cosine similarity
   * matrix factorization -> topic modeling
-* intro to CLIP space
-  * shared multimodal latent manifold, distinct text vs. image regions (revisit this with CLIP-DIP, unCLIP-DIP)
-  * semantic search (image retrieval) with CLIP
+* autoencoders, shared latents
+  * simple image compression
+  * old school deepfake
+  * intro to CLIP space
+    * shared multimodal latent manifold, distinct text vs. image regions (revisit this with CLIP-DIP, unCLIP-DIP)
+    * semantic search (image retrieval) with CLIP
 * SGD - deepdream, PEZ, clip interrogator
 * classifier-guided t2i - CLIP-RGB
 * differentiable image parameterization - CLIP-DIP
+
 * two-phase modeling with autoencoders - CLIP-VQGAN
 * denoising autoencoders, diffusion schedules, CFG - SD t2i, cold diffusion (blurring diffusion, heat dissipation... something non-gaussian)
   * reversing corruption processes - cold diffusion, etc.
