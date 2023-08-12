@@ -58,6 +58,10 @@ i think this might need content to get transferred over?
   * intro to CLIP space
     * shared multimodal latent manifold, distinct text vs. image regions (revisit this with CLIP-DIP, unCLIP-DIP)
     * semantic search (image retrieval) with CLIP
+    * Differences in outputs:
+      * final hidden state (conventional)
+      * all hidden states (minimaxir)
+      * early exit aka "skip states"
 * SGD - deepdream, PEZ, clip interrogator
 * classifier-guided t2i - CLIP-RGB
 * differentiable image parameterization - CLIP-DIP
