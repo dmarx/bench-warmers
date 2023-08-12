@@ -13,3 +13,6 @@ labels: philosophy, publication
 * define a domain specific language for expressing problem components (i.e. embeddings and intermediate representations as a model's private, learned language)
 * dense representations are more powerful. project your problem onto a differentiable manifold that lives in a vector space whenever possible
 * simplify the problem by identifying symmetries
+* fake it (overfit) till you (grock) make it
+* correct problem definition/framing (loss/objective) is essential. paperclips.
+* 
