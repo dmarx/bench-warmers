@@ -6,6 +6,12 @@ i think this might need content to get transferred over?
 
 [Link to original issue](https://github.com/dmarx/bench-warmers/issues/34)
 
+# Target audience
+
+- already comfortable with python
+- has conversational understanding of deep learning fundamentals, probably hasn't actually taken an ML class
+- has experimented minimally with generative AI tools, understands some nuances of prompting.
+
 ---
 
 # Assignments/curriculum
