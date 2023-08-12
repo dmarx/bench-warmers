@@ -10,11 +10,20 @@ i think this might need content to get transferred over?
 
 # Assignments/curriculum
 
-* Utilities
-  * ffmpeg
-  * PILlow
-  * cv2
-  * pytorch
+* Tools of the trade
+  * image utilities 
+    * PILlow
+    * ffmpeg
+    * cv2
+  * DL utilities
+    * pytorch
+    * einops
+  * prototyping utilities
+    * colab
+    * gradio
+    * panel/voila
+    * fastapi
+    * a1111
 * SGD for hackers
   * incremental updates
   * gradient flow (backprop)
