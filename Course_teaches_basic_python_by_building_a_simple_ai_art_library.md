@@ -24,7 +24,10 @@ i think this might need content to get transferred over?
     * cv2
   * DL utilities
     * pytorch
+      * tensors
+      * state-dicts
     * einops
+    * transformers/diffusers/hub
   * prototyping utilities
     * colab
     * gradio
