@@ -42,7 +42,7 @@ i think this might need content to get transferred over?
     * a1111
   * vector db
     * DIY w numpy, FAISS, ...?
-    * https://github.com/qdrant/qdrant
+    * https://github.com/erikbern/ann-benchmarks/
 * SGD for hackers
   * incremental updates
   * gradient flow (backprop)
