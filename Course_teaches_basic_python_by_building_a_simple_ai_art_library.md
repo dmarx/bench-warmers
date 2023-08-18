@@ -2,8 +2,6 @@
 
 labels: from_issue, curriculum, education, publication
 
-i think this might need content to get transferred over?
-
 [Link to original issue](https://github.com/dmarx/bench-warmers/issues/34)
 
 # Target audience
