@@ -79,6 +79,7 @@ i think this might need content to get transferred over?
     * img2img
   * cross attention guidance
     * token weighting
+    * prompt-to-prompt
     * compositional / regional prompting
 * animation
   * composition from motion - VQGAN i2i, 2D transforms
