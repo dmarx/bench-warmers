@@ -40,6 +40,9 @@ i think this might need content to get transferred over?
     * panel/voila
     * fastapi
     * a1111
+  * vector db
+    * DIY w numpy, FAISS, ...?
+    * https://github.com/qdrant/qdrant
 * SGD for hackers
   * incremental updates
   * gradient flow (backprop)
