@@ -48,6 +48,10 @@ labels: from_issue, curriculum, education, publication, public_good
   * gradient checkpointing
   * Adam, momentum
 * intro to latents
+  * case study:
+    * want to seat people at a wedding based on similar movie interests.
+    * each completes a card indicating count of movies by genre they've seen in past year
+    * use this to motivate cosine similarity, vector components/basis, vector addition, vectors as directions
   * pretty much only linear algebra we need: `<m x n> * <n x k> = <m x k>`
   * vectors are directions, not coordinates
   * simple small vocab basis with bag of words
