@@ -1,6 +1,6 @@
 # Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library
 
-labels: from_issue, curriculum, education, publication, public_good
+labels: from_issue, curriculum, education, publication, public_good, wip
 
 [Link to original issue](https://github.com/dmarx/bench-warmers/issues/34)
 
