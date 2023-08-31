@@ -2,6 +2,8 @@
 
 labels: publication
 
+bump
+
 # title brainstorming
 * "Mining for music
 * Parameterizing coherent, complex, multipart animations
