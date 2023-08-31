@@ -2,8 +2,8 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-08-12|[Ai art methods masterclass](../Ai_art_methods_masterclass.md)|295|[![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md)|
-|2023-08-06|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|5249|[![](https://img.shields.io/badge/tag-curriculum-e9b626)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-deeba9)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-public_good-1614f8)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-publication-48fb29)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-c4fb38)](../tags/wip.md)|
+|2023-08-13|[Ai art methods masterclass](../Ai_art_methods_masterclass.md)|295|[![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md)|
+|2023-08-08|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|5249|[![](https://img.shields.io/badge/tag-curriculum-e9b626)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-deeba9)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-public_good-1614f8)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-publication-48fb29)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-c4fb38)](../tags/wip.md)|
 |2023-07-25|[Stego db](../Stego_db.md)|136|[![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md)|
 |2023-07-25|[Yaml-state](../Yaml-state.md)|167|[![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md)|
 |2023-07-25|[Self-serve data lake](../Self-serve_data_lake.md)|315|[![](https://img.shields.io/badge/tag-from_issue-77485f)](../tags/from_issue.md)|
