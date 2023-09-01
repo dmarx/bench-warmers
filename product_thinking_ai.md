@@ -4,6 +4,10 @@
 ![](https://img.shields.io/badge/tag-foundation-lightgrey)  
 ![](https://img.shields.io/badge/tag-tooling-lightgrey)  
 
+relevant: https://github.com/OpenBMB/ChatDev
+
+---
+
 make it with this: https://www.askmarvin.ai/getting_started/bots_quickstart/
 
 ---
