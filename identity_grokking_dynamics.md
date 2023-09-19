@@ -5,6 +5,7 @@ labels: experimental, publication, safety, alignment, interpretability
 CLIP/SD has learned a variety of biases associated with names. these include:
 
 * fairly good grasp of flexible identity attached to proper names - barack obama
+  * "flexible" wrt able to adequately generate images of person at variety of ages in variety of scenarios
 * strong bias towards a specific depiction of a proper name (identity overfit) - mona lisa
 * strong association of name parts to given identities (identity overfit) - winona (ryder)
 * age, gender, ethnicity, cultural norms in name parts (identity underfit) - "vicki" = senior white lady, "sullivan" = british
