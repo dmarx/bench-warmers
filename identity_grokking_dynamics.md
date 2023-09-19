@@ -25,4 +25,10 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
 
 * phase change from approximating an identity as a composition of concepts to assigning an identity it's own concept region/direction
   * maybe this never happens and all identities are compositional? seems unlikely, expect some identities to be compositional and other strongly represented identities to comprise important components of the bases along which other identities are represented
- 
+
+
+ ## related work
+
+ * https://celeb-basis.github.io/
+ * grokking
+ * rome
