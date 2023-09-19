@@ -2,6 +2,8 @@
 
 labels: experimental, publication, safety, alignment, interpretability
 
+---
+
 CLIP/SD has learned a variety of biases associated with names. these include:
 
 * fairly good grasp of flexible identity attached to proper names - barack obama
