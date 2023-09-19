@@ -9,7 +9,7 @@ CLIP/SD has learned a variety of biases associated with names. these include:
 * strong bias towards a specific depiction of a proper name (identity overfit) - mona lisa
 * strong association of name parts to given identities (identity overfit) - winona (ryder)
 * age, gender, ethnicity, cultural norms in name parts (identity underfit) - "vicki" = senior white lady, "sullivan" = british
-  * age biases correlate to baby name popularities correlated to training data volume for different time periods
+  * age biases correlate to baby name popularities correlated to training data volume for different time periods. name-age correlation expected to become weaker over future decades/centuries if current training paradigms persist, to be replaced with "era" biases.
   * ethnicity, gender biases reflect ethnographic features of naming preferences, etymology, genetics - e.g. regionalization and/or genetic features common to a family name
 
 hypothesis: we should be able to identify phase changes in "grokking" specific identities if we monitor the learning process. expected phases, roughly:
