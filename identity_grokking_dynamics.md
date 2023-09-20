@@ -40,3 +40,7 @@ hypothesis: similar to how celeb basis woks, there are very likely natural langu
 one take on this might be to construct a celebbasis, then interpolate along the embedding dimensions and generate names for the respective embeddings to learn/mine composable natural language components
 
 can probably accomplish something like this just using a "CLIP Interrogator"-esque strategy and fitting a prompt constrained to a short set of name tokens. this would then limit the procedure here largely to collecting a set of names then slimming down the list to a subset of names that might be particularly useful (i.e. because they have biases baked into them) 
+
+## scoring names
+
+simplest approach is probably to just construct sequences of prompts capturing values along the scoring dimensions I'm interested in, and either score images relative to these prompts directly (CLIP image similarity to CLIP text similarity), or infer a basis from the prompts.
