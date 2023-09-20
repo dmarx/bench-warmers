@@ -38,3 +38,5 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
 hypothesis: similar to how celeb basis woks, there are very likely natural language tokens/phrases that can be composed to roughly build fairly appropriate "identity" representations. seems like age, ethnicity, gender, body type, hair color, eye color etc. all get encoded to varying degrees in name tokens (among other tokens we could use). it probably won't be *as* effective as something like celeb basis, but that would be pretty magiclal if we could use straight up prompt engineering to "paint" an identity.
 
 one take on this might be to construct a celebbasis, then interpolate along the embedding dimensions and generate names for the respective embeddings to learn/mine composable natural language components
+
+can probably accomplish something like this just using a "CLIP Interrogator"-esque strategy and fitting a prompt constrained to a short set of name tokens. this would then limit the procedure here largely to collecting a set of names then slimming down the list to a subset of names that might be particularly useful (i.e. because they have biases baked into them) 
