@@ -58,6 +58,6 @@ another idea here: compute statistics on the topology of the embeddings: https:/
 
 alternatively, can use range of cosine similarities between generated images embeddings as a rigidity measure
 
-can probably just use a VQA like BLIP2 for a lot of what i'm after
+can probably just use a VQA like BLIP2 or BEiT3 for a lot of what i'm after
 
 or relatedly, there are booru tagging models that might give me some useful stuff
