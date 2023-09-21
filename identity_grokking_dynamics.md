@@ -40,6 +40,7 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * https://www.sciencedirect.com/science/article/abs/pii/S0031320322005465
  * https://github.com/xk-huang/OrdinalCLIP
  * https://arxiv.org/abs/2306.13856
+ * https://github.com/facebookresearch/disentangling-correlated-factors
 
 ## related idea: NAME BASIS
 
