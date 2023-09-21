@@ -32,6 +32,8 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * https://celeb-basis.github.io/
  * grokking
  * rome
+ * https://github.com/wildchlamydia/mivolo
+ * https://paperswithcode.com/task/facial-attribute-classification
 
 ## related idea: NAME BASIS
 
