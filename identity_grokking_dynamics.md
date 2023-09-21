@@ -54,6 +54,8 @@ concrete example: generate 9 images from AB, estimate age of person in each imag
 
 actually, we probably want to compute some kind of prior for each model. the weak identities can probably be used for this
 
+another idea here: compute statistics on the topology of the embeddings: https://github.com/ChenLiu-1996/DiffusionSpectralEntropy
+
 alternatively, can use range of cosine similarities between generated images embeddings as a rigidity measure
 
 can probably just use a VQA like BLIP2 for a lot of what i'm after
