@@ -44,3 +44,18 @@ can probably accomplish something like this just using a "CLIP Interrogator"-esq
 ## scoring names
 
 simplest approach is probably to just construct sequences of prompts capturing values along the scoring dimensions I'm interested in, and either score images relative to these prompts directly (CLIP image similarity to CLIP text similarity), or infer a basis from the prompts.
+
+## identity rigidity
+
+this actually should be in terms of the other metrics, i think
+
+ok here's a way to do this: we just generate a bunch of images for each name and interrogate the images to construct distributions over these attributes
+concrete example: generate 9 images from AB, estimate age of person in each image, report back this age distribution (mean and variance) as the age rigidity for that name
+
+actually, we probably want to compute some kind of prior for each model. the weak identities can probably be used for this
+
+alternatively, can use range of cosine similarities between generated images embeddings as a rigidity measure
+
+can probably just use a VQA like BLIP2 for a lot of what i'm after
+
+or relatedly, there are booru tagging models that might give me some useful stuff
