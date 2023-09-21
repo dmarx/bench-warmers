@@ -38,6 +38,7 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * https://github.com/lxq1000/swinface
  * https://github.com/paplhjak/facial-age-estimation-benchmark
  * https://www.sciencedirect.com/science/article/abs/pii/S0031320322005465
+ * https://github.com/xk-huang/OrdinalCLIP
 
 ## related idea: NAME BASIS
 
