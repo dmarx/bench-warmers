@@ -37,6 +37,7 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * 2D skin color - https://arxiv.org/abs/2309.05148
  * https://github.com/lxq1000/swinface
  * https://github.com/paplhjak/facial-age-estimation-benchmark
+ * https://www.sciencedirect.com/science/article/abs/pii/S0031320322005465
 
 ## related idea: NAME BASIS
 
