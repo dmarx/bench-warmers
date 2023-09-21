@@ -63,3 +63,7 @@ alternatively, can use range of cosine similarities between generated images emb
 can probably just use a VQA like BLIP2 or BEiT3 for a lot of what i'm after
 
 or relatedly, there are booru tagging models that might give me some useful stuff
+
+## attribute extraction
+
+could use low-bias names to generate images with fixed attributes, then train attribute extraction from DINO embeddings of the images or from some other general-purpose representation.
