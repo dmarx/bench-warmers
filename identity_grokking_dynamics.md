@@ -35,6 +35,7 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * https://github.com/wildchlamydia/mivolo
  * https://paperswithcode.com/task/facial-attribute-classification
  * 2D skin color - https://arxiv.org/abs/2309.05148
+ * https://github.com/lxq1000/swinface
 
 ## related idea: NAME BASIS
 
