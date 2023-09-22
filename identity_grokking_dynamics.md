@@ -75,3 +75,14 @@ or relatedly, there are booru tagging models that might give me some useful stuf
 ## attribute extraction
 
 could use low-bias names to generate images with fixed attributes, then train attribute extraction from DINO embeddings of the images or from some other general-purpose representation.
+
+## measuring prompt diversity
+
+for now, let's try the following hyper-generic approach:
+
+1. generate images from prompt
+2. project images into some embedding space, e.g. CLIP or DINOv2
+3. calculate determinant of covariance of the embeddings (generalized variance, should measure volume). try trace as well.
+
+https://discord.com/channels/729741769192767510/797547607345201162/1154874204416639079
+
