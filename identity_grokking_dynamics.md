@@ -41,6 +41,7 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * https://github.com/xk-huang/OrdinalCLIP
  * https://arxiv.org/abs/2306.13856
  * https://github.com/facebookresearch/disentangling-correlated-factors
+ * wd 1.4 auto tagging models: https://huggingface.co/SmilingWolf
 
 ## related idea: NAME BASIS
 
