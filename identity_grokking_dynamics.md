@@ -86,3 +86,14 @@ for now, let's try the following hyper-generic approach:
 
 https://discord.com/channels/729741769192767510/797547607345201162/1154874204416639079
 
+--
+
+do this with just first names, easy way to get more of a distributional spread. expect there will be a major component whose evolution towards mono-identity clusters is visible in the topology of the data.
+
+1. generate n images per (first) name
+2. project into a DINO embedding
+3. tSNE the embeddings coloring based on name (class)
+4. re-color this plot using within-cluster similarity scores
+5. overplot medioid images for each prompt/cluster/name
+
+if I wanna be extra rigorous, do this with first names from the "top baby names" lists going back a few decades, use list decade/in-list-rank as another coloring scheme
