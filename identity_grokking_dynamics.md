@@ -102,3 +102,5 @@ if I wanna be extra rigorous, do this with first names from the "top baby names"
 ... actually, i think this will probably mostly just give me the same result as if i tSNE the CLIP embeddings of the prompts. that's not what I want.
 
 how about instead, we construct two or three "diversity" metrics, and plot the prompts in this "diversity measures" space. So like, I could measure diversity with DINOv2 embeddings first, then do the same exercise with CLIP embeddings, and use those number for the axes of a simple 2D scatterplot.
+
+DINO variance vs. tSNE 1st PC. This way, as variance goes down, identities individuate
