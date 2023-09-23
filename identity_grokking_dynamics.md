@@ -86,7 +86,7 @@ for now, let's try the following hyper-generic approach:
 
 https://discord.com/channels/729741769192767510/797547607345201162/1154874204416639079
 
---
+## visualization
 
 do this with just first names, easy way to get more of a distributional spread. expect there will be a major component whose evolution towards mono-identity clusters is visible in the topology of the data.
 
@@ -97,3 +97,8 @@ do this with just first names, easy way to get more of a distributional spread. 
 5. overplot medioid images for each prompt/cluster/name
 
 if I wanna be extra rigorous, do this with first names from the "top baby names" lists going back a few decades, use list decade/in-list-rank as another coloring scheme
+
+
+... actually, i think this will probably mostly just give me the same result as if i tSNE the CLIP embeddings of the prompts. that's not what I want.
+
+how about instead, we construct two or three "diversity" metrics, and plot the prompts in this "diversity measures" space. So like, I could measure diversity with DINOv2 embeddings first, then do the same exercise with CLIP embeddings, and use those number for the axes of a simple 2D scatterplot.
