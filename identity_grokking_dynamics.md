@@ -1,6 +1,8 @@
 # investigating identity formation as a concrete example of grokking dynamics (+ NameBasis)
 
-labels: experimental, publication, safety, alignment, interpretability
+labels: experimental, publication, safety, alignment, interpretability, wip
+
+WIP: https://github.com/dmarx/whats-in-a-name/
 
 ---
 
