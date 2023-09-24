@@ -1,6 +1,8 @@
 # "prior probing" for "safety"/nsfw scoring (model rating)
 
-labels: experimental, mechanistic_interpretability, alignment
+labels: experimental, mechanistic_interpretability, alignment, wip
+
+WIP: https://github.com/dmarx/whats-in-a-name/
 
 
 generate a bunch of images using a low CFG and ambiguous prompt(s), like "wow". 
