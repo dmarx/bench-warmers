@@ -45,6 +45,7 @@ sub-hypothesis: detectable change in netowrk weights delineating representation 
  * https://github.com/facebookresearch/disentangling-correlated-factors
  * wd 1.4 auto tagging models: https://huggingface.co/SmilingWolf
  * https://github.com/Sha-Lab/FEAT - feature crystalization
+ * https://github.com/csyxwei/ELITE - hard maybe, might be useful
 
 ## related idea: NAME BASIS
 
