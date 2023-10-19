@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-07|[diegetic classifier](../diegetic-classifier.md)|381|[![](https://img.shields.io/badge/tag-audio-587798)](../tags/audio.md) [![](https://img.shields.io/badge/tag-classification-2c91b4)](../tags/classification.md) [![](https://img.shields.io/badge/tag-experimental-53417a)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-text2audio-d2ea1b)](../tags/text2audio.md)|
+|2023-04-07|[diegetic classifier](../diegetic-classifier.md)|381|[![](https://img.shields.io/badge/tag-audio-8a140)](../tags/audio.md) [![](https://img.shields.io/badge/tag-classification-83cbca)](../tags/classification.md) [![](https://img.shields.io/badge/tag-experimental-53417a)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-text2audio-e33481)](../tags/text2audio.md)|
