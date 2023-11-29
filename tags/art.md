@@ -2,6 +2,6 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-08-03|[Tattoo Ideas](../ai_art_tattoo_inspo_board.md)|78|[![](https://img.shields.io/badge/tag-art-1dc0d1)](../tags/art.md)|
-|2023-06-26|[klmc2 as video init](../klmc2_as_video_init.md)|230|[![](https://img.shields.io/badge/tag-art-1dc0d1)](../tags/art.md)|
-|2023-05-30|[generative outfill](../generative_outfill.md)|116|[![](https://img.shields.io/badge/tag-art-1dc0d1)](../tags/art.md) [![](https://img.shields.io/badge/tag-notebook-c6963e)](../tags/notebook.md) [![](https://img.shields.io/badge/tag-tooling-48fb29)](../tags/tooling.md)|
+|2023-08-03|[Tattoo Ideas](../ai_art_tattoo_inspo_board.md)|78|[![](https://img.shields.io/badge/tag-art-2b1224)](../tags/art.md)|
+|2023-07-19|[klmc2 as video init](../klmc2_as_video_init.md)|230|[![](https://img.shields.io/badge/tag-art-2b1224)](../tags/art.md)|
+|2023-05-30|[generative outfill](../generative_outfill.md)|116|[![](https://img.shields.io/badge/tag-art-2b1224)](../tags/art.md) [![](https://img.shields.io/badge/tag-notebook-869cae)](../tags/notebook.md) [![](https://img.shields.io/badge/tag-tooling-92ab1c)](../tags/tooling.md)|
