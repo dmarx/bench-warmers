@@ -128,3 +128,7 @@ Discuss the history as we go
 # Misc
 
 ![](./misc/superpixel-compression.jpeg)
+
+> Each pixel in the stable diffusion VAE latent corresponds to a region of 8x8 pixels in RGB space. Here's a rough illustration of how information from a neighborhood of RGB pixels (here 2x2 instead of 8x8) gets compressed into a single pixel of the VAE latent
+
+https://twitter.com/DigThatData/status/1737945262201668050
