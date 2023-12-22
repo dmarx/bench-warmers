@@ -124,3 +124,7 @@ Discuss the history as we go
 * AI Art Technical Masterclass: Under-the-hood of Generative AI Tools
 * AI Mastercraft
 * Intro to Latents
+
+# Misc
+
+![](./misc/superpixel-compression.jpeg)
