@@ -132,3 +132,11 @@ Discuss the history as we go
 > Each pixel in the stable diffusion VAE latent corresponds to a region of 8x8 pixels in RGB space. Here's a rough illustration of how information from a neighborhood of RGB pixels (here 2x2 instead of 8x8) gets compressed into a single pixel of the VAE latent
 
 https://twitter.com/DigThatData/status/1737945262201668050
+
+---
+
+![](./misc/superpixel-compression.jpeg)
+
+> Wondering what "low rank" means when you hear about stuff like LoRA? In this diagram, the "rank" is the number of genres you're using to describe the users/movies matrix. This is also why rank-reduced representations can often be interpreted as a kind of semantic compression.
+
+https://twitter.com/DigThatData/status/1679724092826734593
