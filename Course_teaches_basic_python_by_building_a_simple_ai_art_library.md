@@ -135,7 +135,7 @@ https://twitter.com/DigThatData/status/1737945262201668050
 
 ---
 
-![](./misc/superpixel-compression.jpeg)
+![](./misc/low-rank-matrix.jpeg)
 
 > Wondering what "low rank" means when you hear about stuff like LoRA? In this diagram, the "rank" is the number of genres you're using to describe the users/movies matrix. This is also why rank-reduced representations can often be interpreted as a kind of semantic compression.
 
