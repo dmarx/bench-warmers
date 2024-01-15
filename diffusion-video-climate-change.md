@@ -17,7 +17,8 @@ satellite image data over time.
 * https://developers.google.com/earth-engine/datasets/
 * https://neo.gsfc.nasa.gov/
 * https://landsat.gsfc.nasa.gov/data/
-
+* https://planetarycomputer.microsoft.com/
+  
 ## Relevant projects
 
 * SatCLIP
