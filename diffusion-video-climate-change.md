@@ -5,6 +5,7 @@ labels: experimental, public_good
 satellite image data over time.
 
 * spherical embedding for position on earth
+  * https://arxiv.org/abs/2310.06743
 * time embedding for date correlation
 * predict from an image or a context of images (same place, different dates)
 * after fitting model, finetune controlnets for incorporating information from different modalities
