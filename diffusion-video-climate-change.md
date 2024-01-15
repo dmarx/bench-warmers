@@ -6,6 +6,7 @@ satellite image data over time.
 
 * spherical embedding for position on earth
   * [Geographic location encoding with spherical harmonics and sinusoidal representation networks.](https://arxiv.org/abs/2310.06743)
+  * https://github.com/MarcCoru/locationencoder
 * time embedding for date correlation
 * predict from an image or a context of images (same place, different dates)
 * after fitting model, finetune controlnets for incorporating information from different modalities
