@@ -15,3 +15,10 @@ satellite image data over time.
 * https://developers.google.com/earth-engine/datasets/
 * https://neo.gsfc.nasa.gov/
 * https://landsat.gsfc.nasa.gov/data/
+
+## Relevant projects
+
+* SatCLIP
+  * https://arxiv.org/abs/2311.17179
+  * https://twitter.com/kklmmr/status/1732799037860880448
+  * https://github.com/microsoft/satclip
