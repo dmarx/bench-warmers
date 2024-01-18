@@ -1,6 +1,6 @@
 # Population Convergence Training
 
-label: experimental
+labels: experimental
 
 population-based training with RNAring/bacteria thing. 
 
