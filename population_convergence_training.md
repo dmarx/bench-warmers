@@ -1,5 +1,7 @@
 # Population Convergence Training
 
+label: experimental
+
 population-based training with RNAring/bacteria thing. 
 
 * let M be the population of models m. let k be a threshold percentage.
