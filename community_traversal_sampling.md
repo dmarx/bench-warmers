@@ -6,6 +6,10 @@ labels: experimental
 
 simulate some of the optimizer characteristics inherent in the open source community in an ML training process
 
+### discussion
+
+one of the reasons that open source development is so effective is that it creates opportunity for different people to contribute who respectively are more or less concerned with different problem domains. let's model a developer as a distribution over the problem domains that interest them, analogous to modeling a document as a distribution over topics (LDA). dual to the developers, we model projects as distributions over problem domains. we can therefore characterize a problem domain by the projects and/or the developers associated with it. when some developer D contributes to some project P, they are informing that project with the priorities they learned from the problem domains that are their focus, a neghiborhood around D in the problem domain manifold. projects spread through developer communities, so the next person to contribute is likely to have interests similar to the person who introduced them to the project. we simulate this "development homophilly" effect by traversing the neighborhood.
+
 ## basic idea
 
 **graph construction**
