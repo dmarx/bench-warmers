@@ -2,7 +2,7 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2024-01-14|[Diffusion Video Models for Climate Change Prediction](../diffusion-video-climate-change.md)|1005|[![](https://img.shields.io/badge/tag-experimental-c4fb38)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-public_good-35d420)](../tags/public_good.md)|
+|2024-01-15|[Diffusion Video Models for Climate Change Prediction](../diffusion-video-climate-change.md)|1005|[![](https://img.shields.io/badge/tag-experimental-c4fb38)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-public_good-35d420)](../tags/public_good.md)|
 |2023-12-26|[BiaB: Business in a Bottle](../business-in-a-bottle.md)|124|[![](https://img.shields.io/badge/tag-coreweave-faa2fc)](../tags/coreweave.md) [![](https://img.shields.io/badge/tag-open_source-b4243e)](../tags/open_source.md) [![](https://img.shields.io/badge/tag-public_good-35d420)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-tooling-ea1833)](../tags/tooling.md)|
 |2023-11-29|[publish pre-tensorized checkpoints](../huggingface_tensorized.md)|76|[![](https://img.shields.io/badge/tag-coreweave-faa2fc)](../tags/coreweave.md) [![](https://img.shields.io/badge/tag-open_source-b4243e)](../tags/open_source.md) [![](https://img.shields.io/badge/tag-public_good-35d420)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-tensorizor-1ee399)](../tags/tensorizor.md)|
 |2023-09-27|[publish a journal as a github repo](../journal_as_github.md)|304|[![](https://img.shields.io/badge/tag-public_good-35d420)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-publication-4db4d2)](../tags/publication.md)|
