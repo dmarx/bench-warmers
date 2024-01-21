@@ -35,3 +35,7 @@ create opportunity for a mechanism which lets the learning process structure the
 1. associate each datum with a learnable vector.
 2. use neighborhoods in the vector space of a given `ROOT` datum/batch as "batch communities".
 3. compute an outter gradient to update the learnable vector
+
+one concern I have with the "learnable vector" idea is that it's unclear to me what the loss function would look like to learn the update procedure. Maybe RL would fit well here where the model could learn it's own search procedure for traversing the data space. Maybe reward could be a function of gradient magnitude? Favor search directions where the model learns more. How to balance with catastrophic forgetting?
+
+a simple "learnable vector" would be to just use the network activations (possibly constrained to a particular layer). expanding on this, could create different graphs based on similarities across different layers, e.g. each layer gets its own nearest-neighbors graph.
