@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-08-09|["prior probing" for "safety"/nsfw scoring (model rating)](../prior_probing.md)|604|[![](https://img.shields.io/badge/tag-alignment-b7fb0)](../tags/alignment.md) [![](https://img.shields.io/badge/tag-experimental-c4fb38)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-mechanistic_interpretability-b25b5)](../tags/mechanistic_interpretability.md) [![](https://img.shields.io/badge/tag-wip-6013c8)](../tags/wip.md)|
+|2023-08-09|["prior probing" for "safety"/nsfw scoring (model rating)](../prior_probing.md)|604|[![](https://img.shields.io/badge/tag-alignment-f14da)](../tags/alignment.md) [![](https://img.shields.io/badge/tag-experimental-6013c8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-mechanistic_interpretability-957448)](../tags/mechanistic_interpretability.md) [![](https://img.shields.io/badge/tag-wip-12eec5)](../tags/wip.md)|
