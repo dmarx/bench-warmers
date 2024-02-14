@@ -6,6 +6,8 @@ https://discord.com/channels/729741769192767510/730095596861521970/1206121483877
 
 *TODO: Combine this with papers from the [anthology](https://github.com/dmarx/anthology-of-modern-ml/blob/main/README.md) to provide some structure to the "treat this like a textbook" stuff*
 
+* 2013 - ["Auto-Encoding Variational Bayes"](https://arxiv.org/abs/1312.6114) - Diederik P Kingma, Max Welling
+
 ## Feature Engineering
 
 Let's talk about feature learning. Back in the before times, there was this thing we used to do: we'd sit around the fire, and think about our problems and how to solve them. It was called "feature engineering," and it was a pain in the ass.
@@ -18,6 +20,7 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
   * linear probing
   * visualizing CNN features, distill
   * 2015 - ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/abs/1503.02531) - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
+  * hinton's "dark knowledge" (if there was a second paper? the one with the held out mnist digits)
 
 * examples of manual feature engineering for computer vision
   * 2014 - ["My solution for the Galaxy Zoo challenge"](https://sander.ai/2014/04/05/galaxy-zoo.html) - Sander Dieleman
