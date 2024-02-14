@@ -4,6 +4,8 @@ labels: education, history, vae, feature_learning, publication
 
 https://discord.com/channels/729741769192767510/730095596861521970/1206121483877752862
 
+*TODO: Combine this with papers from the anthology to provide some structure to the "treat this like a textbook" stuff*
+
 ### Feature Engineering
 
 Let's talk about feature learning. Back in the before times, there was this thing we used to do: we'd sit around the fire, and think about our problems and how to solve them. It was called "feature engineering," and it was a pain in the ass.
