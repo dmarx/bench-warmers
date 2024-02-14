@@ -17,7 +17,7 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
 * early interpretability work
   * linear probing
   * visualizing CNN features, distill
-  * dark knowledge
+  * 2015 - ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/abs/1503.02531) - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
 
 * examples of manual feature engineering for computer vision
   * 2014 - ["My solution for the Galaxy Zoo challenge"](https://sander.ai/2014/04/05/galaxy-zoo.html) - Sander Dieleman
