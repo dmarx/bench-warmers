@@ -37,6 +37,8 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
 
 Let's consider a simple classification problem. You can model classification with logistic regression. Nice and simple, old-school statistics. Softmax is just multivariate logistic regression. Literally. Where do we often see softmax these days? Last stop on the processing pipeline for a deep neural network. So, pop off that last piece and what are we left with? On the one hand, we have one of the simplest possible classification models. And on the other hand, we have everything else. So it's completely valid to interpret that "everything else" as a machine that constructs complex features on which a simple classifier can operate. This is no big deal now. May even seem obvious. It was not. Not for a very long time.
 
+`<interlude: that time everyone was publishing activation functions>`
+
 #### Historical context
 
 * BERTology
@@ -118,9 +120,22 @@ Mechanistic interpretability was becoming all the rage. The VAE, however, was st
   * VAE
   * betaVAE
 
+`<interlude: SSL?>`
 
 ## The Return of the ~~King~~ VAE
 
 One day, some computer vision researchers in Germany had an insight. Let's use the VAE to learn features for a GAN. The VAE had announced its triumphant return. It would be used to learn a feature dictionary for the GAN. And thus was born the VQGAN. Yadda yadda diffusion, yadda yadda Stable Diffusion.
+
+#### Historical context
+
+* VQVAE
+* VQGAN
+* CLIP
+* CLIP+VQGAN
+* notebooks
+  * separately: history of notebooks
+* diffusion models beat GANs
+* LDM
+* dalle
 
 Happily ever after. Thank you for attending my TED talk.
