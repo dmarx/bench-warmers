@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-11-29|[publish pre-tensorized checkpoints](../huggingface_tensorized.md)|76|[![](https://img.shields.io/badge/tag-coreweave-12eec5)](../tags/coreweave.md) [![](https://img.shields.io/badge/tag-open_source-ea1833)](../tags/open_source.md) [![](https://img.shields.io/badge/tag-public_good-f14da)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-tensorizor-1043a5)](../tags/tensorizor.md)|
+|2023-11-29|[publish pre-tensorized checkpoints](../huggingface_tensorized.md)|76|[![](https://img.shields.io/badge/tag-coreweave-e33481)](../tags/coreweave.md) [![](https://img.shields.io/badge/tag-open_source-1043a5)](../tags/open_source.md) [![](https://img.shields.io/badge/tag-public_good-96f12e)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-tensorizor-b59164)](../tags/tensorizor.md)|
