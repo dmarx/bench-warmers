@@ -1,4 +1,4 @@
-# Pages tagged `feature_learning`
+# Pages tagged `history_of_science`
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
