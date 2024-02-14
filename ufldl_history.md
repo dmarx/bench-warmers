@@ -14,7 +14,7 @@ https://discord.com/channels/729741769192767510/730095596861521970/1206121483877
 * 2006 - "Reducing the Dimensionality of Data with Neural Networks" - Geoff Hinton, R. R. Salakhutdinov
 * 2013 - ["Auto-Encoding Variational Bayes"](https://arxiv.org/abs/1312.6114) - Diederik P Kingma, Max Welling
 
-<details>
+</details>
 
 ## Feature Engineering
 
