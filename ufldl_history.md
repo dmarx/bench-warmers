@@ -10,6 +10,13 @@ Let's talk about feature learning. Back in the before times, there was this thin
 
 When I worked as a data scientist, like 70% of the effort of any problem was just making the data workable. "Workable" means something very different today, in the now-after times. The founders, in their great wisdom and laziness, dreamed of "end-to-end" solutions to their problems. The computer vision people had been especially bogged down in their feature engineering and were the first for whom their frustration overcame their laziness. And thus was born a machine that could learn its own features.
 
+<!-- 
+* examples of manual feature engineering for computer vision
+  * galaxyzoo
+  * eigenfaces
+  * canny edge detection
+-->
+
 ### Automatic Feature Learning
 
 Let's consider a simple classification problem. You can model classification with logistic regression. Nice and simple, old-school statistics. Softmax is just multivariate logistic regression. Literally. Where do we often see softmax these days? Last stop on the processing pipeline for a deep neural network. So, pop off that last piece and what are we left with? On the one hand, we have one of the simplest possible classification models. And on the other hand, we have everything else. So it's completely valid to interpret that "everything else" as a machine that constructs complex features on which a simple classifier can operate. This is no big deal now. May even seem obvious. It was not. Not for a very long time.
