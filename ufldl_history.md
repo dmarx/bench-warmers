@@ -28,7 +28,7 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
 
 * feature engineering in the wild (CV)
   * 2014 - ["My solution for the Galaxy Zoo challenge"](https://sander.ai/2014/04/05/galaxy-zoo.html) - Sander Dieleman
-  * eigenfaces
+  * 1991 - ["Face Recognition Using Eigenfaces"](https://www.cin.ufpe.br/~rps/Artigos/Face%20Recognition%20Using%20Eigenfaces.pdf) - Matthew Turk, Alex Pentland
   * canny edge detection
 * feature engineering tooling
   * opencv docs
