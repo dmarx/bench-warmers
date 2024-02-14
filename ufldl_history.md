@@ -1,10 +1,10 @@
 # ELI5: history of the VAE
 
-labels: education, history, vae, feature_learning, publication
+labels: education, history, vae, feature_learning, publication, history_of_science
 
 https://discord.com/channels/729741769192767510/730095596861521970/1206121483877752862
 
-*TODO: Combine this with papers from the anthology to provide some structure to the "treat this like a textbook" stuff*
+*TODO: Combine this with papers from the [anthology](https://github.com/dmarx/anthology-of-modern-ml/blob/main/README.md) to provide some structure to the "treat this like a textbook" stuff*
 
 ## Feature Engineering
 
@@ -15,7 +15,7 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
 #### Historical context
 
 * examples of manual feature engineering for computer vision
-  * galaxyzoo
+  * 2014 - ["My solution for the Galaxy Zoo challenge"](https://sander.ai/2014/04/05/galaxy-zoo.html) - Sander Dieleman
   * eigenfaces
   * canny edge detection
 
