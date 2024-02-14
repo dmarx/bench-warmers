@@ -14,6 +14,11 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
 
 #### Historical context
 
+* early interpretability work
+  * linear probing
+  * visualizing CNN features, distill
+  * dark knowledge
+
 * examples of manual feature engineering for computer vision
   * 2014 - ["My solution for the Galaxy Zoo challenge"](https://sander.ai/2014/04/05/galaxy-zoo.html) - Sander Dieleman
   * eigenfaces
