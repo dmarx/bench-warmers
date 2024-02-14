@@ -22,7 +22,10 @@ Let's talk about feature learning. Back in the before times, there was this thin
 
 When I worked as a data scientist, like 70% of the effort of any problem was just making the data workable. "Workable" means something very different today, in the now-after times. The founders, in their great wisdom and laziness, dreamed of "end-to-end" solutions to their problems. The computer vision people had been especially bogged down in their feature engineering and were the first for whom their frustration overcame their laziness. And thus was born a machine that could learn its own features.
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
+
 
 * early interpretability work
   * linear probing
@@ -37,27 +40,39 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
 * feature engineering tooling
   * opencv docs
 
+</details>
+
 ## Automatic Feature Learning
 
 Let's consider a simple classification problem. You can model classification with logistic regression. Nice and simple, old-school statistics. Softmax is just multivariate logistic regression. Literally. Where do we often see softmax these days? Last stop on the processing pipeline for a deep neural network. So, pop off that last piece and what are we left with? On the one hand, we have one of the simplest possible classification models. And on the other hand, we have everything else. So it's completely valid to interpret that "everything else" as a machine that constructs complex features on which a simple classifier can operate. This is no big deal now. May even seem obvious. It was not. Not for a very long time.
 
 `<interlude: that time everyone was publishing activation functions>`
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
+
 
 * BERTology
 * distill.pub
+
+</details>
 
 ## Dimensionality Reduction in Early ML
 
 One of the common themes in feature engineering back in the early ML days was dimensionality reduction. You see, my lovelies, we didn't know about gradient double descent at the time, and misguidedly believed that a consequence of the bias-variance decomposition was that it was bad to have overparameterized models. So, a common component of feature engineering pipelines used to be dimensionality reduction because it was believed that was a way to avoid overfitting. Crystallize the signal out of the data, throw away the noise. As the information density of the representation increases, so then should the generalizability of the model. Pack the input down into just its bare essentials. Find the latent. This line of thought naturally led people to an hourglass-shaped MLP. Treat the bottleneck region as the condensed features, and the part after it as a second reconstruction component. Turns out, this procedure is essentially a kind of non-linear PCA.
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
+
 
 * 1991 - "Nonlinear principal component analysis using autoassociative neural networks" - Mark A. Kramer
 * 2006 - "Reducing the Dimensionality of Data with Neural Networks" - Geoff Hinton, R. R. Salakhutdinov
 * gradient double descent
 * classic bias-variance decomposition
+
+</details>
 
 ## Advent of Word Embeddings
 
@@ -73,7 +88,10 @@ Word2Vec was still a wordlist, but it was an extremely useful wordlist. And it m
 
 "We're doing deep learning!" proclaimed the NLP researchers proudly slapping themselves on the back. But they were not. They were only doing shallow learning. Word2Vec, it turned out, was just doing an implicit matrix factorization. But nobody cared because they finally got to be lazy like their CV friends. In fact, they got to be even lazier. They soon realized they didn't even need the fancy deep learning architectures to achieve most of their goals, as long as they started from a lookup table of pre-trained embeddings. "Word2Vec + logistic regression? Good enough!" said basically everyone. They had discovered transfer learning, and it was good.
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
+
 
 * statistical NLP
   * LDA
@@ -97,6 +115,7 @@ Word2Vec was still a wordlist, but it was an extremely useful wordlist. And it m
   * sent2vec
   * glove
 
+</details>
 
 ## VAEs to GANs
 
@@ -108,7 +127,10 @@ The GAN folks had been treating the input vector as their main "latent," but the
 
 Mechanistic interpretability was becoming all the rage. The VAE, however, was stuck in dimensionality reduction land. Beta-VAE, sparse VAE,... that latent had to be as DENSE AS POSSIBLE.
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
+
 
 * GAN stuff
   * GAN
@@ -124,13 +146,18 @@ Mechanistic interpretability was becoming all the rage. The VAE, however, was st
   * VAE
   * betaVAE
 
+</details>
+
 `<interlude: SSL?>`
 
 ## The Return of the ~~King~~ VAE
 
 One day, some computer vision researchers in Germany had an insight. Let's use the VAE to learn features for a GAN. The VAE had announced its triumphant return. It would be used to learn a feature dictionary for the GAN. And thus was born the VQGAN. Yadda yadda diffusion, yadda yadda Stable Diffusion.
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
+
 
 * VQVAE
 * VQGAN
@@ -141,5 +168,7 @@ One day, some computer vision researchers in Germany had an insight. Let's use t
 * diffusion models beat GANs
 * LDM
 * dalle
+
+</details>
 
 Happily ever after. Thank you for attending my TED talk.
