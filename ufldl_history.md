@@ -26,10 +26,13 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
   * 2015 - ["Distilling the Knowledge in a Neural Network"](https://arxiv.org/abs/1503.02531) - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
   * hinton's "dark knowledge" (if there was a second paper? the one with the held out mnist digits)
 
-* examples of manual feature engineering for computer vision
+* feature engineering in the wild (CV)
   * 2014 - ["My solution for the Galaxy Zoo challenge"](https://sander.ai/2014/04/05/galaxy-zoo.html) - Sander Dieleman
   * eigenfaces
   * canny edge detection
+* feature engineering tooling
+  * opencv docs
+  * 
 
 ## Automatic Feature Learning
 
