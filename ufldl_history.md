@@ -6,11 +6,15 @@ https://discord.com/channels/729741769192767510/730095596861521970/1206121483877
 
 *TODO: Combine this with papers from the [anthology](https://github.com/dmarx/anthology-of-modern-ml/blob/main/README.md) to provide some structure to the "treat this like a textbook" stuff*
 
-#### Historical context
+<details>
+
+<summary>Historical context</summary>
 
 * 1991 - "Nonlinear principal component analysis using autoassociative neural networks" - Mark A. Kramer
 * 2006 - "Reducing the Dimensionality of Data with Neural Networks" - Geoff Hinton, R. R. Salakhutdinov
 * 2013 - ["Auto-Encoding Variational Bayes"](https://arxiv.org/abs/1312.6114) - Diederik P Kingma, Max Welling
+
+<details>
 
 ## Feature Engineering
 
