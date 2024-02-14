@@ -32,7 +32,6 @@ When I worked as a data scientist, like 70% of the effort of any problem was jus
   * canny edge detection
 * feature engineering tooling
   * opencv docs
-  * 
 
 ## Automatic Feature Learning
 
@@ -70,6 +69,29 @@ Word2Vec was still a wordlist, but it was an extremely useful wordlist. And it m
 
 #### Historical context
 
+* statistical NLP
+  * LDA
+  * LSI
+  * zipfian distribution
+  * bayesian information retrieval
+
+* classic NLP tools
+  * wordnet
+  * nltk
+
+* wordlists/heuristics
+  * stop words
+  * wordnet
+  * other lemma
+  * soundex
+  * jarowinkler
+
+* ___2vec
+  * word2vec
+  * sent2vec
+  * glove
+
+
 ## VAEs to GANs
 
 The computer vision people had enjoyed their time with the VAE, but had decided they outgrew it. A simple reconstruction loss was not enough; they needed more losses. They moved on from encoder-decoder to generator-discriminator. Instead of the latent representation being the bottleneck, it was the input for both models. The computer vision people had discovered the z-space, and felt quite fancy there.
@@ -81,6 +103,21 @@ The GAN folks had been treating the input vector as their main "latent," but the
 Mechanistic interpretability was becoming all the rage. The VAE, however, was stuck in dimensionality reduction land. Beta-VAE, sparse VAE,... that latent had to be as DENSE AS POSSIBLE.
 
 #### Historical context
+
+* GAN stuff
+  * GAN
+  * cGAN
+  * cycleGAN
+  * StyleGAN
+  * StyleGAN2
+  * StyleGAN3
+ 
+* VAE stuff
+  * AE
+  * UFLDL
+  * VAE
+  * betaVAE
+
 
 ## The Return of the ~~King~~ VAE
 
