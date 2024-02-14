@@ -40,11 +40,19 @@ Let's consider a simple classification problem. You can model classification wit
 
 #### Historical context
 
+* BERTology
+* distill.pub
+
 ## Dimensionality Reduction in Early ML
 
-One of the common themes in feature engineering back in the early ML days was dimensionality reduction. You see, my lovelies, we didn't know about gradient double descent at the time, and misguidedly believed that a consequence of the bias-variance decomposition was that it was bad to have overparameterized models. So, a common component of feature engineering pipelines used to be dimensionality reduction because it was believed that was a way to avoid overfitting. Crystallize the signal out of the data, throw away the noise. As the information density of the representation increases, so then should the generalizability of the model. Pack the input down into just its bare essentials. Find the latent. This line of thought naturally led people to an hourglass-architected MLP. Treat the bottleneck region as the condensed features, and the part after it as a second reconstruction component. Turns out, this procedure is essentially a kind of non-linear PCA.
+One of the common themes in feature engineering back in the early ML days was dimensionality reduction. You see, my lovelies, we didn't know about gradient double descent at the time, and misguidedly believed that a consequence of the bias-variance decomposition was that it was bad to have overparameterized models. So, a common component of feature engineering pipelines used to be dimensionality reduction because it was believed that was a way to avoid overfitting. Crystallize the signal out of the data, throw away the noise. As the information density of the representation increases, so then should the generalizability of the model. Pack the input down into just its bare essentials. Find the latent. This line of thought naturally led people to an hourglass-shaped MLP. Treat the bottleneck region as the condensed features, and the part after it as a second reconstruction component. Turns out, this procedure is essentially a kind of non-linear PCA.
 
 #### Historical context
+
+* 1991 - "Nonlinear principal component analysis using autoassociative neural networks" - Mark A. Kramer
+* 2006 - "Reducing the Dimensionality of Data with Neural Networks" - Geoff Hinton, R. R. Salakhutdinov
+* gradient double descent
+* classic bias-variance decomposition
 
 ## Advent of Word Embeddings
 
