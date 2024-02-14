@@ -45,6 +45,8 @@ One of the common themes in feature engineering back in the early ML days was di
 
 ## Advent of Word Embeddings
 
+*(TODO: segue to InfoNCE to contrastive learning to CLIP )*
+
 The NLP people heard tell of the success the computer vision people had achieved by leaning into their laziness. They began to adopt tips and tricks that had been demonstrated by their CV brethren. Yet something was missing. Pictures had a natural numeric representation already, but words did not. NLP researchers dealt with this nuisance by counting things and treating words as counts. In the land where people are counting lots of things, the statistician is king. And so it was with NLP. "Counts can be modeled as Poisson distributed random variables!" proclaimed the computational linguists. "We can use our statistical models to understand language!" And this worked for a time. It sure beat the hell out of constructing parse trees and part-of-speech tagging and all that shit. But they also hadn't completely escaped that either.
 
 Fortunately, some mythically lazy NLP researchers had observed the success the computer vision people had achieved, and they wanted in. The computer vision folks had the VAEs, but they didn't understand the value of that yet. They were blinded by their feature engineering machines and ignored the magic of their VAEs, relegating them to tasks like clustering images.
