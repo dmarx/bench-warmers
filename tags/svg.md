@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-06-23|[Seed differentiable vectorization with paths inferred from semantic segmentation](../vectorize_anything.md)|768|[![](https://img.shields.io/badge/tag-experimental-1043a5)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-segmentation-759071)](../tags/segmentation.md) [![](https://img.shields.io/badge/tag-svg-7a219d)](../tags/svg.md) [![](https://img.shields.io/badge/tag-tooling-752fd7)](../tags/tooling.md)|
+|2023-06-23|[Seed differentiable vectorization with paths inferred from semantic segmentation](../vectorize_anything.md)|768|[![](https://img.shields.io/badge/tag-experimental-35b163)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-segmentation-a777bf)](../tags/segmentation.md) [![](https://img.shields.io/badge/tag-svg-f59257)](../tags/svg.md) [![](https://img.shields.io/badge/tag-tooling-9c3a4a)](../tags/tooling.md)|
