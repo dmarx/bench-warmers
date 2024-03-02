@@ -43,3 +43,4 @@ plot.kde(records)
 
 lol is this just chinchilla? possibly very similar to this: https://github.com/kyo-takano/chinchilla
 
+chinchilla ref: https://deepmind.google/discover/blog/an-empirical-analysis-of-compute-optimal-large-language-model-training/
