@@ -33,9 +33,10 @@ for i in range(n):
   x = sample_input(size=n)
   y = teacher(x)
   recs = []
-  with m:= steps_required_to_fit_within_tolerance(tol):
-    student.fit(x,y)
-    recs.append((m,n,tol))
-  records.appends(summarize(recs)
+  for _ in range(mc_repetitions):
+    with m:= steps_required_to_fit_within_tolerance(tol):
+      student.fit(x,y)
+      recs.append((m,n,tol))
+    records.appends(summarize(recs)
 plot.kde(records)
 ```
