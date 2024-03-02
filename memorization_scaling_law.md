@@ -40,3 +40,6 @@ for i in range(n):
     records.appends(summarize(recs)
 plot.kde(records)
 ```
+
+lol is this just chinchilla? possibly very similar to this: https://github.com/kyo-takano/chinchilla
+
