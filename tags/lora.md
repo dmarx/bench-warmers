@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-25|[Palette of Priors](../palette_of_priors.md)|533|[![](https://img.shields.io/badge/tag-experimental-c6963e)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-lora-3b815)](../tags/lora.md)|
+|2023-07-25|[Palette of Priors](../palette_of_priors.md)|533|[![](https://img.shields.io/badge/tag-experimental-6013c8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-lora-957448)](../tags/lora.md)|

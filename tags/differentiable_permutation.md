@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-08-02|[Notes on differentiable permutations](../differentiable_permutations.md)|1241|[![](https://img.shields.io/badge/tag-differentiable_permutation-deeba9)](../tags/differentiable_permutation.md) [![](https://img.shields.io/badge/tag-experimental-c6963e)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-interpretability-b5ec2c)](../tags/interpretability.md) [![](https://img.shields.io/badge/tag-regularization-c456a9)](../tags/regularization.md)|
+|2023-08-02|[Notes on differentiable permutations](../differentiable_permutations.md)|1241|[![](https://img.shields.io/badge/tag-differentiable_permutation-d7de4b)](../tags/differentiable_permutation.md) [![](https://img.shields.io/badge/tag-experimental-6013c8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-interpretability-f76896)](../tags/interpretability.md) [![](https://img.shields.io/badge/tag-regularization-e54ba1)](../tags/regularization.md)|
