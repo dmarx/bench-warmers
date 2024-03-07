@@ -12,3 +12,37 @@ anyway, I was inspired to make this now for the following idea:
   * summarize a document into a graphical summary saved as a text file. graphical summary document GSD.
   * needs to be parameterizable as a text format so we can just use an LLM to generate these.
   * construct a procedure for growing this representation that pushes in "missing" notes 
+
+--
+
+# Sources for codegen finetuning data
+
+## Python
+
+* Django
+* FastAPI
+* huggingface/transformers
+* huggingface/diffusers
+* numpy
+* scipy
+* pandas
+* sklearn
+* pytorch
+* pytorch-lightning
+
+## Go
+
+* Gin
+* terraform
+
+## k8s
+
+* kubernetes
+* knative
+* prometheus
+* etcd
+* helm
+* argoCD
+* docker
+* singularity
+* slurm
