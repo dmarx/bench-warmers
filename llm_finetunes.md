@@ -59,3 +59,5 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/7c6efd5e-231f-4a3e-9527-0b0f15c387b1
   * bad movie -> movie pitch from invested perspective
     * https://chat.openai.com/c/4b0cc047-edb2-4857-b833-2eb21a3f1f39
+  * topic -> context -> context from alternative perspectives -> guide towards target perspective -> adjacent topics -> Synthesize -> TOC -> coarse-to-fine
+    * https://chat.openai.com/c/310b31ac-7245-4e84-8393-5cddd187fcdb
