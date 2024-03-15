@@ -76,7 +76,8 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/b5c20579-f574-43d0-b31a-6e0b9ce0a3fc
   * adding notes/comments/type-hints/documentation in-line
     * https://chat.openai.com/c/77db5296-a7bc-4c6b-b2f1-b7df89321652
-
+  * PR/FAQ -> user stories -> test suite -> README/core features tutorial -> skeleton codebase -> prioritize development plan -> pros/cons -> flesh out -> reassess plan -> reassess target userbase -> assess competition and differentiators
+    * https://chat.openai.com/c/95d3ba5b-f5de-4eb4-8f31-28bd376e3daa
 
 # Finetune an adapter to interpret specialized context signals
 
