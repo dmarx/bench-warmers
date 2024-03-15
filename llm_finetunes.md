@@ -82,7 +82,7 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/95d3ba5b-f5de-4eb4-8f31-28bd376e3daa
   * "tell me about ___" -> "> ... \n elaborate"
     * https://chat.openai.com/c/a2db9a7d-b554-448e-bc72-edb4c27c3cd7
-  * corase-to-fine outline -> fleshed out
+  * corase-to-fine outline -> please expand on ....
     * https://chat.openai.com/c/40ad3f27-89f4-40ad-b0d1-7d30b4ea5685
 
 # Finetune an adapter to interpret specialized context signals
