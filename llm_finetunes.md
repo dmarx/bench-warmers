@@ -85,6 +85,8 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/a2db9a7d-b554-448e-bc72-edb4c27c3cd7
   * corase-to-fine outline -> please expand on ....
     * https://chat.openai.com/c/40ad3f27-89f4-40ad-b0d1-7d30b4ea5685
+  * debate between opposing viewpoints
+    * https://chat.openai.com/c/933606f8-fc64-456d-80d3-e306c7b09b96
 
 # Finetune an adapter to interpret specialized context signals
 
