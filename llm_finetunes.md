@@ -66,3 +66,5 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/a33581f7-cddc-4e78-9e53-aac5b0c9f4c3
   * topic -> isolate piece of response -> "elaborate" -> ...
     * https://chat.openai.com/c/7b75c12a-b0d5-4691-b227-a3f87e487d89
+  * pseudocode
+    * https://chat.openai.com/c/ce27f69e-ea9e-459b-831a-ac95d72198a0
