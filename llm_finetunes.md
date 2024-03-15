@@ -46,3 +46,14 @@ anyway, I was inspired to make this now for the following idea:
 * docker
 * singularity
 * slurm
+
+# Creative writing (planning) assistant
+
+* TVTropes
+* worldbuilding.stackexchange
+* subreddits? There must be loads of subreddits that would be good here.
+  * /r/askhistorians
+* Some sort of public crowd-sourced CliffsNotes? That has to be a thing, right?
+* Generated brainstorming dialogues
+  * Real Event -> summary -> elevator pitch -> hallucination -> TVTropes -> characters -> TVTropes -> story arcs
+    * https://chat.openai.com/c/7c6efd5e-231f-4a3e-9527-0b0f15c387b1
