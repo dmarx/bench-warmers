@@ -57,3 +57,5 @@ anyway, I was inspired to make this now for the following idea:
 * Generated brainstorming dialogues
   * Real Event -> summary -> elevator pitch -> hallucination -> TVTropes -> characters -> TVTropes -> story arcs
     * https://chat.openai.com/c/7c6efd5e-231f-4a3e-9527-0b0f15c387b1
+  * bad movie -> movie pitch from invested perspective
+    * https://chat.openai.com/c/4b0cc047-edb2-4857-b833-2eb21a3f1f39
