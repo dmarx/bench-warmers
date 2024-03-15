@@ -57,6 +57,8 @@ anyway, I was inspired to make this now for the following idea:
 * Generated brainstorming dialogues
   * Real Event -> summary -> elevator pitch -> hallucination -> TVTropes -> characters -> TVTropes -> story arcs
     * https://chat.openai.com/c/7c6efd5e-231f-4a3e-9527-0b0f15c387b1
+  * inspiration -> tropes -> elevator pitch -> who/what/where/when/why/how -> criticize proposal as "facile" -> add complexity to characters motivations -> adjust theme
+    * https://chat.openai.com/c/80fdd117-9eb5-40ba-a099-1741d6c1326a  
   * elevator pitch from invested perspective
     * https://chat.openai.com/c/4b0cc047-edb2-4857-b833-2eb21a3f1f39
     * https://chat.openai.com/c/9ab138ff-acfc-4614-989c-70145f44fb34
