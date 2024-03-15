@@ -62,9 +62,15 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/9ab138ff-acfc-4614-989c-70145f44fb34
   * topic -> context -> context from alternative perspectives -> guide towards target perspective -> adjacent topics -> Synthesize -> TOC -> coarse-to-fine
     * https://chat.openai.com/c/310b31ac-7245-4e84-8393-5cddd187fcdb
+    * https://chat.openai.com/c/c968e7e8-eae9-422f-bdea-bd4346883460
   * foreach
     * https://chat.openai.com/c/a33581f7-cddc-4e78-9e53-aac5b0c9f4c3
   * topic -> isolate piece of response -> "elaborate" -> ...
     * https://chat.openai.com/c/7b75c12a-b0d5-4691-b227-a3f87e487d89
   * pseudocode
     * https://chat.openai.com/c/ce27f69e-ea9e-459b-831a-ac95d72198a0
+    * https://chat.openai.com/c/664d7333-89fe-4bdf-91e0-8d4b8696d654
+  * user stories and action items
+    * https://chat.openai.com/c/c968e7e8-eae9-422f-bdea-bd4346883460
+  * collaborative brainstorming
+    * https://chat.openai.com/c/b5c20579-f574-43d0-b31a-6e0b9ce0a3fc
