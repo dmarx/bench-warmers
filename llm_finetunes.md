@@ -63,3 +63,5 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/310b31ac-7245-4e84-8393-5cddd187fcdb
   * foreach
     * https://chat.openai.com/c/a33581f7-cddc-4e78-9e53-aac5b0c9f4c3
+  * topic -> isolate piece of response -> "elaborate" -> ...
+    * https://chat.openai.com/c/7b75c12a-b0d5-4691-b227-a3f87e487d89
