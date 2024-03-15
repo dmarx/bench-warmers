@@ -74,3 +74,19 @@ anyway, I was inspired to make this now for the following idea:
     * https://chat.openai.com/c/c968e7e8-eae9-422f-bdea-bd4346883460
   * collaborative brainstorming
     * https://chat.openai.com/c/b5c20579-f574-43d0-b31a-6e0b9ce0a3fc
+  * adding notes/comments/type-hints/documentation in-line
+    * https://chat.openai.com/c/77db5296-a7bc-4c6b-b2f1-b7df89321652
+
+
+# Finetune an adapter to interpret specialized context signals
+
+e.g. could recursively utilize a coarse-to-fine strategy to develop multi-resolution outline structures, and use different focused sections of outline as context signal provided to an adaptor module.
+
+this is probably overkill and in-context learning probably accomplishes most of what I want here. but yeah, could finetune a LoRA or something.
+
+
+# hierarchical document structure
+
+with each chunk and level of depth of a document, associate with it a "scratchpad". this can be a single file, or multiple files. should represent considerata relevant to that "local" context. represent doucment as a nested file tree. each level of the tree contains a "content" directory for the actual content, and a "scratch" directory for context documents. as content gets authored, scratch content in adjacent directories can be updated.
+
+document can be accompanied by a log (git log?) documenting change history, and each scratch space can be accompanied by its own respective "to do" list of action items for work that needs to be developed locally, content to be developed, etc.
