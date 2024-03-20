@@ -105,3 +105,9 @@ this is probably overkill and in-context learning probably accomplishes most of 
 with each chunk and level of depth of a document, associate with it a "scratchpad". this can be a single file, or multiple files. should represent considerata relevant to that "local" context. represent doucment as a nested file tree. each level of the tree contains a "content" directory for the actual content, and a "scratch" directory for context documents. as content gets authored, scratch content in adjacent directories can be updated.
 
 document can be accompanied by a log (git log?) documenting change history, and each scratch space can be accompanied by its own respective "to do" list of action items for work that needs to be developed locally, content to be developed, etc.
+
+# auto-wiki
+
+"you are generating content for ___ textbook in the form of wiki articles. highlight topics and phrases that merit their own articles as hyperlinks, using the following markup syntax: <content>this is an [[inline link]] to another [[article]]</content>. the current article is on the topic: '{article topic}. Begin.<content>"
+
+spider to push out more content
