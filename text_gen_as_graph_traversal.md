@@ -20,3 +20,9 @@ anyway, underlying mechanisms aside, my thinking is that i could construct toy g
 use a "next token prediction" objective, where sequences are random paths through the graph, and tokens are nodes
 
 should be able model learning dynamics of NLU under this simplification?
+
+---
+
+track curvature at each node throughout process. Use Fisher Information Matrix as an approximation for the local curvature
+
+- We have the FIM for the *parameter space*, not for the representaton space. for this, we'd need a way to assign a likelihood to each observation.
