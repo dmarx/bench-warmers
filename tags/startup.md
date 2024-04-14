@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-11|[Private Tutor](../private_tutor.md)|819|[![](https://img.shields.io/badge/tag-ai-e839f4)](../tags/ai.md) [![](https://img.shields.io/badge/tag-discussion-b08442)](../tags/discussion.md) [![](https://img.shields.io/badge/tag-education-77485f)](../tags/education.md) [![](https://img.shields.io/badge/tag-startup-e6ab9)](../tags/startup.md)|
+|2023-04-11|[Private Tutor](../private_tutor.md)|819|[![](https://img.shields.io/badge/tag-ai-1743a)](../tags/ai.md) [![](https://img.shields.io/badge/tag-discussion-c92725)](../tags/discussion.md) [![](https://img.shields.io/badge/tag-education-95bed6)](../tags/education.md) [![](https://img.shields.io/badge/tag-startup-43d799)](../tags/startup.md)|
