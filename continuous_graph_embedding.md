@@ -19,6 +19,13 @@ for non-trivial geometry (still assuming trivial topology, no holes) we can fit 
 
 literal semantic relativity. QUAntiFIABLE semantic relativity.
 
+what can we learn by analyzing that shell? 
+- volume: how "big" an idea is..? important? abstract (i.e. hierarchies would nest into matryoshka subsets)?
+- smoothness: how uniformly related it is to its neighbors? no idea..
+- gaussian curvature: some kind of local "density" or "mass". how tightly concentrated the local neighborhood is.
+- sharpness/fuzziness, rate of transition over boundary, permissivity at boundary: how strictly defined the entity is in the space
+
+oooo.... I should do a geometry of semantic space survey
 
 ## Expected Properties
 
