@@ -15,6 +15,8 @@ def edge(from: Node, to: Node):
 
 for a simple spherical representation, we can let the shell be a radius term. Any nodes inside the shell's radius, we draw an edge to.
 
+for non-trivial geometry (still assuming trivial topology, no holes) we can fit a local covariance matrix to warp the local hypersphere (fixed radius) to a hyper-elipse (radius modulated by covariance). Covariance here is identical to the Ricci tensor of the local semantic tangent space (i.e. the curvature relative to the riemannian (banach?) "perspective" of that entity).
+
 ## Expected Properties
 
 ### Semantic arithmetic over graphs
