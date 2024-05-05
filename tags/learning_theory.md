@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2024-03-02|[memorization scaling law](../memorization_scaling_law.md)|2431|[![](https://img.shields.io/badge/tag-experimental-1614f8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-learning_theory-2b1224)](../tags/learning_theory.md) [![](https://img.shields.io/badge/tag-scaling-869cae)](../tags/scaling.md)|
+|2024-03-02|[memorization scaling law](../memorization_scaling_law.md)|2431|[![](https://img.shields.io/badge/tag-experimental-1614f8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-learning_theory-a3a5e9)](../tags/learning_theory.md) [![](https://img.shields.io/badge/tag-scaling-a682e)](../tags/scaling.md)|
