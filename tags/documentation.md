@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-14|[we need a documentation embedding standard](../doc-embed-standard.md)|2245|[![](https://img.shields.io/badge/tag-accessibility-d548d8)](../tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-a777bf)](../tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-f59257)](../tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-35d420)](../tags/tooling.md)|
+|2023-04-14|[we need a documentation embedding standard](../doc-embed-standard.md)|2245|[![](https://img.shields.io/badge/tag-accessibility-7fe3bd)](../tags/accessibility.md) [![](https://img.shields.io/badge/tag-documentation-ca4f5a)](../tags/documentation.md) [![](https://img.shields.io/badge/tag-standard-274569)](../tags/standard.md) [![](https://img.shields.io/badge/tag-tooling-fe4dc)](../tags/tooling.md)|

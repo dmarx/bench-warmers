@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-12-01|[use TTI generation exercises to teach visual vocabulary](../tti-for-visual-vocab.md)|218|[![](https://img.shields.io/badge/tag-course-e13c2b)](../tags/course.md) [![](https://img.shields.io/badge/tag-education-b59164)](../tags/education.md)|
+|2023-12-01|[use TTI generation exercises to teach visual vocabulary](../tti-for-visual-vocab.md)|218|[![](https://img.shields.io/badge/tag-course-c9145c)](../tags/course.md) [![](https://img.shields.io/badge/tag-education-869cae)](../tags/education.md)|
