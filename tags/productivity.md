@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-11|[personalized anything](../personalized_anything.md)|4159|[![](https://img.shields.io/badge/tag-gdpr_data_export-3ed1c7)](../tags/gdpr_data_export.md) [![](https://img.shields.io/badge/tag-llm-f59257)](../tags/llm.md) [![](https://img.shields.io/badge/tag-personalization-57146)](../tags/personalization.md) [![](https://img.shields.io/badge/tag-productivity-4b28a8)](../tags/productivity.md)|
+|2023-07-11|[personalized anything](../personalized_anything.md)|4159|[![](https://img.shields.io/badge/tag-gdpr_data_export-d548d8)](../tags/gdpr_data_export.md) [![](https://img.shields.io/badge/tag-llm-98b52b)](../tags/llm.md) [![](https://img.shields.io/badge/tag-personalization-7fe3bd)](../tags/personalization.md) [![](https://img.shields.io/badge/tag-productivity-1dc0d1)](../tags/productivity.md)|
