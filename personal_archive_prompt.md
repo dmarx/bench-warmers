@@ -2,11 +2,11 @@
 
 labels: shitpost, publication, public_good
 
-## Identifying content worth developing further
+## content worth developing further
 
 * score content against queries like "publishable content", "novel idea", etc. 
 
-## Identifying content to filter from a public release
+## content to filter from a public release
 
 * personal information
   * what can we infer about the author? what does the existence of this interaction imply about the author? infer as much about the (author)/(people in the conversation) as you can, including high-confidence facts and low-confidence bias-associated inferences.
@@ -19,3 +19,15 @@ labels: shitpost, publication, public_good
   * could this be considered an "infohazard"? My usage of "infohazard" here is inclusive of e.g. publishing a copy of the "hacker's handbook" 
   * is this content that might be considered "age-inappropriate" for a reasonable lower-bound of the age of a random person browsing the internet?
   * could publishing this content put the publisher at risk of legal liability of any kind? - overbroad, needs work
+
+## low quality content
+
+* factually incorrect
+* likely untrue or invented, fabricated
+* incomplete generation
+* low quality writing
+* overly-simplistic writing
+* targets a general or uninformed audience rather than a highly educated reader
+* highly context specific, only makes sense in the context of a broader dialogue (rather than stand-alone content/article)
+* shitposting, nonsense
+* conversational interactions
