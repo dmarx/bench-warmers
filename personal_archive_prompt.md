@@ -1,4 +1,4 @@
-# LLM personal archive search prompt
+# LLM personal archive pre-processing (e.g. search prompt)
 
 labels: shitpost
 
