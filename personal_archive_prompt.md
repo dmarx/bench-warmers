@@ -15,6 +15,7 @@ labels: shitpost, publication, public_good
   * is this "private"? - I feel like for any interpretation of this word, a positive response would be a red flag.
 * "safety"
   * is this sensitive content? - again, feel like this is a reasonable catch-all flag
-  * is this something anyone might find offensive?
+  * is this something anyone might find offensive or potentially harmful?
   * could this be considered an "infohazard"? My usage of "infohazard" here is inclusive of e.g. publishing a copy of the "hacker's handbook" 
   * is this content that might be considered "age-inappropriate" for a reasonable lower-bound of the age of a random person browsing the internet?
+  * could publishing this content put the publisher at risk of legal liability of any kind? - overbroad, needs work
