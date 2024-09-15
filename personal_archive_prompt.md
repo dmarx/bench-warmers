@@ -1,6 +1,6 @@
 # LLM personal archive pre-processing (e.g. search prompt)
 
-labels: shitpost
+labels: shitpost, publication, public_good
 
 ## Identifying content worth developing further
 
