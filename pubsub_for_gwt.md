@@ -17,3 +17,5 @@ pub-sub for LLMs
 
 
 Reddit As Conscious Organism: The Subreddit Model of Global Workspace Theory
+
+each urge/drive is encapsulated as an agent. i.e. each policy is an agent, and we can clone agents, so we can also upweight policies evolutionarily
