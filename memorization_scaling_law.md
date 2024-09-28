@@ -44,3 +44,7 @@ plot.kde(records)
 lol is this just chinchilla? possibly very similar to this: https://github.com/kyo-takano/chinchilla
 
 chinchilla ref: https://arxiv.org/abs/2203.15556
+
+---
+
+related idea though: overfit a model on a small dataset to compress the dataset into the model. or even just into a LoRA.
