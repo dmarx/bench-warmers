@@ -1,6 +1,6 @@
 # master document for LLM Finetune ideas
 
-labels: training, experimentaiton
+labels: training, experimentation, llm
 
 feel like maybe I'll be more inspired here if I put the ideas in one place. 
 
