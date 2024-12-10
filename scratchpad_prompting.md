@@ -1,5 +1,7 @@
 # Scratchpad Prompting
 
+labels: experimental, prompting, llm, agentic, interpretability
+
 Normal causal pre-training, but prefix the generation with a comment indicating a token budget of free thinking, bracketed with a forced closing token.
 
 Something like:
