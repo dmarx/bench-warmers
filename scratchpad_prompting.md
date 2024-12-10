@@ -9,3 +9,7 @@ Something like:
 ```
 
 Let the model generate what it wants to supplement the context.
+
+---
+
+closely related idea: https://arxiv.org/abs/2412.06769
