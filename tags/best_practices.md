@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-14|[Technical Constraints Considered Harmful.](../constraints_considered_hazardous.md)|177|[![](https://img.shields.io/badge/tag-best_practices-83cbca)](../tags/best_practices.md) [![](https://img.shields.io/badge/tag-engineering-e33481)](../tags/engineering.md) [![](https://img.shields.io/badge/tag-publication-d548d8)](../tags/publication.md)|
+|2023-07-14|[Technical Constraints Considered Harmful.](../constraints_considered_hazardous.md)|177|[![](https://img.shields.io/badge/tag-best_practices-e33481)](../tags/best_practices.md) [![](https://img.shields.io/badge/tag-engineering-b59164)](../tags/engineering.md) [![](https://img.shields.io/badge/tag-publication-98b52b)](../tags/publication.md)|
