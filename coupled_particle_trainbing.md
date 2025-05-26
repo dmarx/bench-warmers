@@ -21,3 +21,5 @@ associate with each particle a set of model parameters being trained together to
 when training progress slows, we can increasing the inter-model repelling force
 
 I think this is effectively adding a higher order gradient?I think the water effectively parameterizes the hessian here.
+
+the way I described thsi would be crazy expensive to implement. at any given step, we apply the "repelling" loss only to a specific (or random?) set of parameters. my intuition is to choose these parameters randomly to apply this loss stochastically across all layers, but it actually might be sufficient to couple the models across a single layer. keep this layer fixed throughout training? bottom layer? top?
