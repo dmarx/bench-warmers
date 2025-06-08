@@ -111,3 +111,7 @@ document can be accompanied by a log (git log?) documenting change history, and 
 "you are generating content for ___ textbook in the form of wiki articles. highlight topics and phrases that merit their own articles as hyperlinks, using the following markup syntax: <content>this is an [[inline link]] to another [[article]]</content>. the current article is on the topic: '{article topic}. Begin.<content>"
 
 spider to push out more content
+
+# post-train on knowledge graph contexts
+
+maybe involve a knowledge graph. simple version is to generate knowledge extractions over documents, and then use those as contexts to answer questions about the document. generate extractions from different model than the base model for finetuning.
