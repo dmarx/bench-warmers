@@ -2,11 +2,11 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-12-22|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|5999|[![](https://img.shields.io/badge/tag-curriculum-3c7f53)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-254eb)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-public_good-7c795e)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-publication-22d494)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-7fe3bd)](../tags/wip.md)|
 |2023-11-29|[Van gogh lora](../Van_gogh_lora.md)|149|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md)|
 |2023-09-19|[photo auto organizer](../photo_auto_organizer_.md)|195|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md)|
 |2023-08-13|[Ai art methods masterclass](../Ai_art_methods_masterclass.md)|295|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md)|
-|2023-08-06|[Graph analytics on checkpoints](../Graph_analytics_on_checkpoints.md)|280|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-test-6a3ba8)](../tags/test.md)|
+|2023-08-12|[Course teaches ~~intermediate python~~ generative art topics by building a simple ai art library](../Course_teaches_basic_python_by_building_a_simple_ai_art_library.md)|5999|[![](https://img.shields.io/badge/tag-curriculum-3c7f53)](../tags/curriculum.md) [![](https://img.shields.io/badge/tag-education-254eb)](../tags/education.md) [![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-public_good-7c795e)](../tags/public_good.md) [![](https://img.shields.io/badge/tag-publication-22d494)](../tags/publication.md) [![](https://img.shields.io/badge/tag-wip-7fe3bd)](../tags/wip.md)|
+|2023-07-25|[Graph analytics on checkpoints](../Graph_analytics_on_checkpoints.md)|280|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-test-6a3ba8)](../tags/test.md)|
 |2023-07-25|[Stego db](../Stego_db.md)|136|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md)|
 |2023-07-25|[Yaml-state](../Yaml-state.md)|167|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md)|
 |2023-07-25|[Self-serve data lake](../Self-serve_data_lake.md)|315|[![](https://img.shields.io/badge/tag-from_issue-d46ff4)](../tags/from_issue.md)|
