@@ -24,3 +24,5 @@ and we can penalize proportional to the cardinality of the codebook, i.e. the nu
 
 * Attention reuse - https://www.semanticscholar.org/reader/fb486b63058925d762317992efa65e3cd6f188de
 * tokenize the linear projections - https://www.semanticscholar.org/reader/2c48cddf1ce5cc99b257becd508ab929b0888daf
+  * https://github.com/Haiyang-W/TokenFormer
+  * built upon by https://arxiv.org/pdf/2508.01167 for lifelong learning
