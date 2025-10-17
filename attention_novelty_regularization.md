@@ -17,3 +17,10 @@ maybe we could add a mixture/ motility component? use the multiplicity to motiva
 potential solution: rather than using those projections directly, we map them to their quantized (codebook) nearest neighbors, subject to some proximity threshold.
 proposed features (i.e. vectors in the projection) that don't satisfy the threshold can then comprise the costly local codebook, 
 and we can penalize proportional to the cardinality of the codebook, i.e. the number of proposed features outside the threshold.
+
+--- 
+
+## relevant research
+
+* Attention reuse - https://www.semanticscholar.org/reader/fb486b63058925d762317992efa65e3cd6f188de
+* tokenize the linear projections - https://www.semanticscholar.org/reader/2c48cddf1ce5cc99b257becd508ab929b0888daf
