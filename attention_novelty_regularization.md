@@ -30,6 +30,7 @@ and we can penalize proportional to the cardinality of the codebook, i.e. the nu
   * https://github.com/Haiyang-W/TokenFormer
   * built upon by https://arxiv.org/pdf/2508.01167 for lifelong learning
 * MASA - attention parameters as linear combination of shared dictionary "atoms" - https://www.semanticscholar.org/reader/4e07feb4482d061d8c99cde3bc1ea08ea2c2a4a1
+* MASA + sparsity - https://arxiv.org/abs/2509.22075
 
 ### honorable mentions
 
