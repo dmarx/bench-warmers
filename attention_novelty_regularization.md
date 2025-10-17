@@ -11,6 +11,8 @@ features in the global codebook can be accessed anywhere in the model and reuse 
 
 maybe we could add a mixture/ motility component? use the multiplicity to motivate promoting/demoting features from one codebook to another.
 
+promote feature diversity by regularizing global-local codebook similarity scores (i.e. push local representations away from global counterparts. force local codes to specialize)
+
 
 ## problem: the QKV matrices are projections on the input space, not fixed feature collections.
 
