@@ -1,6 +1,6 @@
 # coupled particle training
 
-labels: experimental, statistical-mechanics
+labels: experimental, statistical_mechanics
 
 chain -> lattice -> fluid constrained to a manifold
 
