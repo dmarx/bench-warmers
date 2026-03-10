@@ -1,6 +1,6 @@
 # LLM Shield / Social Shield
 
-labels: experimental, open-source, public-good, misinformation-countermeasures
+labels: experimental, open_source, public_good, misinformation_countermeasures
 
 use an LLM agent to dobackground research on the users who show up in your feed, or at the very least who you recently/frequently interact with.
 
