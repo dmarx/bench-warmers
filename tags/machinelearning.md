@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-25|[hypernetwork code embedding](../hypernetwork_embedding_for_code.md)|889|[![](https://img.shields.io/badge/tag-embeddings-297b32)](../tags/embeddings.md) [![](https://img.shields.io/badge/tag-llm-e8ae48)](../tags/llm.md) [![](https://img.shields.io/badge/tag-machinelearning-4ed36d)](../tags/machinelearning.md) [![](https://img.shields.io/badge/tag-models-e127da)](../tags/models.md) [![](https://img.shields.io/badge/tag-nlp-2b1224)](../tags/nlp.md)|
+|2023-04-25|[hypernetwork code embedding](../hypernetwork_embedding_for_code.md)|889|[![](https://img.shields.io/badge/tag-embeddings-394ee4)](../tags/embeddings.md) [![](https://img.shields.io/badge/tag-llm-cc5ed7)](../tags/llm.md) [![](https://img.shields.io/badge/tag-machinelearning-dd597e)](../tags/machinelearning.md) [![](https://img.shields.io/badge/tag-models-e8ae48)](../tags/models.md) [![](https://img.shields.io/badge/tag-nlp-b5ec2c)](../tags/nlp.md)|
