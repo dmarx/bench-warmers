@@ -2,5 +2,5 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-04-23|[twin mixing bootstrap regularization](../twin_mixing_dropout.md)|897|[![](https://img.shields.io/badge/tag-experimental-43d799)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-936135)](../tags/optimization.md) [![](https://img.shields.io/badge/tag-scaling-ea4c14)](../tags/scaling.md)|
-|2022-10-28|[minibatch bootstrapped gradients](../minibatch-bootstrapped-gradients.md)|550|[![](https://img.shields.io/badge/tag-experimental-43d799)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-936135)](../tags/optimization.md) [![](https://img.shields.io/badge/tag-training-deeba9)](../tags/training.md) [![](https://img.shields.io/badge/tag-wip-4072a1)](../tags/wip.md)|
+|2023-04-23|[twin mixing bootstrap regularization](../twin_mixing_dropout.md)|897|[![](https://img.shields.io/badge/tag-experimental-d548d8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-deeba9)](../tags/optimization.md) [![](https://img.shields.io/badge/tag-scaling-d12fe)](../tags/scaling.md)|
+|2023-04-07|[minibatch bootstrapped gradients](../minibatch-bootstrapped-gradients.md)|550|[![](https://img.shields.io/badge/tag-experimental-d548d8)](../tags/experimental.md) [![](https://img.shields.io/badge/tag-optimization-deeba9)](../tags/optimization.md) [![](https://img.shields.io/badge/tag-training-c456a9)](../tags/training.md) [![](https://img.shields.io/badge/tag-wip-7c795e)](../tags/wip.md)|

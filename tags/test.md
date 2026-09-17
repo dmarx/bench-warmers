@@ -2,4 +2,4 @@
 
 |last_modified|title|est. idea maturity|tags
 |:---|:---|---:|:---|
-|2023-07-25|[Graph analytics on checkpoints](../Graph_analytics_on_checkpoints.md)|280|[![](https://img.shields.io/badge/tag-from_issue-83cbca)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-test-e33481)](../tags/test.md)|
+|2023-07-25|[Graph analytics on checkpoints](../Graph_analytics_on_checkpoints.md)|280|[![](https://img.shields.io/badge/tag-from_issue-e33481)](../tags/from_issue.md) [![](https://img.shields.io/badge/tag-test-b59164)](../tags/test.md)|
